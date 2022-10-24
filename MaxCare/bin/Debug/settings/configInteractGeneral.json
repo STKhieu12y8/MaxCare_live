@@ -3,7 +3,7 @@
   "ckbGetToken": "False",
   "ckbGetCookie": "True",
   "ckbCapNhatThongTin": "False",
-  "typeInteract": "1",
+  "typeInteract": "0",
   "ckbRandomHanhDong": "True",
   "typeLogin": "2",
   "typeBrowserLogin": "0",

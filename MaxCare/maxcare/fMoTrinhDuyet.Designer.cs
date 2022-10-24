@@ -83,10 +83,11 @@
             this.bunifuCards1.Controls.Add(this.pnlHeader);
             this.bunifuCards1.LeftSahddow = false;
             this.bunifuCards1.Location = new System.Drawing.Point(1, 0);
+            this.bunifuCards1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuCards1.Name = "bunifuCards1";
             this.bunifuCards1.RightSahddow = true;
             this.bunifuCards1.ShadowDepth = 20;
-            this.bunifuCards1.Size = new System.Drawing.Size(452, 38);
+            this.bunifuCards1.Size = new System.Drawing.Size(603, 47);
             this.bunifuCards1.TabIndex = 0;
             // 
             // pnlHeader
@@ -96,17 +97,19 @@
             this.pnlHeader.Controls.Add(this.pictureBox1);
             this.pnlHeader.Controls.Add(this.btnMinimize);
             this.pnlHeader.Controls.Add(this.bunifuCustomLabel1);
-            this.pnlHeader.Location = new System.Drawing.Point(0, 5);
+            this.pnlHeader.Location = new System.Drawing.Point(0, 6);
+            this.pnlHeader.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.Size = new System.Drawing.Size(452, 32);
+            this.pnlHeader.Size = new System.Drawing.Size(603, 39);
             this.pnlHeader.TabIndex = 9;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(4, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(34, 27);
+            this.pictureBox1.Size = new System.Drawing.Size(45, 33);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
@@ -119,9 +122,11 @@
             this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinimize.ForeColor = System.Drawing.Color.White;
-            this.btnMinimize.Location = new System.Drawing.Point(419, -1);
+            this.btnMinimize.Image = global::MaxCare.Properties.Resources.close_window_25px;
+            this.btnMinimize.Location = new System.Drawing.Point(559, -1);
+            this.btnMinimize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(32, 32);
+            this.btnMinimize.Size = new System.Drawing.Size(43, 39);
             this.btnMinimize.TabIndex = 9;
             this.btnMinimize.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnMinimize.UseVisualStyleBackColor = true;
@@ -135,8 +140,9 @@
             this.bunifuCustomLabel1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.Black;
             this.bunifuCustomLabel1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuCustomLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(452, 32);
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(603, 39);
             this.bunifuCustomLabel1.TabIndex = 1;
             this.bunifuCustomLabel1.Text = "Cấu hình Mở trình duyệt";
             this.bunifuCustomLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -150,9 +156,10 @@
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(233, 381);
+            this.btnCancel.Location = new System.Drawing.Point(312, 470);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(92, 29);
+            this.btnCancel.Size = new System.Drawing.Size(123, 36);
             this.btnCancel.TabIndex = 4;
             this.btnCancel.Text = "Đóng";
             this.btnCancel.UseVisualStyleBackColor = false;
@@ -189,8 +196,9 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(453, 423);
+            this.panel1.Size = new System.Drawing.Size(604, 521);
             this.panel1.TabIndex = 5;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -201,18 +209,20 @@
             this.plSapXepCuaSoChrome.Controls.Add(this.cbbColumnChrome);
             this.plSapXepCuaSoChrome.Controls.Add(this.cbbRowChrome);
             this.plSapXepCuaSoChrome.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.plSapXepCuaSoChrome.Location = new System.Drawing.Point(32, 212);
+            this.plSapXepCuaSoChrome.Location = new System.Drawing.Point(43, 261);
+            this.plSapXepCuaSoChrome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.plSapXepCuaSoChrome.Name = "plSapXepCuaSoChrome";
-            this.plSapXepCuaSoChrome.Size = new System.Drawing.Size(358, 28);
+            this.plSapXepCuaSoChrome.Size = new System.Drawing.Size(477, 34);
             this.plSapXepCuaSoChrome.TabIndex = 159;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(3, 4);
+            this.label10.Location = new System.Drawing.Point(4, 5);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(147, 16);
+            this.label10.Size = new System.Drawing.Size(188, 21);
             this.label10.TabIndex = 33;
             this.label10.Text = "Sắp xếp cửa sổ chrome:";
             // 
@@ -220,9 +230,10 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(245, 2);
+            this.label11.Location = new System.Drawing.Point(327, 2);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(23, 23);
+            this.label11.Size = new System.Drawing.Size(29, 29);
             this.label11.TabIndex = 33;
             this.label11.Text = "X";
             // 
@@ -242,9 +253,10 @@
             "8",
             "9",
             "10"});
-            this.cbbColumnChrome.Location = new System.Drawing.Point(200, 2);
+            this.cbbColumnChrome.Location = new System.Drawing.Point(267, 2);
+            this.cbbColumnChrome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbbColumnChrome.Name = "cbbColumnChrome";
-            this.cbbColumnChrome.Size = new System.Drawing.Size(41, 24);
+            this.cbbColumnChrome.Size = new System.Drawing.Size(53, 27);
             this.cbbColumnChrome.TabIndex = 145;
             // 
             // cbbRowChrome
@@ -258,9 +270,10 @@
             "3",
             "4",
             "5"});
-            this.cbbRowChrome.Location = new System.Drawing.Point(272, 2);
+            this.cbbRowChrome.Location = new System.Drawing.Point(363, 2);
+            this.cbbRowChrome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbbRowChrome.Name = "cbbRowChrome";
-            this.cbbRowChrome.Size = new System.Drawing.Size(41, 24);
+            this.cbbRowChrome.Size = new System.Drawing.Size(53, 27);
             this.cbbRowChrome.TabIndex = 145;
             // 
             // plAddChromeVaoFormView
@@ -269,26 +282,29 @@
             this.plAddChromeVaoFormView.Controls.Add(this.label35);
             this.plAddChromeVaoFormView.Controls.Add(this.label33);
             this.plAddChromeVaoFormView.Controls.Add(this.nudHeighChrome);
-            this.plAddChromeVaoFormView.Location = new System.Drawing.Point(224, 185);
+            this.plAddChromeVaoFormView.Location = new System.Drawing.Point(299, 228);
+            this.plAddChromeVaoFormView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.plAddChromeVaoFormView.Name = "plAddChromeVaoFormView";
-            this.plAddChromeVaoFormView.Size = new System.Drawing.Size(175, 27);
+            this.plAddChromeVaoFormView.Size = new System.Drawing.Size(233, 33);
             this.plAddChromeVaoFormView.TabIndex = 158;
             // 
             // nudWidthChrome
             // 
             this.nudWidthChrome.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudWidthChrome.Location = new System.Drawing.Point(41, 2);
+            this.nudWidthChrome.Location = new System.Drawing.Point(55, 2);
+            this.nudWidthChrome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nudWidthChrome.Name = "nudWidthChrome";
-            this.nudWidthChrome.Size = new System.Drawing.Size(53, 23);
+            this.nudWidthChrome.Size = new System.Drawing.Size(71, 27);
             this.nudWidthChrome.TabIndex = 151;
             // 
             // label35
             // 
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(95, 2);
+            this.label35.Location = new System.Drawing.Point(127, 2);
+            this.label35.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(23, 23);
+            this.label35.Size = new System.Drawing.Size(29, 29);
             this.label35.TabIndex = 33;
             this.label35.Text = "X";
             // 
@@ -296,18 +312,21 @@
             // 
             this.label33.AutoSize = true;
             this.label33.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(3, 4);
+            this.label33.Location = new System.Drawing.Point(4, 5);
+            this.label33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(36, 16);
+            this.label33.Size = new System.Drawing.Size(46, 21);
             this.label33.TabIndex = 33;
             this.label33.Text = "Size:";
+            this.label33.Click += new System.EventHandler(this.label33_Click);
             // 
             // nudHeighChrome
             // 
             this.nudHeighChrome.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudHeighChrome.Location = new System.Drawing.Point(118, 2);
+            this.nudHeighChrome.Location = new System.Drawing.Point(157, 2);
+            this.nudHeighChrome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nudHeighChrome.Name = "nudHeighChrome";
-            this.nudHeighChrome.Size = new System.Drawing.Size(53, 23);
+            this.nudHeighChrome.Size = new System.Drawing.Size(71, 27);
             this.nudHeighChrome.TabIndex = 151;
             // 
             // ckbAddChromeIntoForm
@@ -315,9 +334,10 @@
             this.ckbAddChromeIntoForm.AutoSize = true;
             this.ckbAddChromeIntoForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ckbAddChromeIntoForm.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckbAddChromeIntoForm.Location = new System.Drawing.Point(37, 187);
+            this.ckbAddChromeIntoForm.Location = new System.Drawing.Point(49, 230);
+            this.ckbAddChromeIntoForm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbAddChromeIntoForm.Name = "ckbAddChromeIntoForm";
-            this.ckbAddChromeIntoForm.Size = new System.Drawing.Size(187, 20);
+            this.ckbAddChromeIntoForm.Size = new System.Drawing.Size(238, 25);
             this.ckbAddChromeIntoForm.TabIndex = 157;
             this.ckbAddChromeIntoForm.Text = "Add Chrome vào Form View";
             this.ckbAddChromeIntoForm.UseVisualStyleBackColor = true;
@@ -328,9 +348,10 @@
             this.ckbLoginHotmail.AutoSize = true;
             this.ckbLoginHotmail.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ckbLoginHotmail.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckbLoginHotmail.Location = new System.Drawing.Point(37, 346);
+            this.ckbLoginHotmail.Location = new System.Drawing.Point(49, 426);
+            this.ckbLoginHotmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbLoginHotmail.Name = "ckbLoginHotmail";
-            this.ckbLoginHotmail.Size = new System.Drawing.Size(184, 20);
+            this.ckbLoginHotmail.Size = new System.Drawing.Size(237, 25);
             this.ckbLoginHotmail.TabIndex = 25;
             this.ckbLoginHotmail.Text = "Tự động đăng nhập hotmail";
             this.ckbLoginHotmail.UseVisualStyleBackColor = true;
@@ -338,17 +359,20 @@
             // txtLink
             // 
             this.txtLink.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLink.Location = new System.Drawing.Point(183, 318);
+            this.txtLink.Location = new System.Drawing.Point(244, 391);
+            this.txtLink.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtLink.Name = "txtLink";
-            this.txtLink.Size = new System.Drawing.Size(233, 23);
+            this.txtLink.Size = new System.Drawing.Size(309, 27);
             this.txtLink.TabIndex = 24;
             this.txtLink.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // btnCauHinh
             // 
             this.btnCauHinh.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCauHinh.Location = new System.Drawing.Point(160, 62);
+            this.btnCauHinh.Location = new System.Drawing.Point(213, 76);
+            this.btnCauHinh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCauHinh.Name = "btnCauHinh";
+            this.btnCauHinh.Size = new System.Drawing.Size(100, 28);
             this.btnCauHinh.TabIndex = 5;
             this.btnCauHinh.Text = "Cấu hình";
             this.btnCauHinh.UseSelectable = true;
@@ -359,18 +383,20 @@
             this.panel5.Controls.Add(this.rbLoginWWW);
             this.panel5.Controls.Add(this.rbLoginMFB);
             this.panel5.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel5.Location = new System.Drawing.Point(157, 155);
+            this.panel5.Location = new System.Drawing.Point(209, 191);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(273, 26);
+            this.panel5.Size = new System.Drawing.Size(364, 32);
             this.panel5.TabIndex = 23;
             // 
             // rbLoginWWW
             // 
             this.rbLoginWWW.AutoSize = true;
             this.rbLoginWWW.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbLoginWWW.Location = new System.Drawing.Point(127, 3);
+            this.rbLoginWWW.Location = new System.Drawing.Point(169, 4);
+            this.rbLoginWWW.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbLoginWWW.Name = "rbLoginWWW";
-            this.rbLoginWWW.Size = new System.Drawing.Size(98, 20);
+            this.rbLoginWWW.Size = new System.Drawing.Size(125, 25);
             this.rbLoginWWW.TabIndex = 4;
             this.rbLoginWWW.Text = "www.fb.com";
             this.rbLoginWWW.UseVisualStyleBackColor = true;
@@ -380,9 +406,10 @@
             this.rbLoginMFB.AutoSize = true;
             this.rbLoginMFB.Checked = true;
             this.rbLoginMFB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbLoginMFB.Location = new System.Drawing.Point(3, 3);
+            this.rbLoginMFB.Location = new System.Drawing.Point(4, 4);
+            this.rbLoginMFB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbLoginMFB.Name = "rbLoginMFB";
-            this.rbLoginMFB.Size = new System.Drawing.Size(119, 20);
+            this.rbLoginMFB.Size = new System.Drawing.Size(152, 25);
             this.rbLoginMFB.TabIndex = 4;
             this.rbLoginMFB.TabStop = true;
             this.rbLoginMFB.Text = "m.facebook.com";
@@ -392,9 +419,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(34, 160);
+            this.label4.Location = new System.Drawing.Point(45, 197);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(110, 16);
+            this.label4.Size = new System.Drawing.Size(142, 21);
             this.label4.TabIndex = 22;
             this.label4.Text = "Trang đăng nhập:";
             // 
@@ -403,9 +431,10 @@
             this.ckbAutoOpenLink.AutoSize = true;
             this.ckbAutoOpenLink.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ckbAutoOpenLink.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckbAutoOpenLink.Location = new System.Drawing.Point(37, 320);
+            this.ckbAutoOpenLink.Location = new System.Drawing.Point(49, 394);
+            this.ckbAutoOpenLink.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbAutoOpenLink.Name = "ckbAutoOpenLink";
-            this.ckbAutoOpenLink.Size = new System.Drawing.Size(149, 20);
+            this.ckbAutoOpenLink.Size = new System.Drawing.Size(191, 25);
             this.ckbAutoOpenLink.TabIndex = 21;
             this.ckbAutoOpenLink.Text = "Tự động mở website:";
             this.ckbAutoOpenLink.UseVisualStyleBackColor = true;
@@ -416,9 +445,10 @@
             this.ckbAutoCloseChromeLoginFail.AutoSize = true;
             this.ckbAutoCloseChromeLoginFail.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ckbAutoCloseChromeLoginFail.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckbAutoCloseChromeLoginFail.Location = new System.Drawing.Point(37, 294);
+            this.ckbAutoCloseChromeLoginFail.Location = new System.Drawing.Point(49, 362);
+            this.ckbAutoCloseChromeLoginFail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbAutoCloseChromeLoginFail.Name = "ckbAutoCloseChromeLoginFail";
-            this.ckbAutoCloseChromeLoginFail.Size = new System.Drawing.Size(326, 20);
+            this.ckbAutoCloseChromeLoginFail.Size = new System.Drawing.Size(421, 25);
             this.ckbAutoCloseChromeLoginFail.TabIndex = 21;
             this.ckbAutoCloseChromeLoginFail.Text = "Tự động đóng những tab chrome đăng nhập thất bại";
             this.ckbAutoCloseChromeLoginFail.UseVisualStyleBackColor = true;
@@ -428,9 +458,10 @@
             this.ckbKhongLuuTrinhDuyet.AutoSize = true;
             this.ckbKhongLuuTrinhDuyet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ckbKhongLuuTrinhDuyet.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckbKhongLuuTrinhDuyet.Location = new System.Drawing.Point(37, 242);
+            this.ckbKhongLuuTrinhDuyet.Location = new System.Drawing.Point(49, 298);
+            this.ckbKhongLuuTrinhDuyet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbKhongLuuTrinhDuyet.Name = "ckbKhongLuuTrinhDuyet";
-            this.ckbKhongLuuTrinhDuyet.Size = new System.Drawing.Size(232, 20);
+            this.ckbKhongLuuTrinhDuyet.Size = new System.Drawing.Size(300, 25);
             this.ckbKhongLuuTrinhDuyet.TabIndex = 21;
             this.ckbKhongLuuTrinhDuyet.Text = "Không lưu trình duyệt khi đăng nhập";
             this.ckbKhongLuuTrinhDuyet.UseVisualStyleBackColor = true;
@@ -440,9 +471,10 @@
             this.ckbGetCookie.AutoSize = true;
             this.ckbGetCookie.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ckbGetCookie.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckbGetCookie.Location = new System.Drawing.Point(37, 268);
+            this.ckbGetCookie.Location = new System.Drawing.Point(49, 330);
+            this.ckbGetCookie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbGetCookie.Name = "ckbGetCookie";
-            this.ckbGetCookie.Size = new System.Drawing.Size(344, 20);
+            this.ckbGetCookie.Size = new System.Drawing.Size(444, 25);
             this.ckbGetCookie.TabIndex = 21;
             this.ckbGetCookie.Text = "Tự động cập nhật Cookie sau khi đăng nhập thành công";
             this.ckbGetCookie.UseVisualStyleBackColor = true;
@@ -456,9 +488,10 @@
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSave.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.ForeColor = System.Drawing.Color.White;
-            this.btnSave.Location = new System.Drawing.Point(125, 381);
+            this.btnSave.Location = new System.Drawing.Point(168, 470);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(92, 29);
+            this.btnSave.Size = new System.Drawing.Size(123, 36);
             this.btnSave.TabIndex = 20;
             this.btnSave.Text = "Lưu";
             this.btnSave.UseVisualStyleBackColor = false;
@@ -469,9 +502,10 @@
             this.panel3.Controls.Add(this.rbSuDungProfile);
             this.panel3.Controls.Add(this.rbKhongDungProfile);
             this.panel3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel3.Location = new System.Drawing.Point(157, 91);
+            this.panel3.Location = new System.Drawing.Point(209, 112);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(273, 26);
+            this.panel3.Size = new System.Drawing.Size(364, 32);
             this.panel3.TabIndex = 8;
             // 
             // rbSuDungProfile
@@ -479,9 +513,10 @@
             this.rbSuDungProfile.AutoSize = true;
             this.rbSuDungProfile.Checked = true;
             this.rbSuDungProfile.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbSuDungProfile.Location = new System.Drawing.Point(3, 3);
+            this.rbSuDungProfile.Location = new System.Drawing.Point(4, 4);
+            this.rbSuDungProfile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbSuDungProfile.Name = "rbSuDungProfile";
-            this.rbSuDungProfile.Size = new System.Drawing.Size(113, 20);
+            this.rbSuDungProfile.Size = new System.Drawing.Size(142, 25);
             this.rbSuDungProfile.TabIndex = 4;
             this.rbSuDungProfile.TabStop = true;
             this.rbSuDungProfile.Text = "Sử dụng Profile";
@@ -491,9 +526,10 @@
             // 
             this.rbKhongDungProfile.AutoSize = true;
             this.rbKhongDungProfile.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbKhongDungProfile.Location = new System.Drawing.Point(127, 3);
+            this.rbKhongDungProfile.Location = new System.Drawing.Point(169, 4);
+            this.rbKhongDungProfile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbKhongDungProfile.Name = "rbKhongDungProfile";
-            this.rbKhongDungProfile.Size = new System.Drawing.Size(132, 20);
+            this.rbKhongDungProfile.Size = new System.Drawing.Size(169, 25);
             this.rbKhongDungProfile.TabIndex = 4;
             this.rbKhongDungProfile.Text = "Không dùng Profile";
             this.rbKhongDungProfile.UseVisualStyleBackColor = true;
@@ -504,18 +540,20 @@
             this.panel2.Controls.Add(this.rbLoginUidPass);
             this.panel2.Controls.Add(this.rbLoginCookie);
             this.panel2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel2.Location = new System.Drawing.Point(157, 123);
+            this.panel2.Location = new System.Drawing.Point(209, 151);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(273, 26);
+            this.panel2.Size = new System.Drawing.Size(364, 32);
             this.panel2.TabIndex = 8;
             // 
             // rbLoginEmailPass
             // 
             this.rbLoginEmailPass.AutoSize = true;
             this.rbLoginEmailPass.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbLoginEmailPass.Location = new System.Drawing.Point(93, 3);
+            this.rbLoginEmailPass.Location = new System.Drawing.Point(124, 4);
+            this.rbLoginEmailPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbLoginEmailPass.Name = "rbLoginEmailPass";
-            this.rbLoginEmailPass.Size = new System.Drawing.Size(88, 20);
+            this.rbLoginEmailPass.Size = new System.Drawing.Size(113, 25);
             this.rbLoginEmailPass.TabIndex = 4;
             this.rbLoginEmailPass.Text = "Email|Pass";
             this.rbLoginEmailPass.UseVisualStyleBackColor = true;
@@ -525,9 +563,10 @@
             this.rbLoginUidPass.AutoSize = true;
             this.rbLoginUidPass.Checked = true;
             this.rbLoginUidPass.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbLoginUidPass.Location = new System.Drawing.Point(3, 3);
+            this.rbLoginUidPass.Location = new System.Drawing.Point(4, 4);
+            this.rbLoginUidPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbLoginUidPass.Name = "rbLoginUidPass";
-            this.rbLoginUidPass.Size = new System.Drawing.Size(75, 20);
+            this.rbLoginUidPass.Size = new System.Drawing.Size(96, 25);
             this.rbLoginUidPass.TabIndex = 4;
             this.rbLoginUidPass.TabStop = true;
             this.rbLoginUidPass.Text = "Uid|Pass";
@@ -537,9 +576,10 @@
             // 
             this.rbLoginCookie.AutoSize = true;
             this.rbLoginCookie.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbLoginCookie.Location = new System.Drawing.Point(196, 3);
+            this.rbLoginCookie.Location = new System.Drawing.Point(261, 4);
+            this.rbLoginCookie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbLoginCookie.Name = "rbLoginCookie";
-            this.rbLoginCookie.Size = new System.Drawing.Size(63, 20);
+            this.rbLoginCookie.Size = new System.Drawing.Size(80, 25);
             this.rbLoginCookie.TabIndex = 4;
             this.rbLoginCookie.Text = "Cookie";
             this.rbLoginCookie.UseVisualStyleBackColor = true;
@@ -548,9 +588,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(34, 64);
+            this.label3.Location = new System.Drawing.Point(45, 79);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(98, 16);
+            this.label3.Size = new System.Drawing.Size(128, 21);
             this.label3.TabIndex = 7;
             this.label3.Text = "Cấu hình đổi IP:";
             // 
@@ -558,9 +599,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(34, 96);
+            this.label1.Location = new System.Drawing.Point(45, 118);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 16);
+            this.label1.Size = new System.Drawing.Size(134, 21);
             this.label1.TabIndex = 7;
             this.label1.Text = "Tùy chọn Profile:";
             // 
@@ -568,21 +610,23 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(34, 128);
+            this.label2.Location = new System.Drawing.Point(45, 158);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 16);
+            this.label2.Size = new System.Drawing.Size(131, 21);
             this.label2.TabIndex = 7;
             this.label2.Text = "Kiểu đăng nhập:";
             // 
             // fMoTrinhDuyet
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(453, 423);
+            this.ClientSize = new System.Drawing.Size(604, 521);
             this.Controls.Add(this.bunifuCards1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "fMoTrinhDuyet";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "fAddFile";

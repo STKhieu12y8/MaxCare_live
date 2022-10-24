@@ -1026,20 +1026,68 @@
     <Compile Include="update\IniFile.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="maxcare\fAddFile.resx">
+      <DependentUpon>fAddFile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="maxcare\fBin.resx">
       <DependentUpon>fBin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fCapNhatDuLieu.resx">
+      <DependentUpon>fCapNhatDuLieu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="maxcare\fCauHinhChung.resx">
       <DependentUpon>fCauHinhChung.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fCauHinhHienThi.resx">
+      <DependentUpon>fCauHinhHienThi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fCauHinhKhoiPhucTaiKhoan.resx">
+      <DependentUpon>fCauHinhKhoiPhucTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fCauHinhQuetNhom.resx">
+      <DependentUpon>fCauHinhQuetNhom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fCauHinhTaoShortcut.resx">
+      <DependentUpon>fCauHinhTaoShortcut.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="maxcare\fCauHinhTuongTac.resx">
       <DependentUpon>fCauHinhTuongTac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fChange.resx">
+      <DependentUpon>fChange.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="maxcare\fChangeConfig.resx">
       <DependentUpon>fChangeConfig.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fCheckPoint.resx">
+      <DependentUpon>fCheckPoint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fChiTietBaiViet.resx">
+      <DependentUpon>fChiTietBaiViet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fChonBaiViet.resx">
+      <DependentUpon>fChonBaiViet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fChonKichBan.resx">
+      <DependentUpon>fChonKichBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fChonThuMuc.resx">
+      <DependentUpon>fChonThuMuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fClearBackup.resx">
+      <DependentUpon>fClearBackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fClearProfile.resx">
+      <DependentUpon>fClearProfile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="maxcare\fConfigInteract.resx">
       <DependentUpon>fConfigInteract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fContact.resx">
+      <DependentUpon>fContact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fCopy.resx">
+      <DependentUpon>fCopy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="maxcare\fDanhSachChuDe.resx">
       <DependentUpon>fDanhSachChuDe.cs</DependentUpon>
@@ -1047,11 +1095,233 @@
     <EmbeddedResource Include="maxcare\fDanhSachKichBan_Old.resx">
       <DependentUpon>fDanhSachKichBan_Old.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fEditFile.resx">
+      <DependentUpon>fEditFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDBackupData.resx">
+      <DependentUpon>fHDBackupData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDBaiVietBanBe.resx">
+      <DependentUpon>fHDBaiVietBanBe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDBaiVietFanpage.resx">
+      <DependentUpon>fHDBaiVietFanpage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDBaiVietNewsfeed.resx">
+      <DependentUpon>fHDBaiVietNewsfeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDBaiVietNewsfeedv2.resx">
+      <DependentUpon>fHDBaiVietNewsfeedv2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDBaiVietNhom.resx">
+      <DependentUpon>fHDBaiVietNhom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDBaiVietProfile.resx">
+      <DependentUpon>fHDBaiVietProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDBaiVietTrenTuong.resx">
+      <DependentUpon>fHDBaiVietTrenTuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDBuffFollowCaNhan.resx">
+      <DependentUpon>fHDBuffFollowCaNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDBuffFollowLikePage.resx">
+      <DependentUpon>fHDBuffFollowLikePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDBuffLikeComment.resx">
+      <DependentUpon>fHDBuffLikeComment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDBuffTinNhanProfile.resx">
+      <DependentUpon>fHDBuffTinNhanProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDBuffViewVideo.resx">
+      <DependentUpon>fHDBuffViewVideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDChangeSoThich.resx">
+      <DependentUpon>fHDChangeSoThich.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDChangeTenPhu.resx">
+      <DependentUpon>fHDChangeTenPhu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDChocBanBe.resx">
+      <DependentUpon>fHDChocBanBe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDChucMungSinhNhat.resx">
+      <DependentUpon>fHDChucMungSinhNhat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDDangBai.resx">
+      <DependentUpon>fHDDangBai.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="maxcare\fHDDangBaiTheoID.resx">
       <DependentUpon>fHDDangBaiTheoID.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDDangStatus.resx">
+      <DependentUpon>fHDDangStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDDangStatusV2.resx">
+      <DependentUpon>fHDDangStatusV2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDDangStory.resx">
+      <DependentUpon>fHDDangStory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDDocThongBao.resx">
+      <DependentUpon>fHDDocThongBao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDDocThongBaov2.resx">
+      <DependentUpon>fHDDocThongBaov2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDGiaiCheckpoint.resx">
+      <DependentUpon>fHDGiaiCheckpoint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDHuyKetBan.resx">
+      <DependentUpon>fHDHuyKetBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDHuyKetBanNhanh.resx">
+      <DependentUpon>fHDHuyKetBanNhanh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDHuyLikePage.resx">
+      <DependentUpon>fHDHuyLikePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDHuyLoiMoiKetBan.resx">
+      <DependentUpon>fHDHuyLoiMoiKetBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDKetBanGoiY.resx">
+      <DependentUpon>fHDKetBanGoiY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDKetBanGoiYv2.resx">
+      <DependentUpon>fHDKetBanGoiYv2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDKetBanNewfeed.resx">
+      <DependentUpon>fHDKetBanNewfeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDKetBanTepUid.resx">
+      <DependentUpon>fHDKetBanTepUid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDKetBanTepUidNew.resx">
+      <DependentUpon>fHDKetBanTepUidNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDKetBanTepUidv2.resx">
+      <DependentUpon>fHDKetBanTepUidv2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDKetBanThanhVienNhom.resx">
+      <DependentUpon>fHDKetBanThanhVienNhom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDKetBanTheoTuKhoa.resx">
+      <DependentUpon>fHDKetBanTheoTuKhoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDKetBanTheoTuKhoav2.resx">
+      <DependentUpon>fHDKetBanTheoTuKhoav2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDKetBanVoiBanBeCuaUid.resx">
+      <DependentUpon>fHDKetBanVoiBanBeCuaUid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDKetBanVoiBanCuaBanBe.resx">
+      <DependentUpon>fHDKetBanVoiBanCuaBanBe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDLinkToInstagram.resx">
+      <DependentUpon>fHDLinkToInstagram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDMoiBanBeVaoNhom.resx">
+      <DependentUpon>fHDMoiBanBeVaoNhom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDMoiLikePage.resx">
+      <DependentUpon>fHDMoiLikePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDNghiGiaiLao.resx">
+      <DependentUpon>fHDNghiGiaiLao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDNhanTinBanBe.resx">
+      <DependentUpon>fHDNhanTinBanBe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDNhanTinPage.resx">
+      <DependentUpon>fHDNhanTinPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDPhanHoiBinhLuan.resx">
+      <DependentUpon>fHDPhanHoiBinhLuan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDPhanHoiTinNhan.resx">
+      <DependentUpon>fHDPhanHoiTinNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDRoiNhom.resx">
+      <DependentUpon>fHDRoiNhom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDSeedingByVideo.resx">
+      <DependentUpon>fHDSeedingByVideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDShareBai.resx">
+      <DependentUpon>fHDShareBai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDShareBaiv2.resx">
+      <DependentUpon>fHDShareBaiv2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDSpamBaiViet.resx">
+      <DependentUpon>fHDSpamBaiViet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDThamGiaNhomGoiY.resx">
+      <DependentUpon>fHDThamGiaNhomGoiY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDThamGiaNhomGoiYv2.resx">
+      <DependentUpon>fHDThamGiaNhomGoiYv2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDThamGiaNhomTuKhoa.resx">
+      <DependentUpon>fHDThamGiaNhomTuKhoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDThamGiaNhomTuKhoav2.resx">
+      <DependentUpon>fHDThamGiaNhomTuKhoav2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDThamGiaNhomUid.resx">
+      <DependentUpon>fHDThamGiaNhomUid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDThamGiaNhomUidv2.resx">
+      <DependentUpon>fHDThamGiaNhomUidv2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDTimKiemGoogle.resx">
+      <DependentUpon>fHDTimKiemGoogle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDTruyCapWebsite.resx">
+      <DependentUpon>fHDTruyCapWebsite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDTuongTacBaiVietNhomv2.resx">
+      <DependentUpon>fHDTuongTacBaiVietNhomv2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDTuongTacBaiVietTheoID.resx">
+      <DependentUpon>fHDTuongTacBaiVietTheoID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDTuongTacBanBe.resx">
+      <DependentUpon>fHDTuongTacBanBe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDTuongTacNewsfeed.resx">
+      <DependentUpon>fHDTuongTacNewsfeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDTuongTacNewsfeedv2.resx">
+      <DependentUpon>fHDTuongTacNewsfeedv2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDXacNhanKetBan.resx">
+      <DependentUpon>fHDXacNhanKetBan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="maxcare\fHDXacNhanKetBanv2.resx">
       <DependentUpon>fHDXacNhanKetBanv2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDXemStory.resx">
+      <DependentUpon>fHDXemStory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDXemStoryChiDinh.resx">
+      <DependentUpon>fHDXemStoryChiDinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDXemStoryv2.resx">
+      <DependentUpon>fHDXemStoryv2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDXemWatch.resx">
+      <DependentUpon>fHDXemWatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDXemWatchv2.resx">
+      <DependentUpon>fHDXemWatchv2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDXoaBaiPage.resx">
+      <DependentUpon>fHDXoaBaiPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDXoaBaiTuong.resx">
+      <DependentUpon>fHDXoaBaiTuong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="maxcare\fHelpNhapComment.resx">
       <DependentUpon>fHelpNhapComment.cs</DependentUpon>
@@ -1080,17 +1350,68 @@
     <EmbeddedResource Include="maxcare\fMoTrinhDuyet.resx">
       <DependentUpon>fMoTrinhDuyet.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fNhapCookieTrungGian.resx">
+      <DependentUpon>fNhapCookieTrungGian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fNhapDuLieu1.resx">
+      <DependentUpon>fNhapDuLieu1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fNhapDuLieu2.resx">
+      <DependentUpon>fNhapDuLieu2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fNhapMailAdd.resx">
+      <DependentUpon>fNhapMailAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fNhapPassKhoiPhuc.resx">
+      <DependentUpon>fNhapPassKhoiPhuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fNhapTokenTrungGian.resx">
+      <DependentUpon>fNhapTokenTrungGian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fNhapTokenTrungGian_DownAvatar.resx">
+      <DependentUpon>fNhapTokenTrungGian_DownAvatar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="maxcare\fQuanLyTinNhan.resx">
       <DependentUpon>fQuanLyTinNhan.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fSelectFolder.resx">
+      <DependentUpon>fSelectFolder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fSuaBaiViet.resx">
+      <DependentUpon>fSuaBaiViet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fSuaChuDe.resx">
+      <DependentUpon>fSuaChuDe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fTemplateForm.resx">
+      <DependentUpon>fTemplateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fThemBaiViet.resx">
+      <DependentUpon>fThemBaiViet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fThemChuDe.resx">
+      <DependentUpon>fThemChuDe.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="maxcare\fThemHanhDong.resx">
       <DependentUpon>fThemHanhDong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fThemKichBan.resx">
+      <DependentUpon>fThemKichBan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="maxcare\fThemSizeChrome.resx">
       <DependentUpon>fThemSizeChrome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="maxcare\fDangnhap.resx">
       <DependentUpon>fDangnhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fTienIchCheckImapHotmail.resx">
+      <DependentUpon>fTienIchCheckImapHotmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fTienIchCheckLiveUid.resx">
+      <DependentUpon>fTienIchCheckLiveUid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fTienIchCheckProxy.resx">
+      <DependentUpon>fTienIchCheckProxy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="maxcare\fTienIchLocTrung.resx">
       <DependentUpon>fTienIchLocTrung.cs</DependentUpon>

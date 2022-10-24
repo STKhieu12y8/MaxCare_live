@@ -17,374 +17,502 @@
 		// Token: 0x06000927 RID: 2343 RVA: 0x0011DC84 File Offset: 0x0011BE84
 		private void InitializeComponent()
 		{
-			this.components = new global::System.ComponentModel.Container();
-			global::System.ComponentModel.ComponentResourceManager componentResourceManager = new global::System.ComponentModel.ComponentResourceManager(typeof(global::maxcare.fCauHinhHienThi));
-			this.bunifuCards1 = new global::Bunifu.Framework.UI.BunifuCards();
-			this.pnlHeader = new global::System.Windows.Forms.Panel();
-			this.pictureBox1 = new global::System.Windows.Forms.PictureBox();
-			this.btnMinimize = new global::System.Windows.Forms.Button();
-			this.bunifuCustomLabel1 = new global::Bunifu.Framework.UI.BunifuCustomLabel();
-			this.btnCancel = new global::System.Windows.Forms.Button();
-			this.btnAdd = new global::System.Windows.Forms.Button();
-			this.bunifuDragControl1 = new global::Bunifu.Framework.UI.BunifuDragControl(this.components);
-			this.lblStatus = new global::Bunifu.Framework.UI.BunifuCustomLabel();
-			this.ckbToken = new global::System.Windows.Forms.CheckBox();
-			this.ckbCookie = new global::System.Windows.Forms.CheckBox();
-			this.ckbEmail = new global::System.Windows.Forms.CheckBox();
-			this.ckbTen = new global::System.Windows.Forms.CheckBox();
-			this.ckbBanBe = new global::System.Windows.Forms.CheckBox();
-			this.ckbNhom = new global::System.Windows.Forms.CheckBox();
-			this.ckbNgaySinh = new global::System.Windows.Forms.CheckBox();
-			this.ckbGioiTinh = new global::System.Windows.Forms.CheckBox();
-			this.ckbMatKhau = new global::System.Windows.Forms.CheckBox();
-			this.ckbMatKhauMail = new global::System.Windows.Forms.CheckBox();
-			this.ckbBackup = new global::System.Windows.Forms.CheckBox();
-			this.ckbMa2FA = new global::System.Windows.Forms.CheckBox();
-			this.ckbUseragent = new global::System.Windows.Forms.CheckBox();
-			this.ckbProxy = new global::System.Windows.Forms.CheckBox();
-			this.ckbNgayTao = new global::System.Windows.Forms.CheckBox();
-			this.ckbAvatar = new global::System.Windows.Forms.CheckBox();
-			this.ckbProfile = new global::System.Windows.Forms.CheckBox();
-			this.ckbTinhTrang = new global::System.Windows.Forms.CheckBox();
-			this.ckbGhiChu = new global::System.Windows.Forms.CheckBox();
-			this.ckbThuMuc = new global::System.Windows.Forms.CheckBox();
-			this.ckbFollow = new global::System.Windows.Forms.CheckBox();
-			this.ckbInteractEnd = new global::System.Windows.Forms.CheckBox();
-			this.bunifuCards1.SuspendLayout();
-			this.pnlHeader.SuspendLayout();
-			((global::System.ComponentModel.ISupportInitialize)this.pictureBox1).BeginInit();
-			base.SuspendLayout();
-			this.bunifuCards1.BackColor = global::System.Drawing.Color.White;
-			this.bunifuCards1.BorderRadius = 0;
-			this.bunifuCards1.BottomSahddow = true;
-			this.bunifuCards1.color = global::System.Drawing.Color.SaddleBrown;
-			this.bunifuCards1.Controls.Add(this.pnlHeader);
-			this.bunifuCards1.Dock = global::System.Windows.Forms.DockStyle.Top;
-			this.bunifuCards1.LeftSahddow = false;
-			this.bunifuCards1.Location = new global::System.Drawing.Point(0, 0);
-			this.bunifuCards1.Name = "bunifuCards1";
-			this.bunifuCards1.RightSahddow = true;
-			this.bunifuCards1.ShadowDepth = 20;
-			this.bunifuCards1.Size = new global::System.Drawing.Size(479, 38);
-			this.bunifuCards1.TabIndex = 0;
-			this.pnlHeader.Anchor = (global::System.Windows.Forms.AnchorStyles.Left | global::System.Windows.Forms.AnchorStyles.Right);
-			this.pnlHeader.BackColor = global::System.Drawing.Color.White;
-			this.pnlHeader.Controls.Add(this.pictureBox1);
-			this.pnlHeader.Controls.Add(this.btnMinimize);
-			this.pnlHeader.Controls.Add(this.bunifuCustomLabel1);
-			this.pnlHeader.Location = new global::System.Drawing.Point(0, 5);
-			this.pnlHeader.Name = "pnlHeader";
-			this.pnlHeader.Size = new global::System.Drawing.Size(479, 32);
-			this.pnlHeader.TabIndex = 9;
-			this.pictureBox1.Cursor = global::System.Windows.Forms.Cursors.Default;
-			this.pictureBox1.Location = new global::System.Drawing.Point(3, 2);
-			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new global::System.Drawing.Size(34, 27);
-			this.pictureBox1.SizeMode = global::System.Windows.Forms.PictureBoxSizeMode.Zoom;
-			this.pictureBox1.TabIndex = 17;
-			this.pictureBox1.TabStop = false;
-			this.btnMinimize.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.btnMinimize.Dock = global::System.Windows.Forms.DockStyle.Right;
-			this.btnMinimize.FlatAppearance.BorderSize = 0;
-			this.btnMinimize.FlatStyle = global::System.Windows.Forms.FlatStyle.Flat;
-			this.btnMinimize.Font = new global::System.Drawing.Font("Microsoft Sans Serif", 11.25f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.btnMinimize.ForeColor = global::System.Drawing.Color.White;
-			this.btnMinimize.Location = new global::System.Drawing.Point(447, 0);
-			this.btnMinimize.Name = "btnMinimize";
-			this.btnMinimize.Size = new global::System.Drawing.Size(32, 32);
-			this.btnMinimize.TabIndex = 9;
-			this.btnMinimize.TextImageRelation = global::System.Windows.Forms.TextImageRelation.ImageBeforeText;
-			this.btnMinimize.UseVisualStyleBackColor = true;
-			this.btnMinimize.Click += new global::System.EventHandler(this.BtnMinimize_Click);
-			this.bunifuCustomLabel1.BackColor = global::System.Drawing.Color.Transparent;
-			this.bunifuCustomLabel1.Cursor = global::System.Windows.Forms.Cursors.SizeAll;
-			this.bunifuCustomLabel1.Dock = global::System.Windows.Forms.DockStyle.Fill;
-			this.bunifuCustomLabel1.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.bunifuCustomLabel1.ForeColor = global::System.Drawing.Color.Black;
-			this.bunifuCustomLabel1.Location = new global::System.Drawing.Point(0, 0);
-			this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-			this.bunifuCustomLabel1.Size = new global::System.Drawing.Size(479, 32);
-			this.bunifuCustomLabel1.TabIndex = 1;
-			this.bunifuCustomLabel1.Text = "Cấu hình hiển thị";
-			this.bunifuCustomLabel1.TextAlign = global::System.Drawing.ContentAlignment.MiddleCenter;
-			this.btnCancel.BackColor = global::System.Drawing.Color.Maroon;
-			this.btnCancel.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.btnCancel.FlatAppearance.BorderSize = 0;
-			this.btnCancel.FlatStyle = global::System.Windows.Forms.FlatStyle.Flat;
-			this.btnCancel.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.btnCancel.ForeColor = global::System.Drawing.Color.White;
-			this.btnCancel.Location = new global::System.Drawing.Point(247, 253);
-			this.btnCancel.Name = "btnCancel";
-			this.btnCancel.Size = new global::System.Drawing.Size(92, 29);
-			this.btnCancel.TabIndex = 4;
-			this.btnCancel.Text = "Đóng";
-			this.btnCancel.UseVisualStyleBackColor = false;
-			this.btnCancel.Click += new global::System.EventHandler(this.BtnCancel_Click);
-			this.btnAdd.BackColor = global::System.Drawing.Color.FromArgb(53, 120, 229);
-			this.btnAdd.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.btnAdd.FlatAppearance.BorderSize = 0;
-			this.btnAdd.FlatStyle = global::System.Windows.Forms.FlatStyle.Flat;
-			this.btnAdd.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.btnAdd.ForeColor = global::System.Drawing.Color.White;
-			this.btnAdd.Location = new global::System.Drawing.Point(143, 253);
-			this.btnAdd.Name = "btnAdd";
-			this.btnAdd.Size = new global::System.Drawing.Size(92, 29);
-			this.btnAdd.TabIndex = 3;
-			this.btnAdd.Text = "Lưu";
-			this.btnAdd.UseVisualStyleBackColor = false;
-			this.btnAdd.Click += new global::System.EventHandler(this.BtnAdd_Click);
-			this.bunifuDragControl1.Fixed = true;
-			this.bunifuDragControl1.Horizontal = true;
-			this.bunifuDragControl1.TargetControl = this.bunifuCustomLabel1;
-			this.bunifuDragControl1.Vertical = true;
-			this.lblStatus.BackColor = global::System.Drawing.Color.Transparent;
-			this.lblStatus.Cursor = global::System.Windows.Forms.Cursors.SizeAll;
-			this.lblStatus.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.lblStatus.ForeColor = global::System.Drawing.Color.Black;
-			this.lblStatus.Location = new global::System.Drawing.Point(51, 41);
-			this.lblStatus.Name = "lblStatus";
-			this.lblStatus.Size = new global::System.Drawing.Size(384, 32);
-			this.lblStatus.TabIndex = 21;
-			this.lblStatus.Text = "Vui lòng chọn những cột cần hiển thị!";
-			this.lblStatus.TextAlign = global::System.Drawing.ContentAlignment.MiddleCenter;
-			this.lblStatus.Click += new global::System.EventHandler(this.bunifuCustomLabel2_Click);
-			this.ckbToken.AutoSize = true;
-			this.ckbToken.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.ckbToken.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.ckbToken.Location = new global::System.Drawing.Point(31, 85);
-			this.ckbToken.Name = "ckbToken";
-			this.ckbToken.Size = new global::System.Drawing.Size(62, 20);
-			this.ckbToken.TabIndex = 22;
-			this.ckbToken.Text = "Token";
-			this.ckbToken.UseVisualStyleBackColor = true;
-			this.ckbCookie.AutoSize = true;
-			this.ckbCookie.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.ckbCookie.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.ckbCookie.Location = new global::System.Drawing.Point(31, 111);
-			this.ckbCookie.Name = "ckbCookie";
-			this.ckbCookie.Size = new global::System.Drawing.Size(65, 20);
-			this.ckbCookie.TabIndex = 22;
-			this.ckbCookie.Text = "Cookie";
-			this.ckbCookie.UseVisualStyleBackColor = true;
-			this.ckbEmail.AutoSize = true;
-			this.ckbEmail.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.ckbEmail.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.ckbEmail.Location = new global::System.Drawing.Point(31, 137);
-			this.ckbEmail.Name = "ckbEmail";
-			this.ckbEmail.Size = new global::System.Drawing.Size(58, 20);
-			this.ckbEmail.TabIndex = 22;
-			this.ckbEmail.Text = "Email";
-			this.ckbEmail.UseVisualStyleBackColor = true;
-			this.ckbTen.AutoSize = true;
-			this.ckbTen.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.ckbTen.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.ckbTen.Location = new global::System.Drawing.Point(31, 163);
-			this.ckbTen.Name = "ckbTen";
-			this.ckbTen.Size = new global::System.Drawing.Size(49, 20);
-			this.ckbTen.TabIndex = 22;
-			this.ckbTen.Text = "Tên";
-			this.ckbTen.UseVisualStyleBackColor = true;
-			this.ckbBanBe.AutoSize = true;
-			this.ckbBanBe.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.ckbBanBe.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.ckbBanBe.Location = new global::System.Drawing.Point(31, 215);
-			this.ckbBanBe.Name = "ckbBanBe";
-			this.ckbBanBe.Size = new global::System.Drawing.Size(66, 20);
-			this.ckbBanBe.TabIndex = 22;
-			this.ckbBanBe.Text = "Bạn bè";
-			this.ckbBanBe.UseVisualStyleBackColor = true;
-			this.ckbNhom.AutoSize = true;
-			this.ckbNhom.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.ckbNhom.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.ckbNhom.Location = new global::System.Drawing.Point(128, 85);
-			this.ckbNhom.Name = "ckbNhom";
-			this.ckbNhom.Size = new global::System.Drawing.Size(60, 20);
-			this.ckbNhom.TabIndex = 22;
-			this.ckbNhom.Text = "Nhóm";
-			this.ckbNhom.UseVisualStyleBackColor = true;
-			this.ckbNgaySinh.AutoSize = true;
-			this.ckbNgaySinh.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.ckbNgaySinh.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.ckbNgaySinh.Location = new global::System.Drawing.Point(128, 111);
-			this.ckbNgaySinh.Name = "ckbNgaySinh";
-			this.ckbNgaySinh.Size = new global::System.Drawing.Size(82, 20);
-			this.ckbNgaySinh.TabIndex = 22;
-			this.ckbNgaySinh.Text = "Ngày sinh";
-			this.ckbNgaySinh.UseVisualStyleBackColor = true;
-			this.ckbGioiTinh.AutoSize = true;
-			this.ckbGioiTinh.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.ckbGioiTinh.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.ckbGioiTinh.Location = new global::System.Drawing.Point(128, 137);
-			this.ckbGioiTinh.Name = "ckbGioiTinh";
-			this.ckbGioiTinh.Size = new global::System.Drawing.Size(73, 20);
-			this.ckbGioiTinh.TabIndex = 22;
-			this.ckbGioiTinh.Text = "Giới tính";
-			this.ckbGioiTinh.UseVisualStyleBackColor = true;
-			this.ckbMatKhau.AutoSize = true;
-			this.ckbMatKhau.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.ckbMatKhau.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.ckbMatKhau.Location = new global::System.Drawing.Point(128, 163);
-			this.ckbMatKhau.Name = "ckbMatKhau";
-			this.ckbMatKhau.Size = new global::System.Drawing.Size(79, 20);
-			this.ckbMatKhau.TabIndex = 22;
-			this.ckbMatKhau.Text = "Mật khẩu";
-			this.ckbMatKhau.UseVisualStyleBackColor = true;
-			this.ckbMatKhauMail.AutoSize = true;
-			this.ckbMatKhauMail.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.ckbMatKhauMail.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.ckbMatKhauMail.Location = new global::System.Drawing.Point(128, 189);
-			this.ckbMatKhauMail.Name = "ckbMatKhauMail";
-			this.ckbMatKhauMail.Size = new global::System.Drawing.Size(107, 20);
-			this.ckbMatKhauMail.TabIndex = 22;
-			this.ckbMatKhauMail.Text = "Mật khẩu mail";
-			this.ckbMatKhauMail.UseVisualStyleBackColor = true;
-			this.ckbBackup.AutoSize = true;
-			this.ckbBackup.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.ckbBackup.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.ckbBackup.Location = new global::System.Drawing.Point(128, 215);
-			this.ckbBackup.Name = "ckbBackup";
-			this.ckbBackup.Size = new global::System.Drawing.Size(67, 20);
-			this.ckbBackup.TabIndex = 22;
-			this.ckbBackup.Text = "Backup";
-			this.ckbBackup.UseVisualStyleBackColor = true;
-			this.ckbMa2FA.AutoSize = true;
-			this.ckbMa2FA.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.ckbMa2FA.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.ckbMa2FA.Location = new global::System.Drawing.Point(253, 85);
-			this.ckbMa2FA.Name = "ckbMa2FA";
-			this.ckbMa2FA.Size = new global::System.Drawing.Size(70, 20);
-			this.ckbMa2FA.TabIndex = 22;
-			this.ckbMa2FA.Text = "Mã 2FA";
-			this.ckbMa2FA.UseVisualStyleBackColor = true;
-			this.ckbUseragent.AutoSize = true;
-			this.ckbUseragent.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.ckbUseragent.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.ckbUseragent.Location = new global::System.Drawing.Point(253, 111);
-			this.ckbUseragent.Name = "ckbUseragent";
-			this.ckbUseragent.Size = new global::System.Drawing.Size(85, 20);
-			this.ckbUseragent.TabIndex = 22;
-			this.ckbUseragent.Text = "Useragent";
-			this.ckbUseragent.UseVisualStyleBackColor = true;
-			this.ckbProxy.AutoSize = true;
-			this.ckbProxy.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.ckbProxy.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.ckbProxy.Location = new global::System.Drawing.Point(253, 137);
-			this.ckbProxy.Name = "ckbProxy";
-			this.ckbProxy.Size = new global::System.Drawing.Size(58, 20);
-			this.ckbProxy.TabIndex = 22;
-			this.ckbProxy.Text = "Proxy";
-			this.ckbProxy.UseVisualStyleBackColor = true;
-			this.ckbNgayTao.AutoSize = true;
-			this.ckbNgayTao.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.ckbNgayTao.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.ckbNgayTao.Location = new global::System.Drawing.Point(253, 163);
-			this.ckbNgayTao.Name = "ckbNgayTao";
-			this.ckbNgayTao.Size = new global::System.Drawing.Size(77, 20);
-			this.ckbNgayTao.TabIndex = 22;
-			this.ckbNgayTao.Text = "Ngày tạo";
-			this.ckbNgayTao.UseVisualStyleBackColor = true;
-			this.ckbAvatar.AutoSize = true;
-			this.ckbAvatar.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.ckbAvatar.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.ckbAvatar.Location = new global::System.Drawing.Point(253, 189);
-			this.ckbAvatar.Name = "ckbAvatar";
-			this.ckbAvatar.Size = new global::System.Drawing.Size(64, 20);
-			this.ckbAvatar.TabIndex = 22;
-			this.ckbAvatar.Text = "Avatar";
-			this.ckbAvatar.UseVisualStyleBackColor = true;
-			this.ckbProfile.AutoSize = true;
-			this.ckbProfile.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.ckbProfile.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.ckbProfile.Location = new global::System.Drawing.Point(253, 215);
-			this.ckbProfile.Name = "ckbProfile";
-			this.ckbProfile.Size = new global::System.Drawing.Size(63, 20);
-			this.ckbProfile.TabIndex = 22;
-			this.ckbProfile.Text = "Profile";
-			this.ckbProfile.UseVisualStyleBackColor = true;
-			this.ckbTinhTrang.AutoSize = true;
-			this.ckbTinhTrang.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.ckbTinhTrang.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.ckbTinhTrang.Location = new global::System.Drawing.Point(355, 111);
-			this.ckbTinhTrang.Name = "ckbTinhTrang";
-			this.ckbTinhTrang.Size = new global::System.Drawing.Size(86, 20);
-			this.ckbTinhTrang.TabIndex = 22;
-			this.ckbTinhTrang.Text = "Tình trạng";
-			this.ckbTinhTrang.UseVisualStyleBackColor = true;
-			this.ckbGhiChu.AutoSize = true;
-			this.ckbGhiChu.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.ckbGhiChu.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.ckbGhiChu.Location = new global::System.Drawing.Point(355, 163);
-			this.ckbGhiChu.Name = "ckbGhiChu";
-			this.ckbGhiChu.Size = new global::System.Drawing.Size(69, 20);
-			this.ckbGhiChu.TabIndex = 22;
-			this.ckbGhiChu.Text = "Ghi chú";
-			this.ckbGhiChu.UseVisualStyleBackColor = true;
-			this.ckbThuMuc.AutoSize = true;
-			this.ckbThuMuc.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.ckbThuMuc.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.ckbThuMuc.Location = new global::System.Drawing.Point(355, 137);
-			this.ckbThuMuc.Name = "ckbThuMuc";
-			this.ckbThuMuc.Size = new global::System.Drawing.Size(78, 20);
-			this.ckbThuMuc.TabIndex = 22;
-			this.ckbThuMuc.Text = "Thư mục";
-			this.ckbThuMuc.UseVisualStyleBackColor = true;
-			this.ckbFollow.AutoSize = true;
-			this.ckbFollow.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.ckbFollow.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.ckbFollow.Location = new global::System.Drawing.Point(31, 189);
-			this.ckbFollow.Name = "ckbFollow";
-			this.ckbFollow.Size = new global::System.Drawing.Size(77, 20);
-			this.ckbFollow.TabIndex = 22;
-			this.ckbFollow.Text = "Theo dõi";
-			this.ckbFollow.UseVisualStyleBackColor = true;
-			this.ckbInteractEnd.AutoSize = true;
-			this.ckbInteractEnd.Cursor = global::System.Windows.Forms.Cursors.Hand;
-			this.ckbInteractEnd.Font = new global::System.Drawing.Font("Tahoma", 9.75f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
-			this.ckbInteractEnd.Location = new global::System.Drawing.Point(355, 85);
-			this.ckbInteractEnd.Name = "ckbInteractEnd";
-			this.ckbInteractEnd.Size = new global::System.Drawing.Size(112, 20);
-			this.ckbInteractEnd.TabIndex = 22;
-			this.ckbInteractEnd.Text = "Tương tác cuối";
-			this.ckbInteractEnd.UseVisualStyleBackColor = true;
-			base.AutoScaleDimensions = new global::System.Drawing.SizeF(6f, 13f);
-			base.AutoScaleMode = global::System.Windows.Forms.AutoScaleMode.Font;
-			base.ClientSize = new global::System.Drawing.Size(479, 295);
-			base.Controls.Add(this.ckbThuMuc);
-			base.Controls.Add(this.ckbGhiChu);
-			base.Controls.Add(this.ckbInteractEnd);
-			base.Controls.Add(this.ckbTinhTrang);
-			base.Controls.Add(this.ckbProfile);
-			base.Controls.Add(this.ckbAvatar);
-			base.Controls.Add(this.ckbNgayTao);
-			base.Controls.Add(this.ckbProxy);
-			base.Controls.Add(this.ckbUseragent);
-			base.Controls.Add(this.ckbMa2FA);
-			base.Controls.Add(this.ckbBackup);
-			base.Controls.Add(this.ckbMatKhauMail);
-			base.Controls.Add(this.ckbMatKhau);
-			base.Controls.Add(this.ckbGioiTinh);
-			base.Controls.Add(this.ckbNgaySinh);
-			base.Controls.Add(this.ckbNhom);
-			base.Controls.Add(this.ckbFollow);
-			base.Controls.Add(this.ckbBanBe);
-			base.Controls.Add(this.ckbTen);
-			base.Controls.Add(this.ckbEmail);
-			base.Controls.Add(this.ckbCookie);
-			base.Controls.Add(this.ckbToken);
-			base.Controls.Add(this.lblStatus);
-			base.Controls.Add(this.btnCancel);
-			base.Controls.Add(this.btnAdd);
-			base.Controls.Add(this.bunifuCards1);
-			base.FormBorderStyle = global::System.Windows.Forms.FormBorderStyle.None;
-			base.Name = "fCauHinhHienThi";
-			base.StartPosition = global::System.Windows.Forms.FormStartPosition.CenterParent;
-			this.Text = "fAddFile";
-			base.Load += new global::System.EventHandler(this.fClearProfile_Load);
-			this.bunifuCards1.ResumeLayout(false);
-			this.pnlHeader.ResumeLayout(false);
-			((global::System.ComponentModel.ISupportInitialize)this.pictureBox1).EndInit();
-			base.ResumeLayout(false);
-			base.PerformLayout();
+            this.components = new System.ComponentModel.Container();
+            this.bunifuCards1 = new Bunifu.Framework.UI.BunifuCards();
+            this.pnlHeader = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnMinimize = new System.Windows.Forms.Button();
+            this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.lblStatus = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.ckbToken = new System.Windows.Forms.CheckBox();
+            this.ckbCookie = new System.Windows.Forms.CheckBox();
+            this.ckbEmail = new System.Windows.Forms.CheckBox();
+            this.ckbTen = new System.Windows.Forms.CheckBox();
+            this.ckbBanBe = new System.Windows.Forms.CheckBox();
+            this.ckbNhom = new System.Windows.Forms.CheckBox();
+            this.ckbNgaySinh = new System.Windows.Forms.CheckBox();
+            this.ckbGioiTinh = new System.Windows.Forms.CheckBox();
+            this.ckbMatKhau = new System.Windows.Forms.CheckBox();
+            this.ckbMatKhauMail = new System.Windows.Forms.CheckBox();
+            this.ckbBackup = new System.Windows.Forms.CheckBox();
+            this.ckbMa2FA = new System.Windows.Forms.CheckBox();
+            this.ckbUseragent = new System.Windows.Forms.CheckBox();
+            this.ckbProxy = new System.Windows.Forms.CheckBox();
+            this.ckbNgayTao = new System.Windows.Forms.CheckBox();
+            this.ckbAvatar = new System.Windows.Forms.CheckBox();
+            this.ckbProfile = new System.Windows.Forms.CheckBox();
+            this.ckbTinhTrang = new System.Windows.Forms.CheckBox();
+            this.ckbGhiChu = new System.Windows.Forms.CheckBox();
+            this.ckbThuMuc = new System.Windows.Forms.CheckBox();
+            this.ckbFollow = new System.Windows.Forms.CheckBox();
+            this.ckbInteractEnd = new System.Windows.Forms.CheckBox();
+            this.bunifuCards1.SuspendLayout();
+            this.pnlHeader.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // bunifuCards1
+            // 
+            this.bunifuCards1.BackColor = System.Drawing.Color.White;
+            this.bunifuCards1.BorderRadius = 0;
+            this.bunifuCards1.BottomSahddow = true;
+            this.bunifuCards1.color = System.Drawing.Color.SaddleBrown;
+            this.bunifuCards1.Controls.Add(this.pnlHeader);
+            this.bunifuCards1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bunifuCards1.LeftSahddow = false;
+            this.bunifuCards1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuCards1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuCards1.Name = "bunifuCards1";
+            this.bunifuCards1.RightSahddow = true;
+            this.bunifuCards1.ShadowDepth = 20;
+            this.bunifuCards1.Size = new System.Drawing.Size(639, 47);
+            this.bunifuCards1.TabIndex = 0;
+            // 
+            // pnlHeader
+            // 
+            this.pnlHeader.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlHeader.BackColor = System.Drawing.Color.White;
+            this.pnlHeader.Controls.Add(this.pictureBox1);
+            this.pnlHeader.Controls.Add(this.btnMinimize);
+            this.pnlHeader.Controls.Add(this.bunifuCustomLabel1);
+            this.pnlHeader.Location = new System.Drawing.Point(0, 6);
+            this.pnlHeader.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlHeader.Name = "pnlHeader";
+            this.pnlHeader.Size = new System.Drawing.Size(639, 39);
+            this.pnlHeader.TabIndex = 9;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox1.Location = new System.Drawing.Point(4, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(45, 33);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnMinimize
+            // 
+            this.btnMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMinimize.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnMinimize.FlatAppearance.BorderSize = 0;
+            this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMinimize.ForeColor = System.Drawing.Color.White;
+            this.btnMinimize.Image = global::MaxCare.Properties.Resources.close_window_25px;
+            this.btnMinimize.Location = new System.Drawing.Point(596, 0);
+            this.btnMinimize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMinimize.Name = "btnMinimize";
+            this.btnMinimize.Size = new System.Drawing.Size(43, 39);
+            this.btnMinimize.TabIndex = 9;
+            this.btnMinimize.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnMinimize.UseVisualStyleBackColor = true;
+            this.btnMinimize.Click += new System.EventHandler(this.BtnMinimize_Click);
+            // 
+            // bunifuCustomLabel1
+            // 
+            this.bunifuCustomLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuCustomLabel1.Cursor = System.Windows.Forms.Cursors.SizeAll;
+            this.bunifuCustomLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuCustomLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(639, 39);
+            this.bunifuCustomLabel1.TabIndex = 1;
+            this.bunifuCustomLabel1.Text = "Cấu hình hiển thị";
+            this.bunifuCustomLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.BackColor = System.Drawing.Color.Maroon;
+            this.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCancel.FlatAppearance.BorderSize = 0;
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.ForeColor = System.Drawing.Color.White;
+            this.btnCancel.Location = new System.Drawing.Point(329, 311);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(123, 36);
+            this.btnCancel.TabIndex = 4;
+            this.btnCancel.Text = "Đóng";
+            this.btnCancel.UseVisualStyleBackColor = false;
+            this.btnCancel.Click += new System.EventHandler(this.BtnCancel_Click);
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(120)))), ((int)(((byte)(229)))));
+            this.btnAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAdd.FlatAppearance.BorderSize = 0;
+            this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdd.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.ForeColor = System.Drawing.Color.White;
+            this.btnAdd.Location = new System.Drawing.Point(191, 311);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(123, 36);
+            this.btnAdd.TabIndex = 3;
+            this.btnAdd.Text = "Lưu";
+            this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.BtnAdd_Click);
+            // 
+            // bunifuDragControl1
+            // 
+            this.bunifuDragControl1.Fixed = true;
+            this.bunifuDragControl1.Horizontal = true;
+            this.bunifuDragControl1.TargetControl = this.bunifuCustomLabel1;
+            this.bunifuDragControl1.Vertical = true;
+            // 
+            // lblStatus
+            // 
+            this.lblStatus.BackColor = System.Drawing.Color.Transparent;
+            this.lblStatus.Cursor = System.Windows.Forms.Cursors.SizeAll;
+            this.lblStatus.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStatus.ForeColor = System.Drawing.Color.Black;
+            this.lblStatus.Location = new System.Drawing.Point(68, 50);
+            this.lblStatus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(512, 39);
+            this.lblStatus.TabIndex = 21;
+            this.lblStatus.Text = "Vui lòng chọn những cột cần hiển thị!";
+            this.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblStatus.Click += new System.EventHandler(this.bunifuCustomLabel2_Click);
+            // 
+            // ckbToken
+            // 
+            this.ckbToken.AutoSize = true;
+            this.ckbToken.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckbToken.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbToken.Location = new System.Drawing.Point(41, 105);
+            this.ckbToken.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbToken.Name = "ckbToken";
+            this.ckbToken.Size = new System.Drawing.Size(77, 25);
+            this.ckbToken.TabIndex = 22;
+            this.ckbToken.Text = "Token";
+            this.ckbToken.UseVisualStyleBackColor = true;
+            // 
+            // ckbCookie
+            // 
+            this.ckbCookie.AutoSize = true;
+            this.ckbCookie.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckbCookie.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbCookie.Location = new System.Drawing.Point(41, 137);
+            this.ckbCookie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbCookie.Name = "ckbCookie";
+            this.ckbCookie.Size = new System.Drawing.Size(81, 25);
+            this.ckbCookie.TabIndex = 22;
+            this.ckbCookie.Text = "Cookie";
+            this.ckbCookie.UseVisualStyleBackColor = true;
+            // 
+            // ckbEmail
+            // 
+            this.ckbEmail.AutoSize = true;
+            this.ckbEmail.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckbEmail.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbEmail.Location = new System.Drawing.Point(41, 169);
+            this.ckbEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbEmail.Name = "ckbEmail";
+            this.ckbEmail.Size = new System.Drawing.Size(73, 25);
+            this.ckbEmail.TabIndex = 22;
+            this.ckbEmail.Text = "Email";
+            this.ckbEmail.UseVisualStyleBackColor = true;
+            // 
+            // ckbTen
+            // 
+            this.ckbTen.AutoSize = true;
+            this.ckbTen.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckbTen.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbTen.Location = new System.Drawing.Point(41, 201);
+            this.ckbTen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbTen.Name = "ckbTen";
+            this.ckbTen.Size = new System.Drawing.Size(60, 25);
+            this.ckbTen.TabIndex = 22;
+            this.ckbTen.Text = "Tên";
+            this.ckbTen.UseVisualStyleBackColor = true;
+            // 
+            // ckbBanBe
+            // 
+            this.ckbBanBe.AutoSize = true;
+            this.ckbBanBe.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckbBanBe.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbBanBe.Location = new System.Drawing.Point(41, 265);
+            this.ckbBanBe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbBanBe.Name = "ckbBanBe";
+            this.ckbBanBe.Size = new System.Drawing.Size(83, 25);
+            this.ckbBanBe.TabIndex = 22;
+            this.ckbBanBe.Text = "Bạn bè";
+            this.ckbBanBe.UseVisualStyleBackColor = true;
+            // 
+            // ckbNhom
+            // 
+            this.ckbNhom.AutoSize = true;
+            this.ckbNhom.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckbNhom.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbNhom.Location = new System.Drawing.Point(171, 105);
+            this.ckbNhom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbNhom.Name = "ckbNhom";
+            this.ckbNhom.Size = new System.Drawing.Size(75, 25);
+            this.ckbNhom.TabIndex = 22;
+            this.ckbNhom.Text = "Nhóm";
+            this.ckbNhom.UseVisualStyleBackColor = true;
+            // 
+            // ckbNgaySinh
+            // 
+            this.ckbNgaySinh.AutoSize = true;
+            this.ckbNgaySinh.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckbNgaySinh.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbNgaySinh.Location = new System.Drawing.Point(171, 137);
+            this.ckbNgaySinh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbNgaySinh.Name = "ckbNgaySinh";
+            this.ckbNgaySinh.Size = new System.Drawing.Size(104, 25);
+            this.ckbNgaySinh.TabIndex = 22;
+            this.ckbNgaySinh.Text = "Ngày sinh";
+            this.ckbNgaySinh.UseVisualStyleBackColor = true;
+            // 
+            // ckbGioiTinh
+            // 
+            this.ckbGioiTinh.AutoSize = true;
+            this.ckbGioiTinh.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckbGioiTinh.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbGioiTinh.Location = new System.Drawing.Point(171, 169);
+            this.ckbGioiTinh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbGioiTinh.Name = "ckbGioiTinh";
+            this.ckbGioiTinh.Size = new System.Drawing.Size(93, 25);
+            this.ckbGioiTinh.TabIndex = 22;
+            this.ckbGioiTinh.Text = "Giới tính";
+            this.ckbGioiTinh.UseVisualStyleBackColor = true;
+            // 
+            // ckbMatKhau
+            // 
+            this.ckbMatKhau.AutoSize = true;
+            this.ckbMatKhau.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckbMatKhau.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbMatKhau.Location = new System.Drawing.Point(171, 201);
+            this.ckbMatKhau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbMatKhau.Name = "ckbMatKhau";
+            this.ckbMatKhau.Size = new System.Drawing.Size(100, 25);
+            this.ckbMatKhau.TabIndex = 22;
+            this.ckbMatKhau.Text = "Mật khẩu";
+            this.ckbMatKhau.UseVisualStyleBackColor = true;
+            // 
+            // ckbMatKhauMail
+            // 
+            this.ckbMatKhauMail.AutoSize = true;
+            this.ckbMatKhauMail.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckbMatKhauMail.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbMatKhauMail.Location = new System.Drawing.Point(171, 233);
+            this.ckbMatKhauMail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbMatKhauMail.Name = "ckbMatKhauMail";
+            this.ckbMatKhauMail.Size = new System.Drawing.Size(136, 25);
+            this.ckbMatKhauMail.TabIndex = 22;
+            this.ckbMatKhauMail.Text = "Mật khẩu mail";
+            this.ckbMatKhauMail.UseVisualStyleBackColor = true;
+            // 
+            // ckbBackup
+            // 
+            this.ckbBackup.AutoSize = true;
+            this.ckbBackup.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckbBackup.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbBackup.Location = new System.Drawing.Point(171, 265);
+            this.ckbBackup.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbBackup.Name = "ckbBackup";
+            this.ckbBackup.Size = new System.Drawing.Size(85, 25);
+            this.ckbBackup.TabIndex = 22;
+            this.ckbBackup.Text = "Backup";
+            this.ckbBackup.UseVisualStyleBackColor = true;
+            // 
+            // ckbMa2FA
+            // 
+            this.ckbMa2FA.AutoSize = true;
+            this.ckbMa2FA.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckbMa2FA.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbMa2FA.Location = new System.Drawing.Point(337, 105);
+            this.ckbMa2FA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbMa2FA.Name = "ckbMa2FA";
+            this.ckbMa2FA.Size = new System.Drawing.Size(88, 25);
+            this.ckbMa2FA.TabIndex = 22;
+            this.ckbMa2FA.Text = "Mã 2FA";
+            this.ckbMa2FA.UseVisualStyleBackColor = true;
+            // 
+            // ckbUseragent
+            // 
+            this.ckbUseragent.AutoSize = true;
+            this.ckbUseragent.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckbUseragent.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbUseragent.Location = new System.Drawing.Point(337, 137);
+            this.ckbUseragent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbUseragent.Name = "ckbUseragent";
+            this.ckbUseragent.Size = new System.Drawing.Size(108, 25);
+            this.ckbUseragent.TabIndex = 22;
+            this.ckbUseragent.Text = "Useragent";
+            this.ckbUseragent.UseVisualStyleBackColor = true;
+            // 
+            // ckbProxy
+            // 
+            this.ckbProxy.AutoSize = true;
+            this.ckbProxy.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckbProxy.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbProxy.Location = new System.Drawing.Point(337, 169);
+            this.ckbProxy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbProxy.Name = "ckbProxy";
+            this.ckbProxy.Size = new System.Drawing.Size(72, 25);
+            this.ckbProxy.TabIndex = 22;
+            this.ckbProxy.Text = "Proxy";
+            this.ckbProxy.UseVisualStyleBackColor = true;
+            // 
+            // ckbNgayTao
+            // 
+            this.ckbNgayTao.AutoSize = true;
+            this.ckbNgayTao.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckbNgayTao.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbNgayTao.Location = new System.Drawing.Point(337, 201);
+            this.ckbNgayTao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbNgayTao.Name = "ckbNgayTao";
+            this.ckbNgayTao.Size = new System.Drawing.Size(98, 25);
+            this.ckbNgayTao.TabIndex = 22;
+            this.ckbNgayTao.Text = "Ngày tạo";
+            this.ckbNgayTao.UseVisualStyleBackColor = true;
+            // 
+            // ckbAvatar
+            // 
+            this.ckbAvatar.AutoSize = true;
+            this.ckbAvatar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckbAvatar.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbAvatar.Location = new System.Drawing.Point(337, 233);
+            this.ckbAvatar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbAvatar.Name = "ckbAvatar";
+            this.ckbAvatar.Size = new System.Drawing.Size(81, 25);
+            this.ckbAvatar.TabIndex = 22;
+            this.ckbAvatar.Text = "Avatar";
+            this.ckbAvatar.UseVisualStyleBackColor = true;
+            // 
+            // ckbProfile
+            // 
+            this.ckbProfile.AutoSize = true;
+            this.ckbProfile.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckbProfile.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbProfile.Location = new System.Drawing.Point(337, 265);
+            this.ckbProfile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbProfile.Name = "ckbProfile";
+            this.ckbProfile.Size = new System.Drawing.Size(78, 25);
+            this.ckbProfile.TabIndex = 22;
+            this.ckbProfile.Text = "Profile";
+            this.ckbProfile.UseVisualStyleBackColor = true;
+            // 
+            // ckbTinhTrang
+            // 
+            this.ckbTinhTrang.AutoSize = true;
+            this.ckbTinhTrang.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckbTinhTrang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbTinhTrang.Location = new System.Drawing.Point(473, 137);
+            this.ckbTinhTrang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbTinhTrang.Name = "ckbTinhTrang";
+            this.ckbTinhTrang.Size = new System.Drawing.Size(108, 25);
+            this.ckbTinhTrang.TabIndex = 22;
+            this.ckbTinhTrang.Text = "Tình trạng";
+            this.ckbTinhTrang.UseVisualStyleBackColor = true;
+            // 
+            // ckbGhiChu
+            // 
+            this.ckbGhiChu.AutoSize = true;
+            this.ckbGhiChu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckbGhiChu.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbGhiChu.Location = new System.Drawing.Point(473, 201);
+            this.ckbGhiChu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbGhiChu.Name = "ckbGhiChu";
+            this.ckbGhiChu.Size = new System.Drawing.Size(87, 25);
+            this.ckbGhiChu.TabIndex = 22;
+            this.ckbGhiChu.Text = "Ghi chú";
+            this.ckbGhiChu.UseVisualStyleBackColor = true;
+            // 
+            // ckbThuMuc
+            // 
+            this.ckbThuMuc.AutoSize = true;
+            this.ckbThuMuc.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckbThuMuc.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbThuMuc.Location = new System.Drawing.Point(473, 169);
+            this.ckbThuMuc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbThuMuc.Name = "ckbThuMuc";
+            this.ckbThuMuc.Size = new System.Drawing.Size(97, 25);
+            this.ckbThuMuc.TabIndex = 22;
+            this.ckbThuMuc.Text = "Thư mục";
+            this.ckbThuMuc.UseVisualStyleBackColor = true;
+            // 
+            // ckbFollow
+            // 
+            this.ckbFollow.AutoSize = true;
+            this.ckbFollow.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckbFollow.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbFollow.Location = new System.Drawing.Point(41, 233);
+            this.ckbFollow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbFollow.Name = "ckbFollow";
+            this.ckbFollow.Size = new System.Drawing.Size(96, 25);
+            this.ckbFollow.TabIndex = 22;
+            this.ckbFollow.Text = "Theo dõi";
+            this.ckbFollow.UseVisualStyleBackColor = true;
+            // 
+            // ckbInteractEnd
+            // 
+            this.ckbInteractEnd.AutoSize = true;
+            this.ckbInteractEnd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckbInteractEnd.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbInteractEnd.Location = new System.Drawing.Point(473, 105);
+            this.ckbInteractEnd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckbInteractEnd.Name = "ckbInteractEnd";
+            this.ckbInteractEnd.Size = new System.Drawing.Size(142, 25);
+            this.ckbInteractEnd.TabIndex = 22;
+            this.ckbInteractEnd.Text = "Tương tác cuối";
+            this.ckbInteractEnd.UseVisualStyleBackColor = true;
+            // 
+            // fCauHinhHienThi
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(639, 363);
+            this.Controls.Add(this.ckbThuMuc);
+            this.Controls.Add(this.ckbGhiChu);
+            this.Controls.Add(this.ckbInteractEnd);
+            this.Controls.Add(this.ckbTinhTrang);
+            this.Controls.Add(this.ckbProfile);
+            this.Controls.Add(this.ckbAvatar);
+            this.Controls.Add(this.ckbNgayTao);
+            this.Controls.Add(this.ckbProxy);
+            this.Controls.Add(this.ckbUseragent);
+            this.Controls.Add(this.ckbMa2FA);
+            this.Controls.Add(this.ckbBackup);
+            this.Controls.Add(this.ckbMatKhauMail);
+            this.Controls.Add(this.ckbMatKhau);
+            this.Controls.Add(this.ckbGioiTinh);
+            this.Controls.Add(this.ckbNgaySinh);
+            this.Controls.Add(this.ckbNhom);
+            this.Controls.Add(this.ckbFollow);
+            this.Controls.Add(this.ckbBanBe);
+            this.Controls.Add(this.ckbTen);
+            this.Controls.Add(this.ckbEmail);
+            this.Controls.Add(this.ckbCookie);
+            this.Controls.Add(this.ckbToken);
+            this.Controls.Add(this.lblStatus);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.bunifuCards1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "fCauHinhHienThi";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "fAddFile";
+            this.Load += new System.EventHandler(this.fClearProfile_Load);
+            this.bunifuCards1.ResumeLayout(false);
+            this.pnlHeader.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
 		}
 
 		// Token: 0x04000CCC RID: 3276

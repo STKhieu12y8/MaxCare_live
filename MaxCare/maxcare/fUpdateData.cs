@@ -330,10 +330,11 @@ namespace maxcare
             this.bunifuCards1.Dock = System.Windows.Forms.DockStyle.Top;
             this.bunifuCards1.LeftSahddow = false;
             this.bunifuCards1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuCards1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuCards1.Name = "bunifuCards1";
             this.bunifuCards1.RightSahddow = true;
             this.bunifuCards1.ShadowDepth = 20;
-            this.bunifuCards1.Size = new System.Drawing.Size(416, 38);
+            this.bunifuCards1.Size = new System.Drawing.Size(555, 47);
             this.bunifuCards1.TabIndex = 12;
             // 
             // pnlHeader
@@ -343,9 +344,10 @@ namespace maxcare
             this.pnlHeader.Controls.Add(this.btnMinimize);
             this.pnlHeader.Controls.Add(this.pictureBox1);
             this.pnlHeader.Controls.Add(this.bunifuCustomLabel1);
-            this.pnlHeader.Location = new System.Drawing.Point(0, 5);
+            this.pnlHeader.Location = new System.Drawing.Point(0, 6);
+            this.pnlHeader.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.Size = new System.Drawing.Size(416, 32);
+            this.pnlHeader.Size = new System.Drawing.Size(555, 39);
             this.pnlHeader.TabIndex = 9;
             // 
             // btnMinimize
@@ -355,9 +357,11 @@ namespace maxcare
             this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinimize.ForeColor = System.Drawing.Color.White;
-            this.btnMinimize.Location = new System.Drawing.Point(382, -1);
+            this.btnMinimize.Image = global::MaxCare.Properties.Resources.close_window_25px;
+            this.btnMinimize.Location = new System.Drawing.Point(509, -1);
+            this.btnMinimize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(32, 32);
+            this.btnMinimize.Size = new System.Drawing.Size(43, 39);
             this.btnMinimize.TabIndex = 9;
             this.btnMinimize.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnMinimize.UseVisualStyleBackColor = true;
@@ -366,9 +370,10 @@ namespace maxcare
             // pictureBox1
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(4, 1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(34, 27);
+            this.pictureBox1.Size = new System.Drawing.Size(45, 33);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 79;
             this.pictureBox1.TabStop = false;
@@ -380,8 +385,9 @@ namespace maxcare
             this.bunifuCustomLabel1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.Black;
             this.bunifuCustomLabel1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuCustomLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(416, 32);
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(555, 39);
             this.bunifuCustomLabel1.TabIndex = 12;
             this.bunifuCustomLabel1.Text = "Cập nhật dữ liệu";
             this.bunifuCustomLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -391,7 +397,7 @@ namespace maxcare
             this.cbbTypeUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbbTypeUpdate.FontSize = MetroFramework.MetroComboBoxSize.Small;
             this.cbbTypeUpdate.FormattingEnabled = true;
-            this.cbbTypeUpdate.ItemHeight = 19;
+            this.cbbTypeUpdate.ItemHeight = 21;
             this.cbbTypeUpdate.Items.AddRange(new object[] {
             "Token",
             "Cookie",
@@ -403,9 +409,10 @@ namespace maxcare
             "Useragent",
             "Proxy",
             "Notes"});
-            this.cbbTypeUpdate.Location = new System.Drawing.Point(146, 43);
+            this.cbbTypeUpdate.Location = new System.Drawing.Point(195, 53);
+            this.cbbTypeUpdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbbTypeUpdate.Name = "cbbTypeUpdate";
-            this.cbbTypeUpdate.Size = new System.Drawing.Size(238, 25);
+            this.cbbTypeUpdate.Size = new System.Drawing.Size(316, 27);
             this.cbbTypeUpdate.TabIndex = 13;
             this.cbbTypeUpdate.UseSelectable = true;
             this.cbbTypeUpdate.SelectedIndexChanged += new System.EventHandler(this.cbbTypeUpdate_SelectedIndexChanged);
@@ -414,27 +421,30 @@ namespace maxcare
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(34, 51);
+            this.label1.Location = new System.Drawing.Point(45, 63);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 16);
+            this.label1.Size = new System.Drawing.Size(138, 21);
             this.label1.TabIndex = 14;
             this.label1.Text = "Dữ liệu cập nhật:";
             // 
             // txbData
             // 
             this.txbData.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbData.Location = new System.Drawing.Point(146, 79);
+            this.txbData.Location = new System.Drawing.Point(195, 97);
+            this.txbData.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txbData.Name = "txbData";
-            this.txbData.Size = new System.Drawing.Size(238, 23);
+            this.txbData.Size = new System.Drawing.Size(316, 27);
             this.txbData.TabIndex = 15;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(34, 82);
+            this.label2.Location = new System.Drawing.Point(45, 101);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 16);
+            this.label2.Size = new System.Drawing.Size(109, 21);
             this.label2.TabIndex = 16;
             this.label2.Text = "Nhập dữ liệu:";
             // 
@@ -446,9 +456,10 @@ namespace maxcare
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(209, 145);
+            this.btnCancel.Location = new System.Drawing.Point(279, 178);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(92, 29);
+            this.btnCancel.Size = new System.Drawing.Size(123, 36);
             this.btnCancel.TabIndex = 18;
             this.btnCancel.Text = "Đóng";
             this.btnCancel.UseVisualStyleBackColor = false;
@@ -462,9 +473,10 @@ namespace maxcare
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdd.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.Color.White;
-            this.btnAdd.Location = new System.Drawing.Point(111, 145);
+            this.btnAdd.Location = new System.Drawing.Point(148, 178);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(92, 29);
+            this.btnAdd.Size = new System.Drawing.Size(123, 36);
             this.btnAdd.TabIndex = 17;
             this.btnAdd.Text = "Lưu";
             this.btnAdd.UseVisualStyleBackColor = false;
@@ -474,9 +486,10 @@ namespace maxcare
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(34, 111);
+            this.label3.Location = new System.Drawing.Point(45, 137);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 16);
+            this.label3.Size = new System.Drawing.Size(91, 21);
             this.label3.TabIndex = 16;
             this.label3.Text = "Loại proxy:";
             // 
@@ -489,16 +502,17 @@ namespace maxcare
             this.cbbTypeProxy.Items.AddRange(new object[] {
             "HTTP",
             "Sock5"});
-            this.cbbTypeProxy.Location = new System.Drawing.Point(146, 108);
+            this.cbbTypeProxy.Location = new System.Drawing.Point(195, 133);
+            this.cbbTypeProxy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbbTypeProxy.Name = "cbbTypeProxy";
-            this.cbbTypeProxy.Size = new System.Drawing.Size(130, 24);
+            this.cbbTypeProxy.Size = new System.Drawing.Size(172, 27);
             this.cbbTypeProxy.TabIndex = 124;
             // 
             // fupdateData
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(416, 188);
+            this.ClientSize = new System.Drawing.Size(555, 231);
             this.Controls.Add(this.cbbTypeProxy);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnAdd);
@@ -509,6 +523,7 @@ namespace maxcare
             this.Controls.Add(this.cbbTypeUpdate);
             this.Controls.Add(this.bunifuCards1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "fupdateData";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "fUpdateData";

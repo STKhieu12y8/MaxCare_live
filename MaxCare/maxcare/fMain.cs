@@ -483,8 +483,6 @@ namespace maxcare
 			isExcute_CbbThuMuc_SelectedIndexChanged = false;
 			DataTable allFilesFromDatabase = CommonSQL.GetAllFilesFromDatabase(isShowAll: true);
 			cbbThuMuc.DataSource = allFilesFromDatabase;
-			MessageBox.Show("sdsdfdsfds");
-
 			cbbThuMuc.ValueMember = "id";
 			cbbThuMuc.DisplayMember = "name";
 			isExcute_CbbThuMuc_SelectedIndexChanged = true;

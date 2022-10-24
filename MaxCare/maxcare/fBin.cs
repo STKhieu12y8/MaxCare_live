@@ -3938,9 +3938,9 @@ namespace maxcare
 		private void InitializeComponent()
 		{
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dtgvAcc = new System.Windows.Forms.DataGridView();
             this.cChose = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.cStt = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -4075,14 +4075,14 @@ namespace maxcare
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dtgvAcc.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgvAcc.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgvAcc.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dtgvAcc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvAcc.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.cChose,
@@ -4116,20 +4116,22 @@ namespace maxcare
             this.cDateDelete,
             this.cStatus});
             this.dtgvAcc.ContextMenuStrip = this.ctmsAcc;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dtgvAcc.DefaultCellStyle = dataGridViewCellStyle3;
-            this.dtgvAcc.Location = new System.Drawing.Point(2, 124);
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dtgvAcc.DefaultCellStyle = dataGridViewCellStyle6;
+            this.dtgvAcc.Location = new System.Drawing.Point(3, 153);
+            this.dtgvAcc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtgvAcc.Name = "dtgvAcc";
             this.dtgvAcc.ReadOnly = true;
             this.dtgvAcc.RowHeadersVisible = false;
+            this.dtgvAcc.RowHeadersWidth = 51;
             this.dtgvAcc.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtgvAcc.Size = new System.Drawing.Size(1199, 461);
+            this.dtgvAcc.Size = new System.Drawing.Size(1599, 567);
             this.dtgvAcc.TabIndex = 0;
             this.dtgvAcc.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtgvAcc_CellClick);
             this.dtgvAcc.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvAcc_CellDoubleClick);
@@ -4139,15 +4141,17 @@ namespace maxcare
             // cChose
             // 
             this.cChose.HeaderText = "Chọn";
+            this.cChose.MinimumWidth = 6;
             this.cChose.Name = "cChose";
             this.cChose.ReadOnly = true;
             this.cChose.Width = 40;
             // 
             // cStt
             // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.cStt.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.cStt.DefaultCellStyle = dataGridViewCellStyle5;
             this.cStt.HeaderText = "STT";
+            this.cStt.MinimumWidth = 6;
             this.cStt.Name = "cStt";
             this.cStt.ReadOnly = true;
             this.cStt.Width = 35;
@@ -4155,6 +4159,7 @@ namespace maxcare
             // cId
             // 
             this.cId.HeaderText = "Id";
+            this.cId.MinimumWidth = 6;
             this.cId.Name = "cId";
             this.cId.ReadOnly = true;
             this.cId.Visible = false;
@@ -4163,6 +4168,7 @@ namespace maxcare
             // cUid
             // 
             this.cUid.HeaderText = "UID";
+            this.cUid.MinimumWidth = 6;
             this.cUid.Name = "cUid";
             this.cUid.ReadOnly = true;
             this.cUid.Width = 80;
@@ -4170,6 +4176,7 @@ namespace maxcare
             // cToken
             // 
             this.cToken.HeaderText = "Token";
+            this.cToken.MinimumWidth = 6;
             this.cToken.Name = "cToken";
             this.cToken.ReadOnly = true;
             this.cToken.Width = 70;
@@ -4177,6 +4184,7 @@ namespace maxcare
             // cCookies
             // 
             this.cCookies.HeaderText = "Cookie";
+            this.cCookies.MinimumWidth = 6;
             this.cCookies.Name = "cCookies";
             this.cCookies.ReadOnly = true;
             this.cCookies.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
@@ -4185,6 +4193,7 @@ namespace maxcare
             // cEmail
             // 
             this.cEmail.HeaderText = "Email";
+            this.cEmail.MinimumWidth = 6;
             this.cEmail.Name = "cEmail";
             this.cEmail.ReadOnly = true;
             this.cEmail.Width = 60;
@@ -4192,6 +4201,7 @@ namespace maxcare
             // cPhone
             // 
             this.cPhone.HeaderText = "Phone";
+            this.cPhone.MinimumWidth = 6;
             this.cPhone.Name = "cPhone";
             this.cPhone.ReadOnly = true;
             this.cPhone.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
@@ -4201,6 +4211,7 @@ namespace maxcare
             // cName
             // 
             this.cName.HeaderText = "Tên";
+            this.cName.MinimumWidth = 6;
             this.cName.Name = "cName";
             this.cName.ReadOnly = true;
             this.cName.Width = 70;
@@ -4208,6 +4219,7 @@ namespace maxcare
             // cFollow
             // 
             this.cFollow.HeaderText = "Theo dõi";
+            this.cFollow.MinimumWidth = 6;
             this.cFollow.Name = "cFollow";
             this.cFollow.ReadOnly = true;
             this.cFollow.Width = 80;
@@ -4215,6 +4227,7 @@ namespace maxcare
             // cFriend
             // 
             this.cFriend.HeaderText = "Bạn bè";
+            this.cFriend.MinimumWidth = 6;
             this.cFriend.Name = "cFriend";
             this.cFriend.ReadOnly = true;
             this.cFriend.Width = 70;
@@ -4222,6 +4235,7 @@ namespace maxcare
             // cGroup
             // 
             this.cGroup.HeaderText = "Nhóm";
+            this.cGroup.MinimumWidth = 6;
             this.cGroup.Name = "cGroup";
             this.cGroup.ReadOnly = true;
             this.cGroup.Width = 60;
@@ -4229,6 +4243,7 @@ namespace maxcare
             // cBirthday
             // 
             this.cBirthday.HeaderText = "Ngày sinh";
+            this.cBirthday.MinimumWidth = 6;
             this.cBirthday.Name = "cBirthday";
             this.cBirthday.ReadOnly = true;
             this.cBirthday.Width = 90;
@@ -4236,6 +4251,7 @@ namespace maxcare
             // cGender
             // 
             this.cGender.HeaderText = "Giới Tính";
+            this.cGender.MinimumWidth = 6;
             this.cGender.Name = "cGender";
             this.cGender.ReadOnly = true;
             this.cGender.Width = 80;
@@ -4243,6 +4259,7 @@ namespace maxcare
             // cPassword
             // 
             this.cPassword.HeaderText = "Mật khẩu";
+            this.cPassword.MinimumWidth = 6;
             this.cPassword.Name = "cPassword";
             this.cPassword.ReadOnly = true;
             this.cPassword.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
@@ -4252,6 +4269,7 @@ namespace maxcare
             // cMailRecovery
             // 
             this.cMailRecovery.HeaderText = "Email khôi phục";
+            this.cMailRecovery.MinimumWidth = 6;
             this.cMailRecovery.Name = "cMailRecovery";
             this.cMailRecovery.ReadOnly = true;
             this.cMailRecovery.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
@@ -4261,6 +4279,7 @@ namespace maxcare
             // cPassMail
             // 
             this.cPassMail.HeaderText = "Mật khẩu mail";
+            this.cPassMail.MinimumWidth = 6;
             this.cPassMail.Name = "cPassMail";
             this.cPassMail.ReadOnly = true;
             this.cPassMail.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
@@ -4270,6 +4289,7 @@ namespace maxcare
             // cBackup
             // 
             this.cBackup.HeaderText = "Backup";
+            this.cBackup.MinimumWidth = 6;
             this.cBackup.Name = "cBackup";
             this.cBackup.ReadOnly = true;
             this.cBackup.Width = 70;
@@ -4277,6 +4297,7 @@ namespace maxcare
             // cFa2
             // 
             this.cFa2.HeaderText = "Mã 2FA";
+            this.cFa2.MinimumWidth = 6;
             this.cFa2.Name = "cFa2";
             this.cFa2.ReadOnly = true;
             this.cFa2.Width = 65;
@@ -4284,6 +4305,7 @@ namespace maxcare
             // cUseragent
             // 
             this.cUseragent.HeaderText = "Useragent";
+            this.cUseragent.MinimumWidth = 6;
             this.cUseragent.Name = "cUseragent";
             this.cUseragent.ReadOnly = true;
             this.cUseragent.Width = 70;
@@ -4291,6 +4313,7 @@ namespace maxcare
             // cProxy
             // 
             this.cProxy.HeaderText = "Proxy";
+            this.cProxy.MinimumWidth = 6;
             this.cProxy.Name = "cProxy";
             this.cProxy.ReadOnly = true;
             this.cProxy.Width = 55;
@@ -4298,6 +4321,7 @@ namespace maxcare
             // cDateCreateAcc
             // 
             this.cDateCreateAcc.HeaderText = "Ngày tạo";
+            this.cDateCreateAcc.MinimumWidth = 6;
             this.cDateCreateAcc.Name = "cDateCreateAcc";
             this.cDateCreateAcc.ReadOnly = true;
             this.cDateCreateAcc.Width = 85;
@@ -4305,6 +4329,7 @@ namespace maxcare
             // cAvatar
             // 
             this.cAvatar.HeaderText = "Avatar";
+            this.cAvatar.MinimumWidth = 6;
             this.cAvatar.Name = "cAvatar";
             this.cAvatar.ReadOnly = true;
             this.cAvatar.Width = 50;
@@ -4312,6 +4337,7 @@ namespace maxcare
             // cProfile
             // 
             this.cProfile.HeaderText = "Profile";
+            this.cProfile.MinimumWidth = 6;
             this.cProfile.Name = "cProfile";
             this.cProfile.ReadOnly = true;
             this.cProfile.Width = 50;
@@ -4319,19 +4345,24 @@ namespace maxcare
             // cThuMuc
             // 
             this.cThuMuc.HeaderText = "Thư mục";
+            this.cThuMuc.MinimumWidth = 6;
             this.cThuMuc.Name = "cThuMuc";
             this.cThuMuc.ReadOnly = true;
+            this.cThuMuc.Width = 125;
             // 
             // cInteractEnd
             // 
             this.cInteractEnd.HeaderText = "Lần tương tác cuối";
+            this.cInteractEnd.MinimumWidth = 6;
             this.cInteractEnd.Name = "cInteractEnd";
             this.cInteractEnd.ReadOnly = true;
+            this.cInteractEnd.Width = 125;
             // 
             // cInfo
             // 
             this.cInfo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.cInfo.HeaderText = "Tình Trạng";
+            this.cInfo.MinimumWidth = 6;
             this.cInfo.Name = "cInfo";
             this.cInfo.ReadOnly = true;
             this.cInfo.Width = 90;
@@ -4339,12 +4370,15 @@ namespace maxcare
             // cGhiChu
             // 
             this.cGhiChu.HeaderText = "Ghi Chú";
+            this.cGhiChu.MinimumWidth = 6;
             this.cGhiChu.Name = "cGhiChu";
             this.cGhiChu.ReadOnly = true;
+            this.cGhiChu.Width = 125;
             // 
             // cDateDelete
             // 
             this.cDateDelete.HeaderText = "Thời gian xóa";
+            this.cDateDelete.MinimumWidth = 6;
             this.cDateDelete.Name = "cDateDelete";
             this.cDateDelete.ReadOnly = true;
             this.cDateDelete.Width = 111;
@@ -4353,11 +4387,13 @@ namespace maxcare
             // 
             this.cStatus.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.cStatus.HeaderText = "Trạng Thái";
+            this.cStatus.MinimumWidth = 6;
             this.cStatus.Name = "cStatus";
             this.cStatus.ReadOnly = true;
             // 
             // ctmsAcc
             // 
+            this.ctmsAcc.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.ctmsAcc.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.chọnLiveToolStripMenuItem,
             this.bỏChọnTấtCảToolStripMenuItem,
@@ -4370,7 +4406,7 @@ namespace maxcare
             this.backupToolStripMenuItem,
             this.tảiLạiDanhSáchToolStripMenuItem});
             this.ctmsAcc.Name = "ctmsAcc";
-            this.ctmsAcc.Size = new System.Drawing.Size(198, 224);
+            this.ctmsAcc.Size = new System.Drawing.Size(232, 244);
             this.ctmsAcc.Opening += new System.ComponentModel.CancelEventHandler(this.CtmsAcc_Opening);
             // 
             // chọnLiveToolStripMenuItem
@@ -4381,54 +4417,54 @@ namespace maxcare
             this.tinhTrangToolStripMenuItem,
             this.trạngTháiToolStripMenuItem});
             this.chọnLiveToolStripMenuItem.Name = "chọnLiveToolStripMenuItem";
-            this.chọnLiveToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.chọnLiveToolStripMenuItem.Size = new System.Drawing.Size(231, 24);
             this.chọnLiveToolStripMenuItem.Text = "Chọn";
             // 
             // tấtCảToolStripMenuItem
             // 
             this.tấtCảToolStripMenuItem.Name = "tấtCảToolStripMenuItem";
-            this.tấtCảToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.tấtCảToolStripMenuItem.Size = new System.Drawing.Size(159, 26);
             this.tấtCảToolStripMenuItem.Text = "Tất cả";
             this.tấtCảToolStripMenuItem.Click += new System.EventHandler(this.TấtCảToolStripMenuItem_Click);
             // 
             // liveToolStripMenuItem
             // 
             this.liveToolStripMenuItem.Name = "liveToolStripMenuItem";
-            this.liveToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.liveToolStripMenuItem.Size = new System.Drawing.Size(159, 26);
             this.liveToolStripMenuItem.Text = "Bôi đen";
             this.liveToolStripMenuItem.Click += new System.EventHandler(this.LiveToolStripMenuItem_Click);
             // 
             // tinhTrangToolStripMenuItem
             // 
             this.tinhTrangToolStripMenuItem.Name = "tinhTrangToolStripMenuItem";
-            this.tinhTrangToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.tinhTrangToolStripMenuItem.Size = new System.Drawing.Size(159, 26);
             this.tinhTrangToolStripMenuItem.Text = "Tình trạng";
             // 
             // trạngTháiToolStripMenuItem
             // 
             this.trạngTháiToolStripMenuItem.Name = "trạngTháiToolStripMenuItem";
-            this.trạngTháiToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.trạngTháiToolStripMenuItem.Size = new System.Drawing.Size(159, 26);
             this.trạngTháiToolStripMenuItem.Text = "Trạng thái";
             this.trạngTháiToolStripMenuItem.Click += new System.EventHandler(this.trạngTháiToolStripMenuItem_Click);
             // 
             // bỏChọnTấtCảToolStripMenuItem
             // 
             this.bỏChọnTấtCảToolStripMenuItem.Name = "bỏChọnTấtCảToolStripMenuItem";
-            this.bỏChọnTấtCảToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.bỏChọnTấtCảToolStripMenuItem.Size = new System.Drawing.Size(231, 24);
             this.bỏChọnTấtCảToolStripMenuItem.Text = "Bỏ chọn tất cả";
             this.bỏChọnTấtCảToolStripMenuItem.Click += new System.EventHandler(this.BỏChọnTấtCảToolStripMenuItem_Click);
             // 
             // khôiPhucTaiKhoanToolStripMenuItem
             // 
             this.khôiPhucTaiKhoanToolStripMenuItem.Name = "khôiPhucTaiKhoanToolStripMenuItem";
-            this.khôiPhucTaiKhoanToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.khôiPhucTaiKhoanToolStripMenuItem.Size = new System.Drawing.Size(231, 24);
             this.khôiPhucTaiKhoanToolStripMenuItem.Text = "Khôi phục tài khoản";
             this.khôiPhucTaiKhoanToolStripMenuItem.Click += new System.EventHandler(this.khôiPhucTaiKhoanToolStripMenuItem_Click);
             // 
             // xóaTàiKhoảnToolStripMenuItem
             // 
             this.xóaTàiKhoảnToolStripMenuItem.Name = "xóaTàiKhoảnToolStripMenuItem";
-            this.xóaTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.xóaTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(231, 24);
             this.xóaTàiKhoảnToolStripMenuItem.Text = "Xóa tài khoản vĩnh viễn";
             this.xóaTàiKhoảnToolStripMenuItem.Click += new System.EventHandler(this.giưLaiProfileToolStripMenuItem_Click);
             // 
@@ -4438,20 +4474,20 @@ namespace maxcare
             this.tiếnHànhMởToolStripMenuItem,
             this.càiĐặtCấuHìnhMởToolStripMenuItem});
             this.mởTrìnhDuyệtToolStripMenuItem.Name = "mởTrìnhDuyệtToolStripMenuItem";
-            this.mởTrìnhDuyệtToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.mởTrìnhDuyệtToolStripMenuItem.Size = new System.Drawing.Size(231, 24);
             this.mởTrìnhDuyệtToolStripMenuItem.Text = "Mở trình duyệt";
             // 
             // tiếnHànhMởToolStripMenuItem
             // 
             this.tiếnHànhMởToolStripMenuItem.Name = "tiếnHànhMởToolStripMenuItem";
-            this.tiếnHànhMởToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
+            this.tiếnHànhMởToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.tiếnHànhMởToolStripMenuItem.Text = "Tiến hành mở";
             this.tiếnHànhMởToolStripMenuItem.Click += new System.EventHandler(this.tiếnHànhMởToolStripMenuItem_Click);
             // 
             // càiĐặtCấuHìnhMởToolStripMenuItem
             // 
             this.càiĐặtCấuHìnhMởToolStripMenuItem.Name = "càiĐặtCấuHìnhMởToolStripMenuItem";
-            this.càiĐặtCấuHìnhMởToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
+            this.càiĐặtCấuHìnhMởToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.càiĐặtCấuHìnhMởToolStripMenuItem.Text = "Cài đặt cấu hình mở";
             this.càiĐặtCấuHìnhMởToolStripMenuItem.Click += new System.EventHandler(this.càiĐặtCấuHìnhMởToolStripMenuItem_Click);
             // 
@@ -4475,118 +4511,118 @@ namespace maxcare
             this.proxyToolStripMenuItem1,
             this.đinhDangKhacToolStripMenuItem});
             this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
-            this.copyToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.copyToolStripMenuItem.Size = new System.Drawing.Size(231, 24);
             this.copyToolStripMenuItem.Text = "Copy";
             // 
             // uidToolStripMenuItem
             // 
             this.uidToolStripMenuItem.Name = "uidToolStripMenuItem";
-            this.uidToolStripMenuItem.Size = new System.Drawing.Size(289, 22);
+            this.uidToolStripMenuItem.Size = new System.Drawing.Size(361, 26);
             this.uidToolStripMenuItem.Text = "Uid";
             this.uidToolStripMenuItem.Click += new System.EventHandler(this.UidToolStripMenuItem_Click);
             // 
             // passToolStripMenuItem
             // 
             this.passToolStripMenuItem.Name = "passToolStripMenuItem";
-            this.passToolStripMenuItem.Size = new System.Drawing.Size(289, 22);
+            this.passToolStripMenuItem.Size = new System.Drawing.Size(361, 26);
             this.passToolStripMenuItem.Text = "Pass";
             this.passToolStripMenuItem.Click += new System.EventHandler(this.PassToolStripMenuItem_Click);
             // 
             // tokenToolStripMenuItem
             // 
             this.tokenToolStripMenuItem.Name = "tokenToolStripMenuItem";
-            this.tokenToolStripMenuItem.Size = new System.Drawing.Size(289, 22);
+            this.tokenToolStripMenuItem.Size = new System.Drawing.Size(361, 26);
             this.tokenToolStripMenuItem.Text = "Token";
             this.tokenToolStripMenuItem.Click += new System.EventHandler(this.TokenToolStripMenuItem_Click);
             // 
             // cookieToolStripMenuItem
             // 
             this.cookieToolStripMenuItem.Name = "cookieToolStripMenuItem";
-            this.cookieToolStripMenuItem.Size = new System.Drawing.Size(289, 22);
+            this.cookieToolStripMenuItem.Size = new System.Drawing.Size(361, 26);
             this.cookieToolStripMenuItem.Text = "Cookie";
             this.cookieToolStripMenuItem.Click += new System.EventHandler(this.CookieToolStripMenuItem_Click);
             // 
             // mailToolStripMenuItem
             // 
             this.mailToolStripMenuItem.Name = "mailToolStripMenuItem";
-            this.mailToolStripMenuItem.Size = new System.Drawing.Size(289, 22);
+            this.mailToolStripMenuItem.Size = new System.Drawing.Size(361, 26);
             this.mailToolStripMenuItem.Text = "Email";
             this.mailToolStripMenuItem.Click += new System.EventHandler(this.MailToolStripMenuItem_Click_1);
             // 
             // fAToolStripMenuItem
             // 
             this.fAToolStripMenuItem.Name = "fAToolStripMenuItem";
-            this.fAToolStripMenuItem.Size = new System.Drawing.Size(289, 22);
+            this.fAToolStripMenuItem.Size = new System.Drawing.Size(361, 26);
             this.fAToolStripMenuItem.Text = "2FA";
             this.fAToolStripMenuItem.Click += new System.EventHandler(this.fAToolStripMenuItem_Click);
             // 
             // maBaoMât6SôToolStripMenuItem
             // 
             this.maBaoMât6SôToolStripMenuItem.Name = "maBaoMât6SôToolStripMenuItem";
-            this.maBaoMât6SôToolStripMenuItem.Size = new System.Drawing.Size(289, 22);
+            this.maBaoMât6SôToolStripMenuItem.Size = new System.Drawing.Size(361, 26);
             this.maBaoMât6SôToolStripMenuItem.Text = "Mã bảo mật 6 số";
             this.maBaoMât6SôToolStripMenuItem.Click += new System.EventHandler(this.maBaoMât6SôToolStripMenuItem_Click);
             // 
             // uidPassToolStripMenuItem
             // 
             this.uidPassToolStripMenuItem.Name = "uidPassToolStripMenuItem";
-            this.uidPassToolStripMenuItem.Size = new System.Drawing.Size(289, 22);
+            this.uidPassToolStripMenuItem.Size = new System.Drawing.Size(361, 26);
             this.uidPassToolStripMenuItem.Text = "Uid|Pass";
             this.uidPassToolStripMenuItem.Click += new System.EventHandler(this.UidPassToolStripMenuItem_Click);
             // 
             // uidPass2FaToolStripMenuItem
             // 
             this.uidPass2FaToolStripMenuItem.Name = "uidPass2FaToolStripMenuItem";
-            this.uidPass2FaToolStripMenuItem.Size = new System.Drawing.Size(289, 22);
+            this.uidPass2FaToolStripMenuItem.Size = new System.Drawing.Size(361, 26);
             this.uidPass2FaToolStripMenuItem.Text = "Uid|Pass|2Fa";
             this.uidPass2FaToolStripMenuItem.Click += new System.EventHandler(this.uidPass2FaToolStripMenuItem_Click);
             // 
             // mailPassMailToolStripMenuItem
             // 
             this.mailPassMailToolStripMenuItem.Name = "mailPassMailToolStripMenuItem";
-            this.mailPassMailToolStripMenuItem.Size = new System.Drawing.Size(289, 22);
+            this.mailPassMailToolStripMenuItem.Size = new System.Drawing.Size(361, 26);
             this.mailPassMailToolStripMenuItem.Text = "Mail|Pass mail";
             this.mailPassMailToolStripMenuItem.Click += new System.EventHandler(this.MailPassMailToolStripMenuItem_Click);
             // 
             // uidPassTokenCookieToolStripMenuItem
             // 
             this.uidPassTokenCookieToolStripMenuItem.Name = "uidPassTokenCookieToolStripMenuItem";
-            this.uidPassTokenCookieToolStripMenuItem.Size = new System.Drawing.Size(289, 22);
+            this.uidPassTokenCookieToolStripMenuItem.Size = new System.Drawing.Size(361, 26);
             this.uidPassTokenCookieToolStripMenuItem.Text = "Uid|Pass|Token|Cookie";
             this.uidPassTokenCookieToolStripMenuItem.Click += new System.EventHandler(this.UidPassTokenCookieToolStripMenuItem_Click);
             // 
             // uidPassTokenCookieMailPassMailToolStripMenuItem
             // 
             this.uidPassTokenCookieMailPassMailToolStripMenuItem.Name = "uidPassTokenCookieMailPassMailToolStripMenuItem";
-            this.uidPassTokenCookieMailPassMailToolStripMenuItem.Size = new System.Drawing.Size(289, 22);
+            this.uidPassTokenCookieMailPassMailToolStripMenuItem.Size = new System.Drawing.Size(361, 26);
             this.uidPassTokenCookieMailPassMailToolStripMenuItem.Text = "Uid|Pass|Token|Cookie|Mail|Pass mail";
             this.uidPassTokenCookieMailPassMailToolStripMenuItem.Click += new System.EventHandler(this.UidPassTokenCookieMailPassMailToolStripMenuItem_Click);
             // 
             // uidPassTokenCookieMailPassMail2faToolStripMenuItem
             // 
             this.uidPassTokenCookieMailPassMail2faToolStripMenuItem.Name = "uidPassTokenCookieMailPassMail2faToolStripMenuItem";
-            this.uidPassTokenCookieMailPassMail2faToolStripMenuItem.Size = new System.Drawing.Size(289, 22);
+            this.uidPassTokenCookieMailPassMail2faToolStripMenuItem.Size = new System.Drawing.Size(361, 26);
             this.uidPassTokenCookieMailPassMail2faToolStripMenuItem.Text = "Uid|Pass|Token|Cookie|Mail|Pass mail|2fa";
             this.uidPassTokenCookieMailPassMail2faToolStripMenuItem.Click += new System.EventHandler(this.UidPassTokenCookieMailPassMail2faToolStripMenuItem_Click);
             // 
             // useragentToolStripMenuItem1
             // 
             this.useragentToolStripMenuItem1.Name = "useragentToolStripMenuItem1";
-            this.useragentToolStripMenuItem1.Size = new System.Drawing.Size(289, 22);
+            this.useragentToolStripMenuItem1.Size = new System.Drawing.Size(361, 26);
             this.useragentToolStripMenuItem1.Text = "Useragent";
             this.useragentToolStripMenuItem1.Click += new System.EventHandler(this.useragentToolStripMenuItem1_Click);
             // 
             // proxyToolStripMenuItem1
             // 
             this.proxyToolStripMenuItem1.Name = "proxyToolStripMenuItem1";
-            this.proxyToolStripMenuItem1.Size = new System.Drawing.Size(289, 22);
+            this.proxyToolStripMenuItem1.Size = new System.Drawing.Size(361, 26);
             this.proxyToolStripMenuItem1.Text = "Proxy";
             this.proxyToolStripMenuItem1.Click += new System.EventHandler(this.proxyToolStripMenuItem1_Click);
             // 
             // đinhDangKhacToolStripMenuItem
             // 
             this.đinhDangKhacToolStripMenuItem.Name = "đinhDangKhacToolStripMenuItem";
-            this.đinhDangKhacToolStripMenuItem.Size = new System.Drawing.Size(289, 22);
+            this.đinhDangKhacToolStripMenuItem.Size = new System.Drawing.Size(361, 26);
             this.đinhDangKhacToolStripMenuItem.Text = "Định dạng khác...";
             this.đinhDangKhacToolStripMenuItem.Click += new System.EventHandler(this.đinhDangKhacToolStripMenuItem_Click);
             // 
@@ -4604,13 +4640,13 @@ namespace maxcare
             this.kiểmTraMailpassMailToolStripMenuItem,
             this.checkProxyToolStripMenuItem});
             this.checkCookieToolStripMenuItem.Name = "checkCookieToolStripMenuItem";
-            this.checkCookieToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.checkCookieToolStripMenuItem.Size = new System.Drawing.Size(231, 24);
             this.checkCookieToolStripMenuItem.Text = "Kiểm tra tài khoản";
             // 
             // kiểmTraWallToolStripMenuItem
             // 
             this.kiểmTraWallToolStripMenuItem.Name = "kiểmTraWallToolStripMenuItem";
-            this.kiểmTraWallToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.kiểmTraWallToolStripMenuItem.Size = new System.Drawing.Size(204, 26);
             this.kiểmTraWallToolStripMenuItem.Text = "Check Wall";
             this.kiểmTraWallToolStripMenuItem.ToolTipText = "Không cần dùng token";
             this.kiểmTraWallToolStripMenuItem.Click += new System.EventHandler(this.KiểmTraWallToolStripMenuItem_Click);
@@ -4618,7 +4654,7 @@ namespace maxcare
             // checkInfoUIDToolStripMenuItem
             // 
             this.checkInfoUIDToolStripMenuItem.Name = "checkInfoUIDToolStripMenuItem";
-            this.checkInfoUIDToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.checkInfoUIDToolStripMenuItem.Size = new System.Drawing.Size(204, 26);
             this.checkInfoUIDToolStripMenuItem.Text = "Check Info UID";
             this.checkInfoUIDToolStripMenuItem.ToolTipText = "Không cần dùng token\r\nCập nhật thông tin: Họ tên, Giớ́i tính, [Email], [Bạn " +
     "bè], [Nhóm], [Ngày sinh]";
@@ -4627,42 +4663,42 @@ namespace maxcare
             // kiểmTraTokenToolStripMenuItem
             // 
             this.kiểmTraTokenToolStripMenuItem.Name = "kiểmTraTokenToolStripMenuItem";
-            this.kiểmTraTokenToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.kiểmTraTokenToolStripMenuItem.Size = new System.Drawing.Size(204, 26);
             this.kiểmTraTokenToolStripMenuItem.Text = "Check Token";
             this.kiểmTraTokenToolStripMenuItem.Click += new System.EventHandler(this.KiểmTraTokenToolStripMenuItem_Click);
             // 
             // kiểmTraCookieToolStripMenuItem
             // 
             this.kiểmTraCookieToolStripMenuItem.Name = "kiểmTraCookieToolStripMenuItem";
-            this.kiểmTraCookieToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.kiểmTraCookieToolStripMenuItem.Size = new System.Drawing.Size(204, 26);
             this.kiểmTraCookieToolStripMenuItem.Text = "Check Cookie";
             this.kiểmTraCookieToolStripMenuItem.Click += new System.EventHandler(this.KiểmTraCookieToolStripMenuItem_Click);
             // 
             // checkAvatarToolStripMenuItem
             // 
             this.checkAvatarToolStripMenuItem.Name = "checkAvatarToolStripMenuItem";
-            this.checkAvatarToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.checkAvatarToolStripMenuItem.Size = new System.Drawing.Size(204, 26);
             this.checkAvatarToolStripMenuItem.Text = "Check Avatar";
             this.checkAvatarToolStripMenuItem.Click += new System.EventHandler(this.checkAvatarToolStripMenuItem_Click);
             // 
             // checkProfileToolStripMenuItem1
             // 
             this.checkProfileToolStripMenuItem1.Name = "checkProfileToolStripMenuItem1";
-            this.checkProfileToolStripMenuItem1.Size = new System.Drawing.Size(164, 22);
+            this.checkProfileToolStripMenuItem1.Size = new System.Drawing.Size(204, 26);
             this.checkProfileToolStripMenuItem1.Text = "Check Profile";
             this.checkProfileToolStripMenuItem1.Click += new System.EventHandler(this.checkProfileToolStripMenuItem_Click);
             // 
             // checkBackupToolStripMenuItem1
             // 
             this.checkBackupToolStripMenuItem1.Name = "checkBackupToolStripMenuItem1";
-            this.checkBackupToolStripMenuItem1.Size = new System.Drawing.Size(164, 22);
+            this.checkBackupToolStripMenuItem1.Size = new System.Drawing.Size(204, 26);
             this.checkBackupToolStripMenuItem1.Text = "Check Backup";
             this.checkBackupToolStripMenuItem1.Click += new System.EventHandler(this.checkBackupToolStripMenuItem_Click);
             // 
             // kiểmTraTàiKhoảnToolStripMenuItem
             // 
             this.kiểmTraTàiKhoảnToolStripMenuItem.Name = "kiểmTraTàiKhoảnToolStripMenuItem";
-            this.kiểmTraTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.kiểmTraTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(204, 26);
             this.kiểmTraTàiKhoảnToolStripMenuItem.Text = "Dạng checkpoint";
             this.kiểmTraTàiKhoảnToolStripMenuItem.ToolTipText = "Chỉ sử dụng khi tài khoản đã bị checkpoint!";
             this.kiểmTraTàiKhoảnToolStripMenuItem.Click += new System.EventHandler(this.KiểmTraTàiKhoảnToolStripMenuItem_Click);
@@ -4670,14 +4706,14 @@ namespace maxcare
             // kiểmTraMailpassMailToolStripMenuItem
             // 
             this.kiểmTraMailpassMailToolStripMenuItem.Name = "kiểmTraMailpassMailToolStripMenuItem";
-            this.kiểmTraMailpassMailToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.kiểmTraMailpassMailToolStripMenuItem.Size = new System.Drawing.Size(204, 26);
             this.kiểmTraMailpassMailToolStripMenuItem.Text = "Mail|pass Mail";
             this.kiểmTraMailpassMailToolStripMenuItem.Click += new System.EventHandler(this.kiểmTraMailpassMailToolStripMenuItem_Click);
             // 
             // checkProxyToolStripMenuItem
             // 
             this.checkProxyToolStripMenuItem.Name = "checkProxyToolStripMenuItem";
-            this.checkProxyToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.checkProxyToolStripMenuItem.Size = new System.Drawing.Size(204, 26);
             this.checkProxyToolStripMenuItem.Text = "Check Proxy";
             this.checkProxyToolStripMenuItem.Click += new System.EventHandler(this.checkProxyToolStripMenuItem_Click);
             // 
@@ -4687,20 +4723,20 @@ namespace maxcare
             this.xóaProfileToolStripMenuItem,
             this.donDepProfileToolStripMenuItem});
             this.profileToolStripMenuItem.Name = "profileToolStripMenuItem";
-            this.profileToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.profileToolStripMenuItem.Size = new System.Drawing.Size(231, 24);
             this.profileToolStripMenuItem.Text = "Profile Chrome";
             // 
             // xóaProfileToolStripMenuItem
             // 
             this.xóaProfileToolStripMenuItem.Name = "xóaProfileToolStripMenuItem";
-            this.xóaProfileToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.xóaProfileToolStripMenuItem.Size = new System.Drawing.Size(198, 26);
             this.xóaProfileToolStripMenuItem.Text = "Xóa profile";
             this.xóaProfileToolStripMenuItem.Click += new System.EventHandler(this.xóaProfileToolStripMenuItem_Click);
             // 
             // donDepProfileToolStripMenuItem
             // 
             this.donDepProfileToolStripMenuItem.Name = "donDepProfileToolStripMenuItem";
-            this.donDepProfileToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.donDepProfileToolStripMenuItem.Size = new System.Drawing.Size(198, 26);
             this.donDepProfileToolStripMenuItem.Text = "Dọn dẹp profile";
             this.donDepProfileToolStripMenuItem.Click += new System.EventHandler(this.donDepProfileToolStripMenuItem_Click);
             // 
@@ -4712,13 +4748,13 @@ namespace maxcare
             this.backupToolStripMenuItem1,
             this.xóaDữLiệuBackupToolStripMenuItem});
             this.backupToolStripMenuItem.Name = "backupToolStripMenuItem";
-            this.backupToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.backupToolStripMenuItem.Size = new System.Drawing.Size(231, 24);
             this.backupToolStripMenuItem.Text = "Backup dữ liệu";
             // 
             // checkBackupToolStripMenuItem
             // 
             this.checkBackupToolStripMenuItem.Name = "checkBackupToolStripMenuItem";
-            this.checkBackupToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.checkBackupToolStripMenuItem.Size = new System.Drawing.Size(228, 26);
             this.checkBackupToolStripMenuItem.Text = "Check Backup";
             this.checkBackupToolStripMenuItem.Click += new System.EventHandler(this.checkBackupToolStripMenuItem_Click);
             // 
@@ -4728,20 +4764,20 @@ namespace maxcare
             this.mởFileHTMLToolStripMenuItem,
             this.mởFolderBackupToolStripMenuItem});
             this.mởThưMụcBackupToolStripMenuItem.Name = "mởThưMụcBackupToolStripMenuItem";
-            this.mởThưMụcBackupToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.mởThưMụcBackupToolStripMenuItem.Size = new System.Drawing.Size(228, 26);
             this.mởThưMụcBackupToolStripMenuItem.Text = "Mở dữ liêu Backup";
             // 
             // mởFileHTMLToolStripMenuItem
             // 
             this.mởFileHTMLToolStripMenuItem.Name = "mởFileHTMLToolStripMenuItem";
-            this.mởFileHTMLToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
+            this.mởFileHTMLToolStripMenuItem.Size = new System.Drawing.Size(186, 26);
             this.mởFileHTMLToolStripMenuItem.Text = "File HTML";
             this.mởFileHTMLToolStripMenuItem.Click += new System.EventHandler(this.mơFileHTMLToolStripMenuItem_Click);
             // 
             // mởFolderBackupToolStripMenuItem
             // 
             this.mởFolderBackupToolStripMenuItem.Name = "mởFolderBackupToolStripMenuItem";
-            this.mởFolderBackupToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
+            this.mởFolderBackupToolStripMenuItem.Size = new System.Drawing.Size(186, 26);
             this.mởFolderBackupToolStripMenuItem.Text = "Folder Backup";
             this.mởFolderBackupToolStripMenuItem.Click += new System.EventHandler(this.mởThưMụcBackupToolStripMenuItem_Click);
             // 
@@ -4751,34 +4787,34 @@ namespace maxcare
             this.htmlToolStripMenuItem,
             this.thưMụcToolStripMenuItem});
             this.backupToolStripMenuItem1.Name = "backupToolStripMenuItem1";
-            this.backupToolStripMenuItem1.Size = new System.Drawing.Size(183, 22);
+            this.backupToolStripMenuItem1.Size = new System.Drawing.Size(228, 26);
             this.backupToolStripMenuItem1.Text = "Copy dữ liệu Backup";
             // 
             // htmlToolStripMenuItem
             // 
             this.htmlToolStripMenuItem.Name = "htmlToolStripMenuItem";
-            this.htmlToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
+            this.htmlToolStripMenuItem.Size = new System.Drawing.Size(186, 26);
             this.htmlToolStripMenuItem.Text = "File HTML";
             this.htmlToolStripMenuItem.Click += new System.EventHandler(this.htmlToolStripMenuItem_Click);
             // 
             // thưMụcToolStripMenuItem
             // 
             this.thưMụcToolStripMenuItem.Name = "thưMụcToolStripMenuItem";
-            this.thưMụcToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
+            this.thưMụcToolStripMenuItem.Size = new System.Drawing.Size(186, 26);
             this.thưMụcToolStripMenuItem.Text = "Folder Backup";
             this.thưMụcToolStripMenuItem.Click += new System.EventHandler(this.thưMụcToolStripMenuItem_Click_1);
             // 
             // xóaDữLiệuBackupToolStripMenuItem
             // 
             this.xóaDữLiệuBackupToolStripMenuItem.Name = "xóaDữLiệuBackupToolStripMenuItem";
-            this.xóaDữLiệuBackupToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.xóaDữLiệuBackupToolStripMenuItem.Size = new System.Drawing.Size(228, 26);
             this.xóaDữLiệuBackupToolStripMenuItem.Text = "Xóa dữ liệu Backup";
             this.xóaDữLiệuBackupToolStripMenuItem.Click += new System.EventHandler(this.xóaDữLiệuBackupToolStripMenuItem_Click);
             // 
             // tảiLạiDanhSáchToolStripMenuItem
             // 
             this.tảiLạiDanhSáchToolStripMenuItem.Name = "tảiLạiDanhSáchToolStripMenuItem";
-            this.tảiLạiDanhSáchToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.tảiLạiDanhSáchToolStripMenuItem.Size = new System.Drawing.Size(231, 24);
             this.tảiLạiDanhSáchToolStripMenuItem.Text = "Tải lại danh sách";
             this.tảiLạiDanhSáchToolStripMenuItem.Click += new System.EventHandler(this.TảiLạiDanhSáchToolStripMenuItem_Click);
             // 
@@ -4799,17 +4835,19 @@ namespace maxcare
             this.pnlHeader.Controls.Add(this.btnMinimize);
             this.pnlHeader.Controls.Add(this.bunifuCustomLabel1);
             this.pnlHeader.Cursor = System.Windows.Forms.Cursors.SizeAll;
-            this.pnlHeader.Location = new System.Drawing.Point(0, 5);
+            this.pnlHeader.Location = new System.Drawing.Point(0, 6);
+            this.pnlHeader.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.Size = new System.Drawing.Size(1203, 29);
+            this.pnlHeader.Size = new System.Drawing.Size(1604, 36);
             this.pnlHeader.TabIndex = 0;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(-10, 8);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(34, 27);
+            this.pictureBox1.Size = new System.Drawing.Size(45, 33);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
@@ -4824,9 +4862,10 @@ namespace maxcare
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(1107, 0);
+            this.button2.Location = new System.Drawing.Point(1475, 0);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(32, 29);
+            this.button2.Size = new System.Drawing.Size(43, 36);
             this.button2.TabIndex = 0;
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = true;
@@ -4840,9 +4879,10 @@ namespace maxcare
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(1139, 0);
+            this.button1.Location = new System.Drawing.Point(1518, 0);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(32, 29);
+            this.button1.Size = new System.Drawing.Size(43, 36);
             this.button1.TabIndex = 1;
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = true;
@@ -4856,9 +4896,11 @@ namespace maxcare
             this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinimize.ForeColor = System.Drawing.Color.White;
-            this.btnMinimize.Location = new System.Drawing.Point(1171, 0);
+            this.btnMinimize.Image = global::MaxCare.Properties.Resources.minimize_window_25px;
+            this.btnMinimize.Location = new System.Drawing.Point(1561, 0);
+            this.btnMinimize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(32, 29);
+            this.btnMinimize.Size = new System.Drawing.Size(43, 36);
             this.btnMinimize.TabIndex = 2;
             this.btnMinimize.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnMinimize.UseVisualStyleBackColor = true;
@@ -4871,9 +4913,10 @@ namespace maxcare
             this.bunifuCustomLabel1.Cursor = System.Windows.Forms.Cursors.SizeAll;
             this.bunifuCustomLabel1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.Black;
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(43, 6);
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(57, 7);
+            this.bunifuCustomLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(185, 16);
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(246, 21);
             this.bunifuCustomLabel1.TabIndex = 3;
             this.bunifuCustomLabel1.Text = "Danh sách tài khoản đã xóa";
             // 
@@ -4887,10 +4930,11 @@ namespace maxcare
             this.bunifuCards1.Dock = System.Windows.Forms.DockStyle.Top;
             this.bunifuCards1.LeftSahddow = false;
             this.bunifuCards1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuCards1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuCards1.Name = "bunifuCards1";
             this.bunifuCards1.RightSahddow = true;
             this.bunifuCards1.ShadowDepth = 20;
-            this.bunifuCards1.Size = new System.Drawing.Size(1204, 38);
+            this.bunifuCards1.Size = new System.Drawing.Size(1605, 47);
             this.bunifuCards1.TabIndex = 0;
             // 
             // menuStrip1
@@ -4900,12 +4944,13 @@ namespace maxcare
             this.menuStrip1.AutoSize = false;
             this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
             this.menuStrip1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.thoátToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 37);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 46);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menuStrip1.Size = new System.Drawing.Size(1201, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(1601, 31);
             this.menuStrip1.Stretch = false;
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
@@ -4914,7 +4959,7 @@ namespace maxcare
             // thoátToolStripMenuItem
             // 
             this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
-            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(115, 21);
+            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(148, 27);
             this.thoátToolStripMenuItem.Text = "Cấu hình hiển thị";
             this.thoátToolStripMenuItem.Click += new System.EventHandler(this.câuHinhHiênThiToolStripMenuItem_Click);
             // 
@@ -4926,9 +4971,11 @@ namespace maxcare
             this.grQuanLyThuMuc.Controls.Add(this.label2);
             this.grQuanLyThuMuc.Controls.Add(this.label1);
             this.grQuanLyThuMuc.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grQuanLyThuMuc.Location = new System.Drawing.Point(292, 65);
+            this.grQuanLyThuMuc.Location = new System.Drawing.Point(389, 80);
+            this.grQuanLyThuMuc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.grQuanLyThuMuc.Name = "grQuanLyThuMuc";
-            this.grQuanLyThuMuc.Size = new System.Drawing.Size(445, 53);
+            this.grQuanLyThuMuc.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grQuanLyThuMuc.Size = new System.Drawing.Size(593, 65);
             this.grQuanLyThuMuc.TabIndex = 5;
             this.grQuanLyThuMuc.TabStop = false;
             this.grQuanLyThuMuc.Text = "Quản lý thư mục";
@@ -4937,9 +4984,10 @@ namespace maxcare
             // 
             this.btnLoadAcc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnLoadAcc.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLoadAcc.Location = new System.Drawing.Point(416, 19);
+            this.btnLoadAcc.Location = new System.Drawing.Point(555, 23);
+            this.btnLoadAcc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLoadAcc.Name = "btnLoadAcc";
-            this.btnLoadAcc.Size = new System.Drawing.Size(25, 25);
+            this.btnLoadAcc.Size = new System.Drawing.Size(33, 31);
             this.btnLoadAcc.TabIndex = 6;
             this.toolTip1.SetToolTip(this.btnLoadAcc, "Load lại danh sách");
             this.btnLoadAcc.UseSelectable = true;
@@ -4951,12 +4999,13 @@ namespace maxcare
             this.cbbTinhTrang.DropDownWidth = 300;
             this.cbbTinhTrang.FontSize = MetroFramework.MetroComboBoxSize.Small;
             this.cbbTinhTrang.FormattingEnabled = true;
-            this.cbbTinhTrang.ItemHeight = 19;
+            this.cbbTinhTrang.ItemHeight = 21;
             this.cbbTinhTrang.Items.AddRange(new object[] {
             "[Tất cả tình trạng]"});
-            this.cbbTinhTrang.Location = new System.Drawing.Point(289, 19);
+            this.cbbTinhTrang.Location = new System.Drawing.Point(385, 23);
+            this.cbbTinhTrang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbbTinhTrang.Name = "cbbTinhTrang";
-            this.cbbTinhTrang.Size = new System.Drawing.Size(121, 25);
+            this.cbbTinhTrang.Size = new System.Drawing.Size(160, 27);
             this.cbbTinhTrang.TabIndex = 3;
             this.cbbTinhTrang.UseSelectable = true;
             this.cbbTinhTrang.SelectedIndexChanged += new System.EventHandler(this.cbbTinhTrang_SelectedIndexChanged);
@@ -4967,12 +5016,13 @@ namespace maxcare
             this.cbbThuMuc.DropDownWidth = 350;
             this.cbbThuMuc.FontSize = MetroFramework.MetroComboBoxSize.Small;
             this.cbbThuMuc.FormattingEnabled = true;
-            this.cbbThuMuc.ItemHeight = 19;
+            this.cbbThuMuc.ItemHeight = 21;
             this.cbbThuMuc.Items.AddRange(new object[] {
             "[Tất cả thư mục]"});
-            this.cbbThuMuc.Location = new System.Drawing.Point(72, 19);
+            this.cbbThuMuc.Location = new System.Drawing.Point(96, 23);
+            this.cbbThuMuc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbbThuMuc.Name = "cbbThuMuc";
-            this.cbbThuMuc.Size = new System.Drawing.Size(173, 25);
+            this.cbbThuMuc.Size = new System.Drawing.Size(229, 27);
             this.cbbThuMuc.TabIndex = 1;
             this.cbbThuMuc.UseSelectable = true;
             this.cbbThuMuc.SelectedIndexChanged += new System.EventHandler(this.CbbFileAccount_SelectedIndexChanged);
@@ -4980,9 +5030,10 @@ namespace maxcare
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(249, 22);
+            this.label2.Location = new System.Drawing.Point(332, 27);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 16);
+            this.label2.Size = new System.Drawing.Size(56, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "Lọc:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -4990,9 +5041,10 @@ namespace maxcare
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(8, 23);
+            this.label1.Location = new System.Drawing.Point(11, 28);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 16);
+            this.label1.Size = new System.Drawing.Size(85, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Thư mục:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -5003,9 +5055,11 @@ namespace maxcare
             this.grTimKiem.Controls.Add(this.cbbSearch);
             this.grTimKiem.Controls.Add(this.txbSearch);
             this.grTimKiem.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grTimKiem.Location = new System.Drawing.Point(2, 65);
+            this.grTimKiem.Location = new System.Drawing.Point(3, 80);
+            this.grTimKiem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.grTimKiem.Name = "grTimKiem";
-            this.grTimKiem.Size = new System.Drawing.Size(284, 53);
+            this.grTimKiem.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grTimKiem.Size = new System.Drawing.Size(379, 65);
             this.grTimKiem.TabIndex = 4;
             this.grTimKiem.TabStop = false;
             this.grTimKiem.Text = "Tìm kiếm";
@@ -5014,9 +5068,10 @@ namespace maxcare
             // 
             this.BtnSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.BtnSearch.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnSearch.Location = new System.Drawing.Point(253, 18);
+            this.BtnSearch.Location = new System.Drawing.Point(337, 22);
+            this.BtnSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnSearch.Name = "BtnSearch";
-            this.BtnSearch.Size = new System.Drawing.Size(24, 24);
+            this.BtnSearch.Size = new System.Drawing.Size(32, 30);
             this.BtnSearch.TabIndex = 2;
             this.BtnSearch.UseSelectable = true;
             this.BtnSearch.Click += new System.EventHandler(this.BtnSearch_Click);
@@ -5027,17 +5082,19 @@ namespace maxcare
             this.cbbSearch.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbbSearch.DropDownWidth = 100;
             this.cbbSearch.FormattingEnabled = true;
-            this.cbbSearch.Location = new System.Drawing.Point(12, 18);
+            this.cbbSearch.Location = new System.Drawing.Point(16, 22);
+            this.cbbSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbbSearch.Name = "cbbSearch";
-            this.cbbSearch.Size = new System.Drawing.Size(86, 24);
+            this.cbbSearch.Size = new System.Drawing.Size(113, 27);
             this.cbbSearch.TabIndex = 0;
             // 
             // txbSearch
             // 
             this.txbSearch.BorderColor = System.Drawing.Color.SeaGreen;
-            this.txbSearch.Location = new System.Drawing.Point(104, 19);
+            this.txbSearch.Location = new System.Drawing.Point(139, 23);
+            this.txbSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txbSearch.Name = "txbSearch";
-            this.txbSearch.Size = new System.Drawing.Size(143, 23);
+            this.txbSearch.Size = new System.Drawing.Size(189, 27);
             this.txbSearch.TabIndex = 1;
             // 
             // bunifuDragControl2
@@ -5058,14 +5115,16 @@ namespace maxcare
             // 
             this.statusStrip1.BackColor = System.Drawing.SystemColors.Control;
             this.statusStrip1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel5,
             this.lblCountSelect,
             this.toolStripStatusLabel7,
             this.lblCountTotal});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 588);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 724);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1204, 22);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(1605, 27);
             this.statusStrip1.TabIndex = 11;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -5073,7 +5132,7 @@ namespace maxcare
             // 
             this.toolStripStatusLabel5.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripStatusLabel5.Name = "toolStripStatusLabel5";
-            this.toolStripStatusLabel5.Size = new System.Drawing.Size(65, 17);
+            this.toolStripStatusLabel5.Size = new System.Drawing.Size(86, 21);
             this.toolStripStatusLabel5.Text = "Đã chọn:";
             // 
             // lblCountSelect
@@ -5081,14 +5140,14 @@ namespace maxcare
             this.lblCountSelect.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCountSelect.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.lblCountSelect.Name = "lblCountSelect";
-            this.lblCountSelect.Size = new System.Drawing.Size(15, 17);
+            this.lblCountSelect.Size = new System.Drawing.Size(21, 21);
             this.lblCountSelect.Text = "0";
             // 
             // toolStripStatusLabel7
             // 
             this.toolStripStatusLabel7.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripStatusLabel7.Name = "toolStripStatusLabel7";
-            this.toolStripStatusLabel7.Size = new System.Drawing.Size(52, 17);
+            this.toolStripStatusLabel7.Size = new System.Drawing.Size(67, 21);
             this.toolStripStatusLabel7.Text = "Tất cả:";
             // 
             // lblCountTotal
@@ -5096,7 +5155,7 @@ namespace maxcare
             this.lblCountTotal.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCountTotal.ForeColor = System.Drawing.Color.Maroon;
             this.lblCountTotal.Name = "lblCountTotal";
-            this.lblCountTotal.Size = new System.Drawing.Size(15, 17);
+            this.lblCountTotal.Size = new System.Drawing.Size(21, 21);
             this.lblCountTotal.Text = "0";
             // 
             // button9
@@ -5106,9 +5165,10 @@ namespace maxcare
             this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button9.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.Location = new System.Drawing.Point(836, 78);
+            this.button9.Location = new System.Drawing.Point(1115, 96);
+            this.button9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(158, 34);
+            this.button9.Size = new System.Drawing.Size(211, 42);
             this.button9.TabIndex = 12;
             this.button9.Text = "Khôi phục tài khoản";
             this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -5122,9 +5182,10 @@ namespace maxcare
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(1000, 78);
+            this.button3.Location = new System.Drawing.Point(1333, 96);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(201, 34);
+            this.button3.Size = new System.Drawing.Size(268, 42);
             this.button3.TabIndex = 12;
             this.button3.Text = "Xóa tài khoản vĩnh viễn";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -5137,9 +5198,10 @@ namespace maxcare
             this.label3.BackColor = System.Drawing.SystemColors.Control;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(688, 591);
+            this.label3.Location = new System.Drawing.Point(917, 727);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(515, 16);
+            this.label3.Size = new System.Drawing.Size(687, 20);
             this.label3.TabIndex = 13;
             this.label3.Text = "[Bôi đen nhiều dòng rồi nhấn phím Space] hoặc [Click đúp vào tài khoản] để tích c" +
     "họn!";
@@ -5148,10 +5210,10 @@ namespace maxcare
             // 
             // fbin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1204, 610);
+            this.ClientSize = new System.Drawing.Size(1605, 751);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button9);
@@ -5163,6 +5225,7 @@ namespace maxcare
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "fbin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MAX CARE";

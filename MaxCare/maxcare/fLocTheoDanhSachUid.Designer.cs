@@ -44,10 +44,11 @@
             this.bunifuCards1.Dock = System.Windows.Forms.DockStyle.Top;
             this.bunifuCards1.LeftSahddow = false;
             this.bunifuCards1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuCards1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuCards1.Name = "bunifuCards1";
             this.bunifuCards1.RightSahddow = true;
             this.bunifuCards1.ShadowDepth = 20;
-            this.bunifuCards1.Size = new System.Drawing.Size(477, 38);
+            this.bunifuCards1.Size = new System.Drawing.Size(636, 47);
             this.bunifuCards1.TabIndex = 0;
             // 
             // pnlHeader
@@ -57,17 +58,19 @@
             this.pnlHeader.Controls.Add(this.pictureBox1);
             this.pnlHeader.Controls.Add(this.btnMinimize);
             this.pnlHeader.Controls.Add(this.bunifuCustomLabel1);
-            this.pnlHeader.Location = new System.Drawing.Point(0, 5);
+            this.pnlHeader.Location = new System.Drawing.Point(0, 6);
+            this.pnlHeader.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.Size = new System.Drawing.Size(477, 32);
+            this.pnlHeader.Size = new System.Drawing.Size(636, 39);
             this.pnlHeader.TabIndex = 9;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureBox1.Location = new System.Drawing.Point(4, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(5, 1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(34, 27);
+            this.pictureBox1.Size = new System.Drawing.Size(45, 33);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 77;
             this.pictureBox1.TabStop = false;
@@ -80,9 +83,11 @@
             this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinimize.ForeColor = System.Drawing.Color.White;
-            this.btnMinimize.Location = new System.Drawing.Point(445, 0);
+            this.btnMinimize.Image = global::MaxCare.Properties.Resources.close_window_25px;
+            this.btnMinimize.Location = new System.Drawing.Point(593, 0);
+            this.btnMinimize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(32, 32);
+            this.btnMinimize.Size = new System.Drawing.Size(43, 39);
             this.btnMinimize.TabIndex = 9;
             this.btnMinimize.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnMinimize.UseVisualStyleBackColor = true;
@@ -96,8 +101,9 @@
             this.bunifuCustomLabel1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.Black;
             this.bunifuCustomLabel1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuCustomLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(477, 32);
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(636, 39);
             this.bunifuCustomLabel1.TabIndex = 1;
             this.bunifuCustomLabel1.Text = "Nhập Danh sách UID cần lọc";
             this.bunifuCustomLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -111,9 +117,10 @@
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(245, 280);
+            this.btnCancel.Location = new System.Drawing.Point(327, 345);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(92, 29);
+            this.btnCancel.Size = new System.Drawing.Size(123, 36);
             this.btnCancel.TabIndex = 4;
             this.btnCancel.Text = "Đóng";
             this.btnCancel.UseVisualStyleBackColor = false;
@@ -128,9 +135,10 @@
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdd.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.Color.White;
-            this.btnAdd.Location = new System.Drawing.Point(136, 280);
+            this.btnAdd.Location = new System.Drawing.Point(181, 345);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(92, 29);
+            this.btnAdd.Size = new System.Drawing.Size(123, 36);
             this.btnAdd.TabIndex = 3;
             this.btnAdd.Text = "Xác nhận";
             this.btnAdd.UseVisualStyleBackColor = false;
@@ -147,9 +155,10 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(31, 250);
+            this.label8.Location = new System.Drawing.Point(41, 308);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(104, 16);
+            this.label8.Size = new System.Drawing.Size(139, 21);
             this.label8.TabIndex = 5;
             this.label8.Text = "(Mỗi UID 1 dòng)";
             // 
@@ -157,9 +166,10 @@
             // 
             this.lblStatus.AutoSize = true;
             this.lblStatus.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStatus.Location = new System.Drawing.Point(30, 47);
+            this.lblStatus.Location = new System.Drawing.Point(40, 58);
+            this.lblStatus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(116, 16);
+            this.lblStatus.Size = new System.Drawing.Size(156, 21);
             this.lblStatus.TabIndex = 6;
             this.lblStatus.Text = "Danh sách UID (0):";
             // 
@@ -167,9 +177,10 @@
             // 
             this.txtUseragent.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtUseragent.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUseragent.Location = new System.Drawing.Point(34, 66);
+            this.txtUseragent.Location = new System.Drawing.Point(45, 81);
+            this.txtUseragent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtUseragent.Name = "txtUseragent";
-            this.txtUseragent.Size = new System.Drawing.Size(409, 181);
+            this.txtUseragent.Size = new System.Drawing.Size(544, 222);
             this.txtUseragent.TabIndex = 118;
             this.txtUseragent.Text = "";
             this.txtUseragent.WordWrap = false;
@@ -177,9 +188,9 @@
             // 
             // fLocTheoDanhSachUid
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(477, 323);
+            this.ClientSize = new System.Drawing.Size(636, 398);
             this.Controls.Add(this.txtUseragent);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.lblStatus);
@@ -187,6 +198,7 @@
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.bunifuCards1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "fLocTheoDanhSachUid";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "fAddFile";

@@ -218,135 +218,173 @@ namespace maxcare
 
 		private void InitializeComponent()
 		{
-			components = new System.ComponentModel.Container();
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(maxcare.fClearBackup));
-			bunifuCards1 = new Bunifu.Framework.UI.BunifuCards();
-			pnlHeader = new System.Windows.Forms.Panel();
-			pictureBox1 = new System.Windows.Forms.PictureBox();
-			btnMinimize = new System.Windows.Forms.Button();
-			bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
-			btnCancel = new System.Windows.Forms.Button();
-			btnAdd = new System.Windows.Forms.Button();
-			bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(components);
-			lblStatus = new Bunifu.Framework.UI.BunifuCustomLabel();
-			bunifuCards1.SuspendLayout();
-			pnlHeader.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-			SuspendLayout();
-			bunifuCards1.BackColor = System.Drawing.Color.White;
-			bunifuCards1.BorderRadius = 0;
-			bunifuCards1.BottomSahddow = true;
-			bunifuCards1.color = System.Drawing.Color.SaddleBrown;
-			bunifuCards1.Controls.Add(pnlHeader);
-			bunifuCards1.Dock = System.Windows.Forms.DockStyle.Top;
-			bunifuCards1.LeftSahddow = false;
-			bunifuCards1.Location = new System.Drawing.Point(0, 0);
-			bunifuCards1.Name = "bunifuCards1";
-			bunifuCards1.RightSahddow = true;
-			bunifuCards1.ShadowDepth = 20;
-			bunifuCards1.Size = new System.Drawing.Size(396, 38);
-			bunifuCards1.TabIndex = 0;
-			pnlHeader.Anchor = System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-			pnlHeader.BackColor = System.Drawing.Color.White;
-			pnlHeader.Controls.Add(pictureBox1);
-			pnlHeader.Controls.Add(btnMinimize);
-			pnlHeader.Controls.Add(bunifuCustomLabel1);
-			pnlHeader.Location = new System.Drawing.Point(0, 5);
-			pnlHeader.Name = "pnlHeader";
-			pnlHeader.Size = new System.Drawing.Size(396, 32);
-			pnlHeader.TabIndex = 9;
-			pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
-			pictureBox1.Image = (System.Drawing.Image)resources.GetObject("pictureBox1.Image");
-			pictureBox1.Location = new System.Drawing.Point(3, 2);
-			pictureBox1.Name = "pictureBox1";
-			pictureBox1.Size = new System.Drawing.Size(34, 27);
-			pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-			pictureBox1.TabIndex = 17;
-			pictureBox1.TabStop = false;
-			btnMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
-			btnMinimize.Dock = System.Windows.Forms.DockStyle.Right;
-			btnMinimize.FlatAppearance.BorderSize = 0;
-			btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			btnMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-			btnMinimize.ForeColor = System.Drawing.Color.White;
-			btnMinimize.Image = (System.Drawing.Image)resources.GetObject("btnMinimize.Image");
-			btnMinimize.Location = new System.Drawing.Point(364, 0);
-			btnMinimize.Name = "btnMinimize";
-			btnMinimize.Size = new System.Drawing.Size(32, 32);
-			btnMinimize.TabIndex = 9;
-			btnMinimize.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-			btnMinimize.UseVisualStyleBackColor = true;
-			btnMinimize.Click += new System.EventHandler(BtnMinimize_Click);
-			bunifuCustomLabel1.BackColor = System.Drawing.Color.Transparent;
-			bunifuCustomLabel1.Cursor = System.Windows.Forms.Cursors.SizeAll;
-			bunifuCustomLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
-			bunifuCustomLabel1.Font = new System.Drawing.Font("Tahoma", 9.75f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-			bunifuCustomLabel1.ForeColor = System.Drawing.Color.Black;
-			bunifuCustomLabel1.Location = new System.Drawing.Point(0, 0);
-			bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-			bunifuCustomLabel1.Size = new System.Drawing.Size(396, 32);
-			bunifuCustomLabel1.TabIndex = 1;
-			bunifuCustomLabel1.Text = "Dọn dẹp backup";
-			bunifuCustomLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			btnCancel.BackColor = System.Drawing.Color.Maroon;
-			btnCancel.Cursor = System.Windows.Forms.Cursors.Hand;
-			btnCancel.FlatAppearance.BorderSize = 0;
-			btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			btnCancel.Font = new System.Drawing.Font("Tahoma", 9.75f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-			btnCancel.ForeColor = System.Drawing.Color.White;
-			btnCancel.Location = new System.Drawing.Point(204, 105);
-			btnCancel.Name = "btnCancel";
-			btnCancel.Size = new System.Drawing.Size(92, 29);
-			btnCancel.TabIndex = 4;
-			btnCancel.Text = "Hủy";
-			btnCancel.UseVisualStyleBackColor = false;
-			btnCancel.Visible = false;
-			btnCancel.Click += new System.EventHandler(BtnCancel_Click);
-			btnAdd.BackColor = System.Drawing.Color.FromArgb(53, 120, 229);
-			btnAdd.Cursor = System.Windows.Forms.Cursors.Hand;
-			btnAdd.FlatAppearance.BorderSize = 0;
-			btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			btnAdd.Font = new System.Drawing.Font("Tahoma", 9.75f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-			btnAdd.ForeColor = System.Drawing.Color.White;
-			btnAdd.Location = new System.Drawing.Point(100, 105);
-			btnAdd.Name = "btnAdd";
-			btnAdd.Size = new System.Drawing.Size(92, 29);
-			btnAdd.TabIndex = 3;
-			btnAdd.Text = "Đồng ý";
-			btnAdd.UseVisualStyleBackColor = false;
-			btnAdd.Visible = false;
-			btnAdd.Click += new System.EventHandler(BtnAdd_Click);
-			bunifuDragControl1.Fixed = true;
-			bunifuDragControl1.Horizontal = true;
-			bunifuDragControl1.TargetControl = bunifuCustomLabel1;
-			bunifuDragControl1.Vertical = true;
-			lblStatus.BackColor = System.Drawing.Color.Transparent;
-			lblStatus.Cursor = System.Windows.Forms.Cursors.SizeAll;
-			lblStatus.Font = new System.Drawing.Font("Tahoma", 9.75f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-			lblStatus.ForeColor = System.Drawing.Color.Black;
-			lblStatus.Location = new System.Drawing.Point(-1, 57);
-			lblStatus.Name = "lblStatus";
-			lblStatus.Size = new System.Drawing.Size(396, 32);
-			lblStatus.TabIndex = 21;
-			lblStatus.Text = "Đang quét file backup...";
-			lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			lblStatus.Click += new System.EventHandler(bunifuCustomLabel2_Click);
-			base.AutoScaleDimensions = new System.Drawing.SizeF(6f, 13f);
-			base.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			base.ClientSize = new System.Drawing.Size(396, 145);
-			base.Controls.Add(lblStatus);
-			base.Controls.Add(btnCancel);
-			base.Controls.Add(btnAdd);
-			base.Controls.Add(bunifuCards1);
-			base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-			base.Name = "fClearBackup";
-			base.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-			Text = "fAddFile";
-			base.Load += new System.EventHandler(fClearProfile_Load);
-			bunifuCards1.ResumeLayout(false);
-			pnlHeader.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-			ResumeLayout(false);
+            this.components = new System.ComponentModel.Container();
+            this.bunifuCards1 = new Bunifu.Framework.UI.BunifuCards();
+            this.pnlHeader = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnMinimize = new System.Windows.Forms.Button();
+            this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.lblStatus = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCards1.SuspendLayout();
+            this.pnlHeader.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // bunifuCards1
+            // 
+            this.bunifuCards1.BackColor = System.Drawing.Color.White;
+            this.bunifuCards1.BorderRadius = 0;
+            this.bunifuCards1.BottomSahddow = true;
+            this.bunifuCards1.color = System.Drawing.Color.SaddleBrown;
+            this.bunifuCards1.Controls.Add(this.pnlHeader);
+            this.bunifuCards1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bunifuCards1.LeftSahddow = false;
+            this.bunifuCards1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuCards1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuCards1.Name = "bunifuCards1";
+            this.bunifuCards1.RightSahddow = true;
+            this.bunifuCards1.ShadowDepth = 20;
+            this.bunifuCards1.Size = new System.Drawing.Size(528, 47);
+            this.bunifuCards1.TabIndex = 0;
+            // 
+            // pnlHeader
+            // 
+            this.pnlHeader.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlHeader.BackColor = System.Drawing.Color.White;
+            this.pnlHeader.Controls.Add(this.pictureBox1);
+            this.pnlHeader.Controls.Add(this.btnMinimize);
+            this.pnlHeader.Controls.Add(this.bunifuCustomLabel1);
+            this.pnlHeader.Location = new System.Drawing.Point(0, 6);
+            this.pnlHeader.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlHeader.Name = "pnlHeader";
+            this.pnlHeader.Size = new System.Drawing.Size(528, 39);
+            this.pnlHeader.TabIndex = 9;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox1.Location = new System.Drawing.Point(4, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(45, 33);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnMinimize
+            // 
+            this.btnMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMinimize.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnMinimize.FlatAppearance.BorderSize = 0;
+            this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMinimize.ForeColor = System.Drawing.Color.White;
+            this.btnMinimize.Image = global::MaxCare.Properties.Resources.close_window_25px;
+            this.btnMinimize.Location = new System.Drawing.Point(485, 0);
+            this.btnMinimize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMinimize.Name = "btnMinimize";
+            this.btnMinimize.Size = new System.Drawing.Size(43, 39);
+            this.btnMinimize.TabIndex = 9;
+            this.btnMinimize.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnMinimize.UseVisualStyleBackColor = true;
+            this.btnMinimize.Click += new System.EventHandler(this.BtnMinimize_Click);
+            // 
+            // bunifuCustomLabel1
+            // 
+            this.bunifuCustomLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuCustomLabel1.Cursor = System.Windows.Forms.Cursors.SizeAll;
+            this.bunifuCustomLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuCustomLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(528, 39);
+            this.bunifuCustomLabel1.TabIndex = 1;
+            this.bunifuCustomLabel1.Text = "Dọn dẹp backup";
+            this.bunifuCustomLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.BackColor = System.Drawing.Color.Maroon;
+            this.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCancel.FlatAppearance.BorderSize = 0;
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.ForeColor = System.Drawing.Color.White;
+            this.btnCancel.Location = new System.Drawing.Point(272, 129);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(123, 36);
+            this.btnCancel.TabIndex = 4;
+            this.btnCancel.Text = "Hủy";
+            this.btnCancel.UseVisualStyleBackColor = false;
+            this.btnCancel.Visible = false;
+            this.btnCancel.Click += new System.EventHandler(this.BtnCancel_Click);
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(120)))), ((int)(((byte)(229)))));
+            this.btnAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAdd.FlatAppearance.BorderSize = 0;
+            this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdd.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.ForeColor = System.Drawing.Color.White;
+            this.btnAdd.Location = new System.Drawing.Point(133, 129);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(123, 36);
+            this.btnAdd.TabIndex = 3;
+            this.btnAdd.Text = "Đồng ý";
+            this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Visible = false;
+            this.btnAdd.Click += new System.EventHandler(this.BtnAdd_Click);
+            // 
+            // bunifuDragControl1
+            // 
+            this.bunifuDragControl1.Fixed = true;
+            this.bunifuDragControl1.Horizontal = true;
+            this.bunifuDragControl1.TargetControl = this.bunifuCustomLabel1;
+            this.bunifuDragControl1.Vertical = true;
+            // 
+            // lblStatus
+            // 
+            this.lblStatus.BackColor = System.Drawing.Color.Transparent;
+            this.lblStatus.Cursor = System.Windows.Forms.Cursors.SizeAll;
+            this.lblStatus.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStatus.ForeColor = System.Drawing.Color.Black;
+            this.lblStatus.Location = new System.Drawing.Point(-1, 70);
+            this.lblStatus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(528, 39);
+            this.lblStatus.TabIndex = 21;
+            this.lblStatus.Text = "Đang quét file backup...";
+            this.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblStatus.Click += new System.EventHandler(this.bunifuCustomLabel2_Click);
+            // 
+            // fclearBackup
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(528, 178);
+            this.Controls.Add(this.lblStatus);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.bunifuCards1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "fclearBackup";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "fAddFile";
+            this.Load += new System.EventHandler(this.fClearProfile_Load);
+            this.bunifuCards1.ResumeLayout(false);
+            this.pnlHeader.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+
 		}
 	}
 

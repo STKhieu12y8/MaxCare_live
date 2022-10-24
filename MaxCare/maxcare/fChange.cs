@@ -4872,498 +4872,779 @@ namespace maxcare
 
 		private void InitializeComponent()
 		{
-			components = new System.ComponentModel.Container();
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(maxcare.fChange));
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-			tấtCảToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			liveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			dieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			checkpointToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			changePasswordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			đăngNhậpProfileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			cookieToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-			uidPassToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-			đăngNhậpTrìnhDuyệtMớiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			cookieToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-			uidPassToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-			tokenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			cookieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			uidToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			passToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			uidPassToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			uidPassTokenCookieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			danhSáchChọnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			danhSáchKhôngChọnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			giữNguyênỞThưMụcCũToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			mnsCutAccount = new System.Windows.Forms.ToolStripMenuItem();
-			kiểmTraTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			kiểmTraCookieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			kiểmTraTokenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			backupTokenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			backupCookieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			backupCookieTrungGianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			mậtKhẩuToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-			nhậpDữLiệuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			tokenToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-			tựĐộngLấyToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-			tokenBussinessToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			tokenInstagramToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-			tokenIosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			tokenAndroidToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-			nhậpDữLiệuToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-			cookieToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-			tựĐộngLấyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			nhậpDữLiệuToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-			bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(components);
-			pnlHeader = new System.Windows.Forms.Panel();
-			button2 = new System.Windows.Forms.Button();
-			button1 = new System.Windows.Forms.Button();
-			btnMinimize = new System.Windows.Forms.Button();
-			pictureBox1 = new System.Windows.Forms.PictureBox();
-			bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
-			bunifuDragControl2 = new Bunifu.Framework.UI.BunifuDragControl(components);
-			bunifuCards1 = new Bunifu.Framework.UI.BunifuCards();
-			panel3 = new System.Windows.Forms.Panel();
-			lblChoosed = new Bunifu.Framework.UI.BunifuCustomLabel();
-			bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
-			lblCountAcc = new System.Windows.Forms.Label();
-			label7 = new System.Windows.Forms.Label();
-			ctmsAcc = new System.Windows.Forms.ContextMenuStrip(components);
-			chọnTấtCảToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			bỏChọnTấtCảToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			ctmsChonTrangThai = new System.Windows.Forms.ToolStripMenuItem();
-			xóaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			dtgvAcc = new System.Windows.Forms.DataGridView();
-			btnConfig = new System.Windows.Forms.Button();
-			btnPause = new System.Windows.Forms.Button();
-			btnStart = new System.Windows.Forms.Button();
-			button3 = new System.Windows.Forms.Button();
-			cChose = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-			cStt = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			cId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			cUid = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			cCookies = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			cName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			cBirthday = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			cGender = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			cPassword = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			cFa2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			cUseragent = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			cProxy = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			cInfo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			cStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			pnlHeader.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-			bunifuCards1.SuspendLayout();
-			ctmsAcc.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)dtgvAcc).BeginInit();
-			SuspendLayout();
-			tấtCảToolStripMenuItem.Name = "tấtCảToolStripMenuItem";
-			tấtCảToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			liveToolStripMenuItem.Name = "liveToolStripMenuItem";
-			liveToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			dieToolStripMenuItem.Name = "dieToolStripMenuItem";
-			dieToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			checkpointToolStripMenuItem.Name = "checkpointToolStripMenuItem";
-			checkpointToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			changePasswordToolStripMenuItem.Name = "changePasswordToolStripMenuItem";
-			changePasswordToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			đăngNhậpProfileToolStripMenuItem.Name = "đăngNhậpProfileToolStripMenuItem";
-			đăngNhậpProfileToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			cookieToolStripMenuItem1.Name = "cookieToolStripMenuItem1";
-			cookieToolStripMenuItem1.Size = new System.Drawing.Size(32, 19);
-			uidPassToolStripMenuItem1.Name = "uidPassToolStripMenuItem1";
-			uidPassToolStripMenuItem1.Size = new System.Drawing.Size(32, 19);
-			đăngNhậpTrìnhDuyệtMớiToolStripMenuItem.Name = "đăngNhậpTrìnhDuyệtMớiToolStripMenuItem";
-			đăngNhậpTrìnhDuyệtMớiToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			cookieToolStripMenuItem2.Name = "cookieToolStripMenuItem2";
-			cookieToolStripMenuItem2.Size = new System.Drawing.Size(32, 19);
-			uidPassToolStripMenuItem2.Name = "uidPassToolStripMenuItem2";
-			uidPassToolStripMenuItem2.Size = new System.Drawing.Size(32, 19);
-			tokenToolStripMenuItem.Name = "tokenToolStripMenuItem";
-			tokenToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			cookieToolStripMenuItem.Name = "cookieToolStripMenuItem";
-			cookieToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			uidToolStripMenuItem.Name = "uidToolStripMenuItem";
-			uidToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			passToolStripMenuItem.Name = "passToolStripMenuItem";
-			passToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			uidPassToolStripMenuItem.Name = "uidPassToolStripMenuItem";
-			uidPassToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			uidPassTokenCookieToolStripMenuItem.Name = "uidPassTokenCookieToolStripMenuItem";
-			uidPassTokenCookieToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			danhSáchChọnToolStripMenuItem.Name = "danhSáchChọnToolStripMenuItem";
-			danhSáchChọnToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			danhSáchKhôngChọnToolStripMenuItem.Name = "danhSáchKhôngChọnToolStripMenuItem";
-			danhSáchKhôngChọnToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			giữNguyênỞThưMụcCũToolStripMenuItem.Name = "giữNguyênỞThưMụcCũToolStripMenuItem";
-			giữNguyênỞThưMụcCũToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			mnsCutAccount.Name = "mnsCutAccount";
-			mnsCutAccount.Size = new System.Drawing.Size(32, 19);
-			kiểmTraTàiKhoảnToolStripMenuItem.Name = "kiểmTraTàiKhoảnToolStripMenuItem";
-			kiểmTraTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			kiểmTraCookieToolStripMenuItem.Name = "kiểmTraCookieToolStripMenuItem";
-			kiểmTraCookieToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			kiểmTraTokenToolStripMenuItem.Name = "kiểmTraTokenToolStripMenuItem";
-			kiểmTraTokenToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			backupTokenToolStripMenuItem.Name = "backupTokenToolStripMenuItem";
-			backupTokenToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			backupCookieToolStripMenuItem.Name = "backupCookieToolStripMenuItem";
-			backupCookieToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			backupCookieTrungGianToolStripMenuItem.Name = "backupCookieTrungGianToolStripMenuItem";
-			backupCookieTrungGianToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			mậtKhẩuToolStripMenuItem1.Name = "mậtKhẩuToolStripMenuItem1";
-			mậtKhẩuToolStripMenuItem1.Size = new System.Drawing.Size(32, 19);
-			nhậpDữLiệuToolStripMenuItem.Name = "nhậpDữLiệuToolStripMenuItem";
-			nhậpDữLiệuToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			tokenToolStripMenuItem2.Name = "tokenToolStripMenuItem2";
-			tokenToolStripMenuItem2.Size = new System.Drawing.Size(32, 19);
-			tựĐộngLấyToolStripMenuItem1.Name = "tựĐộngLấyToolStripMenuItem1";
-			tựĐộngLấyToolStripMenuItem1.Size = new System.Drawing.Size(32, 19);
-			tokenBussinessToolStripMenuItem.Name = "tokenBussinessToolStripMenuItem";
-			tokenBussinessToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			tokenInstagramToolStripMenuItem1.Name = "tokenInstagramToolStripMenuItem1";
-			tokenInstagramToolStripMenuItem1.Size = new System.Drawing.Size(32, 19);
-			tokenIosToolStripMenuItem.Name = "tokenIosToolStripMenuItem";
-			tokenIosToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			tokenAndroidToolStripMenuItem1.Name = "tokenAndroidToolStripMenuItem1";
-			tokenAndroidToolStripMenuItem1.Size = new System.Drawing.Size(32, 19);
-			nhậpDữLiệuToolStripMenuItem2.Name = "nhậpDữLiệuToolStripMenuItem2";
-			nhậpDữLiệuToolStripMenuItem2.Size = new System.Drawing.Size(32, 19);
-			cookieToolStripMenuItem3.Name = "cookieToolStripMenuItem3";
-			cookieToolStripMenuItem3.Size = new System.Drawing.Size(32, 19);
-			tựĐộngLấyToolStripMenuItem.Name = "tựĐộngLấyToolStripMenuItem";
-			tựĐộngLấyToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-			nhậpDữLiệuToolStripMenuItem1.Name = "nhậpDữLiệuToolStripMenuItem1";
-			nhậpDữLiệuToolStripMenuItem1.Size = new System.Drawing.Size(32, 19);
-			bunifuDragControl1.Fixed = true;
-			bunifuDragControl1.Horizontal = true;
-			bunifuDragControl1.TargetControl = pnlHeader;
-			bunifuDragControl1.Vertical = true;
-			pnlHeader.Anchor = System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-			pnlHeader.BackColor = System.Drawing.Color.White;
-			pnlHeader.Controls.Add(button2);
-			pnlHeader.Controls.Add(button1);
-			pnlHeader.Controls.Add(btnMinimize);
-			pnlHeader.Controls.Add(pictureBox1);
-			pnlHeader.Controls.Add(bunifuCustomLabel1);
-			pnlHeader.Cursor = System.Windows.Forms.Cursors.SizeAll;
-			pnlHeader.Location = new System.Drawing.Point(0, 5);
-			pnlHeader.Name = "pnlHeader";
-			pnlHeader.Size = new System.Drawing.Size(986, 32);
-			pnlHeader.TabIndex = 9;
-			button2.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
-			button2.Cursor = System.Windows.Forms.Cursors.Hand;
-			button2.Enabled = false;
-			button2.FlatAppearance.BorderSize = 0;
-			button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-			button2.ForeColor = System.Drawing.Color.White;
-			button2.Image = (System.Drawing.Image)resources.GetObject("button2.Image");
-			button2.Location = new System.Drawing.Point(890, -1);
-			button2.Name = "button2";
-			button2.Size = new System.Drawing.Size(30, 30);
-			button2.TabIndex = 15;
-			button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-			button2.UseVisualStyleBackColor = true;
-			button2.Click += new System.EventHandler(Button2_Click);
-			button1.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
-			button1.Cursor = System.Windows.Forms.Cursors.Hand;
-			button1.Enabled = false;
-			button1.FlatAppearance.BorderSize = 0;
-			button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-			button1.ForeColor = System.Drawing.Color.White;
-			button1.Image = (System.Drawing.Image)resources.GetObject("button1.Image");
-			button1.Location = new System.Drawing.Point(922, -1);
-			button1.Name = "button1";
-			button1.Size = new System.Drawing.Size(30, 30);
-			button1.TabIndex = 14;
-			button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-			button1.UseVisualStyleBackColor = true;
-			button1.Click += new System.EventHandler(Button1_Click);
-			btnMinimize.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
-			btnMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
-			btnMinimize.FlatAppearance.BorderSize = 0;
-			btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			btnMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-			btnMinimize.ForeColor = System.Drawing.Color.White;
-			btnMinimize.Image = (System.Drawing.Image)resources.GetObject("btnMinimize.Image");
-			btnMinimize.Location = new System.Drawing.Point(954, -1);
-			btnMinimize.Name = "btnMinimize";
-			btnMinimize.Size = new System.Drawing.Size(30, 30);
-			btnMinimize.TabIndex = 13;
-			btnMinimize.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-			btnMinimize.UseVisualStyleBackColor = true;
-			btnMinimize.Click += new System.EventHandler(BtnMinimize_Click);
-			pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
-			pictureBox1.Image = (System.Drawing.Image)resources.GetObject("pictureBox1.Image");
-			pictureBox1.Location = new System.Drawing.Point(7, 3);
-			pictureBox1.Name = "pictureBox1";
-			pictureBox1.Size = new System.Drawing.Size(34, 27);
-			pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-			pictureBox1.TabIndex = 16;
-			pictureBox1.TabStop = false;
-			bunifuCustomLabel1.AutoSize = true;
-			bunifuCustomLabel1.BackColor = System.Drawing.Color.Transparent;
-			bunifuCustomLabel1.Font = new System.Drawing.Font("Tahoma", 9.75f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-			bunifuCustomLabel1.ForeColor = System.Drawing.Color.Black;
-			bunifuCustomLabel1.Location = new System.Drawing.Point(43, 9);
-			bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-			bunifuCustomLabel1.Size = new System.Drawing.Size(259, 16);
-			bunifuCustomLabel1.TabIndex = 7;
-			bunifuCustomLabel1.Text = "MAX CARE - CHỨC NĂNG ĐỔI THÔNG TIN";
-			bunifuDragControl2.Fixed = true;
-			bunifuDragControl2.Horizontal = true;
-			bunifuDragControl2.TargetControl = null;
-			bunifuDragControl2.Vertical = true;
-			bunifuCards1.BackColor = System.Drawing.Color.White;
-			bunifuCards1.BorderRadius = 0;
-			bunifuCards1.BottomSahddow = true;
-			bunifuCards1.color = System.Drawing.Color.RoyalBlue;
-			bunifuCards1.Controls.Add(pnlHeader);
-			bunifuCards1.Dock = System.Windows.Forms.DockStyle.Top;
-			bunifuCards1.LeftSahddow = false;
-			bunifuCards1.Location = new System.Drawing.Point(0, 0);
-			bunifuCards1.Name = "bunifuCards1";
-			bunifuCards1.RightSahddow = true;
-			bunifuCards1.ShadowDepth = 20;
-			bunifuCards1.Size = new System.Drawing.Size(986, 38);
-			bunifuCards1.TabIndex = 10;
-			panel3.BackColor = System.Drawing.SystemColors.Control;
-			panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-			panel3.Location = new System.Drawing.Point(0, 558);
-			panel3.Name = "panel3";
-			panel3.Size = new System.Drawing.Size(986, 26);
-			panel3.TabIndex = 11;
-			panel3.Paint += new System.Windows.Forms.PaintEventHandler(panel3_Paint);
-			lblChoosed.AutoSize = true;
-			lblChoosed.BackColor = System.Drawing.Color.White;
-			lblChoosed.Font = new System.Drawing.Font("Tahoma", 9.75f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 163);
-			lblChoosed.ForeColor = System.Drawing.Color.Maroon;
-			lblChoosed.Location = new System.Drawing.Point(690, 514);
-			lblChoosed.Name = "lblChoosed";
-			lblChoosed.Size = new System.Drawing.Size(16, 16);
-			lblChoosed.TabIndex = 120;
-			lblChoosed.Text = "0";
-			bunifuCustomLabel2.AutoSize = true;
-			bunifuCustomLabel2.BackColor = System.Drawing.Color.White;
-			bunifuCustomLabel2.Font = new System.Drawing.Font("Tahoma", 9.75f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 163);
-			bunifuCustomLabel2.Location = new System.Drawing.Point(626, 514);
-			bunifuCustomLabel2.Name = "bunifuCustomLabel2";
-			bunifuCustomLabel2.Size = new System.Drawing.Size(70, 16);
-			bunifuCustomLabel2.TabIndex = 121;
-			bunifuCustomLabel2.Text = "Đã chọn: ";
-			lblCountAcc.AutoSize = true;
-			lblCountAcc.Font = new System.Drawing.Font("Tahoma", 9.75f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 163);
-			lblCountAcc.ForeColor = System.Drawing.Color.Blue;
-			lblCountAcc.Location = new System.Drawing.Point(807, 514);
-			lblCountAcc.Name = "lblCountAcc";
-			lblCountAcc.Size = new System.Drawing.Size(16, 16);
-			lblCountAcc.TabIndex = 76;
-			lblCountAcc.Text = "0";
-			label7.AutoSize = true;
-			label7.Font = new System.Drawing.Font("Tahoma", 9.75f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 163);
-			label7.Location = new System.Drawing.Point(765, 514);
-			label7.Name = "label7";
-			label7.Size = new System.Drawing.Size(44, 16);
-			label7.TabIndex = 77;
-			label7.Text = "Tổng:";
-			ctmsAcc.Font = new System.Drawing.Font("Tahoma", 9f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-			ctmsAcc.Items.AddRange(new System.Windows.Forms.ToolStripItem[4] { chọnTấtCảToolStripMenuItem, bỏChọnTấtCảToolStripMenuItem, ctmsChonTrangThai, xóaToolStripMenuItem });
-			ctmsAcc.Name = "ctmsAcc";
-			ctmsAcc.Size = new System.Drawing.Size(160, 92);
-			ctmsAcc.Opening += new System.ComponentModel.CancelEventHandler(ctmsAcc_Opening);
-			chọnTấtCảToolStripMenuItem.Name = "chọnTấtCảToolStripMenuItem";
-			chọnTấtCảToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
-			chọnTấtCảToolStripMenuItem.Text = "Chọn tất cả";
-			chọnTấtCảToolStripMenuItem.Click += new System.EventHandler(chọnTấtCảToolStripMenuItem_Click_1);
-			bỏChọnTấtCảToolStripMenuItem.Name = "bỏChọnTấtCảToolStripMenuItem";
-			bỏChọnTấtCảToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
-			bỏChọnTấtCảToolStripMenuItem.Text = "Bỏ chọn tất cả";
-			bỏChọnTấtCảToolStripMenuItem.Click += new System.EventHandler(bỏChọnTấtCảToolStripMenuItem_Click_1);
-			ctmsChonTrangThai.Name = "ctmsChonTrangThai";
-			ctmsChonTrangThai.Size = new System.Drawing.Size(159, 22);
-			ctmsChonTrangThai.Text = "Chọn tra\u0323ng tha\u0301i";
-			ctmsChonTrangThai.Click += new System.EventHandler(ctmsChonTrangThai_Click);
-			xóaToolStripMenuItem.Name = "xóaToolStripMenuItem";
-			xóaToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
-			xóaToolStripMenuItem.Text = "Xóa đã chọn";
-			xóaToolStripMenuItem.Click += new System.EventHandler(xóaToolStripMenuItem_Click_1);
-			dtgvAcc.AllowUserToAddRows = false;
-			dtgvAcc.AllowUserToDeleteRows = false;
-			dtgvAcc.AllowUserToResizeRows = false;
-			dtgvAcc.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-			dtgvAcc.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-			dataGridViewCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle.BackColor = System.Drawing.SystemColors.Control;
-			dataGridViewCellStyle.Font = new System.Drawing.Font("Tahoma", 8.25f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-			dataGridViewCellStyle.ForeColor = System.Drawing.SystemColors.WindowText;
-			dataGridViewCellStyle.SelectionBackColor = System.Drawing.Color.Teal;
-			dataGridViewCellStyle.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			dtgvAcc.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle;
-			dtgvAcc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			dtgvAcc.Columns.AddRange(cChose, cStt, cId, cUid, cCookies, cName, cBirthday, cGender, cPassword, cFa2, cUseragent, cProxy, cInfo, cStatus);
-			dtgvAcc.ContextMenuStrip = ctmsAcc;
-			dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-			dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 8.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-			dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-			dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-			dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-			dtgvAcc.DefaultCellStyle = dataGridViewCellStyle2;
-			dtgvAcc.Location = new System.Drawing.Point(5, 43);
-			dtgvAcc.Name = "dtgvAcc";
-			dtgvAcc.ReadOnly = true;
-			dtgvAcc.RowHeadersVisible = false;
-			dtgvAcc.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-			dtgvAcc.Size = new System.Drawing.Size(976, 465);
-			dtgvAcc.TabIndex = 125;
-			dtgvAcc.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(dtgvAcc_CellClick);
-			dtgvAcc.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(dtgvAcc_CellDoubleClick);
-			dtgvAcc.KeyDown += new System.Windows.Forms.KeyEventHandler(dtgvAcc_KeyDown);
-			btnConfig.Cursor = System.Windows.Forms.Cursors.Hand;
-			btnConfig.Font = new System.Drawing.Font("Tahoma", 9.75f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 163);
-			btnConfig.Image = (System.Drawing.Image)resources.GetObject("btnConfig.Image");
-			btnConfig.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-			btnConfig.Location = new System.Drawing.Point(235, 514);
-			btnConfig.Name = "btnConfig";
-			btnConfig.Size = new System.Drawing.Size(109, 40);
-			btnConfig.TabIndex = 71;
-			btnConfig.Text = "Cấu hình";
-			btnConfig.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			btnConfig.UseVisualStyleBackColor = false;
-			btnConfig.Click += new System.EventHandler(btnConfig_Click_1);
-			btnPause.Cursor = System.Windows.Forms.Cursors.Hand;
-			btnPause.Enabled = false;
-			btnPause.Font = new System.Drawing.Font("Tahoma", 9.75f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 163);
-			btnPause.Image = (System.Drawing.Image)resources.GetObject("btnPause.Image");
-			btnPause.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-			btnPause.Location = new System.Drawing.Point(120, 514);
-			btnPause.Name = "btnPause";
-			btnPause.Size = new System.Drawing.Size(109, 40);
-			btnPause.TabIndex = 70;
-			btnPause.Text = "Tạm dừng";
-			btnPause.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			btnPause.UseVisualStyleBackColor = false;
-			btnPause.Click += new System.EventHandler(btnPause_Click_1);
-			btnStart.Cursor = System.Windows.Forms.Cursors.Hand;
-			btnStart.Font = new System.Drawing.Font("Tahoma", 9.75f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 163);
-			btnStart.Image = (System.Drawing.Image)resources.GetObject("btnStart.Image");
-			btnStart.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-			btnStart.Location = new System.Drawing.Point(5, 514);
-			btnStart.Name = "btnStart";
-			btnStart.Size = new System.Drawing.Size(109, 40);
-			btnStart.TabIndex = 69;
-			btnStart.Text = "Bắt đầu";
-			btnStart.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			btnStart.UseVisualStyleBackColor = false;
-			btnStart.Click += new System.EventHandler(btnShare_Click_1);
-			button3.Cursor = System.Windows.Forms.Cursors.Hand;
-			button3.Font = new System.Drawing.Font("Tahoma", 9.75f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 163);
+            this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.tấtCảToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.liveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkpointToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.changePasswordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.đăngNhậpProfileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cookieToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.uidPassToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.đăngNhậpTrìnhDuyệtMớiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cookieToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.uidPassToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tokenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cookieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.uidToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.passToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.uidPassToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.uidPassTokenCookieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.danhSáchChọnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.danhSáchKhôngChọnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.giữNguyênỞThưMụcCũToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnsCutAccount = new System.Windows.Forms.ToolStripMenuItem();
+            this.kiểmTraTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kiểmTraCookieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kiểmTraTokenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.backupTokenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.backupCookieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.backupCookieTrungGianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mậtKhẩuToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.nhậpDữLiệuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tokenToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tựĐộngLấyToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tokenBussinessToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tokenInstagramToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tokenIosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tokenAndroidToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.nhậpDữLiệuToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.cookieToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tựĐộngLấyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nhậpDữLiệuToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.pnlHeader = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnMinimize = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuDragControl2 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.bunifuCards1 = new Bunifu.Framework.UI.BunifuCards();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.lblChoosed = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.lblCountAcc = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.ctmsAcc = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.chọnTấtCảToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bỏChọnTấtCảToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ctmsChonTrangThai = new System.Windows.Forms.ToolStripMenuItem();
+            this.xóaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dtgvAcc = new System.Windows.Forms.DataGridView();
+            this.cChose = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.cStt = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cUid = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cCookies = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cBirthday = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cGender = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cPassword = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cFa2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cUseragent = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cProxy = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cInfo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnConfig = new System.Windows.Forms.Button();
+            this.btnPause = new System.Windows.Forms.Button();
+            this.btnStart = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.pnlHeader.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.bunifuCards1.SuspendLayout();
+            this.ctmsAcc.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvAcc)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // tấtCảToolStripMenuItem
+            // 
+            this.tấtCảToolStripMenuItem.Name = "tấtCảToolStripMenuItem";
+            this.tấtCảToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // liveToolStripMenuItem
+            // 
+            this.liveToolStripMenuItem.Name = "liveToolStripMenuItem";
+            this.liveToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // dieToolStripMenuItem
+            // 
+            this.dieToolStripMenuItem.Name = "dieToolStripMenuItem";
+            this.dieToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // checkpointToolStripMenuItem
+            // 
+            this.checkpointToolStripMenuItem.Name = "checkpointToolStripMenuItem";
+            this.checkpointToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // changePasswordToolStripMenuItem
+            // 
+            this.changePasswordToolStripMenuItem.Name = "changePasswordToolStripMenuItem";
+            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // đăngNhậpProfileToolStripMenuItem
+            // 
+            this.đăngNhậpProfileToolStripMenuItem.Name = "đăngNhậpProfileToolStripMenuItem";
+            this.đăngNhậpProfileToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // cookieToolStripMenuItem1
+            // 
+            this.cookieToolStripMenuItem1.Name = "cookieToolStripMenuItem1";
+            this.cookieToolStripMenuItem1.Size = new System.Drawing.Size(32, 19);
+            // 
+            // uidPassToolStripMenuItem1
+            // 
+            this.uidPassToolStripMenuItem1.Name = "uidPassToolStripMenuItem1";
+            this.uidPassToolStripMenuItem1.Size = new System.Drawing.Size(32, 19);
+            // 
+            // đăngNhậpTrìnhDuyệtMớiToolStripMenuItem
+            // 
+            this.đăngNhậpTrìnhDuyệtMớiToolStripMenuItem.Name = "đăngNhậpTrìnhDuyệtMớiToolStripMenuItem";
+            this.đăngNhậpTrìnhDuyệtMớiToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // cookieToolStripMenuItem2
+            // 
+            this.cookieToolStripMenuItem2.Name = "cookieToolStripMenuItem2";
+            this.cookieToolStripMenuItem2.Size = new System.Drawing.Size(32, 19);
+            // 
+            // uidPassToolStripMenuItem2
+            // 
+            this.uidPassToolStripMenuItem2.Name = "uidPassToolStripMenuItem2";
+            this.uidPassToolStripMenuItem2.Size = new System.Drawing.Size(32, 19);
+            // 
+            // tokenToolStripMenuItem
+            // 
+            this.tokenToolStripMenuItem.Name = "tokenToolStripMenuItem";
+            this.tokenToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // cookieToolStripMenuItem
+            // 
+            this.cookieToolStripMenuItem.Name = "cookieToolStripMenuItem";
+            this.cookieToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // uidToolStripMenuItem
+            // 
+            this.uidToolStripMenuItem.Name = "uidToolStripMenuItem";
+            this.uidToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // passToolStripMenuItem
+            // 
+            this.passToolStripMenuItem.Name = "passToolStripMenuItem";
+            this.passToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // uidPassToolStripMenuItem
+            // 
+            this.uidPassToolStripMenuItem.Name = "uidPassToolStripMenuItem";
+            this.uidPassToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // uidPassTokenCookieToolStripMenuItem
+            // 
+            this.uidPassTokenCookieToolStripMenuItem.Name = "uidPassTokenCookieToolStripMenuItem";
+            this.uidPassTokenCookieToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // danhSáchChọnToolStripMenuItem
+            // 
+            this.danhSáchChọnToolStripMenuItem.Name = "danhSáchChọnToolStripMenuItem";
+            this.danhSáchChọnToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // danhSáchKhôngChọnToolStripMenuItem
+            // 
+            this.danhSáchKhôngChọnToolStripMenuItem.Name = "danhSáchKhôngChọnToolStripMenuItem";
+            this.danhSáchKhôngChọnToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // giữNguyênỞThưMụcCũToolStripMenuItem
+            // 
+            this.giữNguyênỞThưMụcCũToolStripMenuItem.Name = "giữNguyênỞThưMụcCũToolStripMenuItem";
+            this.giữNguyênỞThưMụcCũToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // mnsCutAccount
+            // 
+            this.mnsCutAccount.Name = "mnsCutAccount";
+            this.mnsCutAccount.Size = new System.Drawing.Size(32, 19);
+            // 
+            // kiểmTraTàiKhoảnToolStripMenuItem
+            // 
+            this.kiểmTraTàiKhoảnToolStripMenuItem.Name = "kiểmTraTàiKhoảnToolStripMenuItem";
+            this.kiểmTraTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // kiểmTraCookieToolStripMenuItem
+            // 
+            this.kiểmTraCookieToolStripMenuItem.Name = "kiểmTraCookieToolStripMenuItem";
+            this.kiểmTraCookieToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // kiểmTraTokenToolStripMenuItem
+            // 
+            this.kiểmTraTokenToolStripMenuItem.Name = "kiểmTraTokenToolStripMenuItem";
+            this.kiểmTraTokenToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // backupTokenToolStripMenuItem
+            // 
+            this.backupTokenToolStripMenuItem.Name = "backupTokenToolStripMenuItem";
+            this.backupTokenToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // backupCookieToolStripMenuItem
+            // 
+            this.backupCookieToolStripMenuItem.Name = "backupCookieToolStripMenuItem";
+            this.backupCookieToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // backupCookieTrungGianToolStripMenuItem
+            // 
+            this.backupCookieTrungGianToolStripMenuItem.Name = "backupCookieTrungGianToolStripMenuItem";
+            this.backupCookieTrungGianToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // mậtKhẩuToolStripMenuItem1
+            // 
+            this.mậtKhẩuToolStripMenuItem1.Name = "mậtKhẩuToolStripMenuItem1";
+            this.mậtKhẩuToolStripMenuItem1.Size = new System.Drawing.Size(32, 19);
+            // 
+            // nhậpDữLiệuToolStripMenuItem
+            // 
+            this.nhậpDữLiệuToolStripMenuItem.Name = "nhậpDữLiệuToolStripMenuItem";
+            this.nhậpDữLiệuToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // tokenToolStripMenuItem2
+            // 
+            this.tokenToolStripMenuItem2.Name = "tokenToolStripMenuItem2";
+            this.tokenToolStripMenuItem2.Size = new System.Drawing.Size(32, 19);
+            // 
+            // tựĐộngLấyToolStripMenuItem1
+            // 
+            this.tựĐộngLấyToolStripMenuItem1.Name = "tựĐộngLấyToolStripMenuItem1";
+            this.tựĐộngLấyToolStripMenuItem1.Size = new System.Drawing.Size(32, 19);
+            // 
+            // tokenBussinessToolStripMenuItem
+            // 
+            this.tokenBussinessToolStripMenuItem.Name = "tokenBussinessToolStripMenuItem";
+            this.tokenBussinessToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // tokenInstagramToolStripMenuItem1
+            // 
+            this.tokenInstagramToolStripMenuItem1.Name = "tokenInstagramToolStripMenuItem1";
+            this.tokenInstagramToolStripMenuItem1.Size = new System.Drawing.Size(32, 19);
+            // 
+            // tokenIosToolStripMenuItem
+            // 
+            this.tokenIosToolStripMenuItem.Name = "tokenIosToolStripMenuItem";
+            this.tokenIosToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // tokenAndroidToolStripMenuItem1
+            // 
+            this.tokenAndroidToolStripMenuItem1.Name = "tokenAndroidToolStripMenuItem1";
+            this.tokenAndroidToolStripMenuItem1.Size = new System.Drawing.Size(32, 19);
+            // 
+            // nhậpDữLiệuToolStripMenuItem2
+            // 
+            this.nhậpDữLiệuToolStripMenuItem2.Name = "nhậpDữLiệuToolStripMenuItem2";
+            this.nhậpDữLiệuToolStripMenuItem2.Size = new System.Drawing.Size(32, 19);
+            // 
+            // cookieToolStripMenuItem3
+            // 
+            this.cookieToolStripMenuItem3.Name = "cookieToolStripMenuItem3";
+            this.cookieToolStripMenuItem3.Size = new System.Drawing.Size(32, 19);
+            // 
+            // tựĐộngLấyToolStripMenuItem
+            // 
+            this.tựĐộngLấyToolStripMenuItem.Name = "tựĐộngLấyToolStripMenuItem";
+            this.tựĐộngLấyToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // nhậpDữLiệuToolStripMenuItem1
+            // 
+            this.nhậpDữLiệuToolStripMenuItem1.Name = "nhậpDữLiệuToolStripMenuItem1";
+            this.nhậpDữLiệuToolStripMenuItem1.Size = new System.Drawing.Size(32, 19);
+            // 
+            // bunifuDragControl1
+            // 
+            this.bunifuDragControl1.Fixed = true;
+            this.bunifuDragControl1.Horizontal = true;
+            this.bunifuDragControl1.TargetControl = this.pnlHeader;
+            this.bunifuDragControl1.Vertical = true;
+            // 
+            // pnlHeader
+            // 
+            this.pnlHeader.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlHeader.BackColor = System.Drawing.Color.White;
+            this.pnlHeader.Controls.Add(this.button2);
+            this.pnlHeader.Controls.Add(this.button1);
+            this.pnlHeader.Controls.Add(this.btnMinimize);
+            this.pnlHeader.Controls.Add(this.pictureBox1);
+            this.pnlHeader.Controls.Add(this.bunifuCustomLabel1);
+            this.pnlHeader.Cursor = System.Windows.Forms.Cursors.SizeAll;
+            this.pnlHeader.Location = new System.Drawing.Point(0, 6);
+            this.pnlHeader.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlHeader.Name = "pnlHeader";
+            this.pnlHeader.Size = new System.Drawing.Size(1315, 39);
+            this.pnlHeader.TabIndex = 9;
+            // 
+            // button2
+            // 
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Enabled = false;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(1187, -1);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(40, 37);
+            this.button2.TabIndex = 15;
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Enabled = false;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(1229, -1);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(40, 37);
+            this.button1.TabIndex = 14;
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            // 
+            // btnMinimize
+            // 
+            this.btnMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMinimize.FlatAppearance.BorderSize = 0;
+            this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMinimize.ForeColor = System.Drawing.Color.White;
+            this.btnMinimize.Image = global::MaxCare.Properties.Resources.close_window_25px;
+            this.btnMinimize.Location = new System.Drawing.Point(1272, -1);
+            this.btnMinimize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMinimize.Name = "btnMinimize";
+            this.btnMinimize.Size = new System.Drawing.Size(40, 37);
+            this.btnMinimize.TabIndex = 13;
+            this.btnMinimize.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnMinimize.UseVisualStyleBackColor = true;
+            this.btnMinimize.Click += new System.EventHandler(this.BtnMinimize_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox1.Location = new System.Drawing.Point(9, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(45, 33);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            // 
+            // bunifuCustomLabel1
+            // 
+            this.bunifuCustomLabel1.AutoSize = true;
+            this.bunifuCustomLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(57, 11);
+            this.bunifuCustomLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(363, 21);
+            this.bunifuCustomLabel1.TabIndex = 7;
+            this.bunifuCustomLabel1.Text = "MAX CARE - CHỨC NĂNG ĐỔI THÔNG TIN";
+            // 
+            // bunifuDragControl2
+            // 
+            this.bunifuDragControl2.Fixed = true;
+            this.bunifuDragControl2.Horizontal = true;
+            this.bunifuDragControl2.TargetControl = null;
+            this.bunifuDragControl2.Vertical = true;
+            // 
+            // bunifuCards1
+            // 
+            this.bunifuCards1.BackColor = System.Drawing.Color.White;
+            this.bunifuCards1.BorderRadius = 0;
+            this.bunifuCards1.BottomSahddow = true;
+            this.bunifuCards1.color = System.Drawing.Color.RoyalBlue;
+            this.bunifuCards1.Controls.Add(this.pnlHeader);
+            this.bunifuCards1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bunifuCards1.LeftSahddow = false;
+            this.bunifuCards1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuCards1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuCards1.Name = "bunifuCards1";
+            this.bunifuCards1.RightSahddow = true;
+            this.bunifuCards1.ShadowDepth = 20;
+            this.bunifuCards1.Size = new System.Drawing.Size(1315, 47);
+            this.bunifuCards1.TabIndex = 10;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.SystemColors.Control;
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel3.Location = new System.Drawing.Point(0, 687);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1315, 32);
+            this.panel3.TabIndex = 11;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            // 
+            // lblChoosed
+            // 
+            this.lblChoosed.AutoSize = true;
+            this.lblChoosed.BackColor = System.Drawing.Color.White;
+            this.lblChoosed.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblChoosed.ForeColor = System.Drawing.Color.Maroon;
+            this.lblChoosed.Location = new System.Drawing.Point(920, 633);
+            this.lblChoosed.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblChoosed.Name = "lblChoosed";
+            this.lblChoosed.Size = new System.Drawing.Size(21, 21);
+            this.lblChoosed.TabIndex = 120;
+            this.lblChoosed.Text = "0";
+            // 
+            // bunifuCustomLabel2
+            // 
+            this.bunifuCustomLabel2.AutoSize = true;
+            this.bunifuCustomLabel2.BackColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.bunifuCustomLabel2.Location = new System.Drawing.Point(835, 633);
+            this.bunifuCustomLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
+            this.bunifuCustomLabel2.Size = new System.Drawing.Size(91, 21);
+            this.bunifuCustomLabel2.TabIndex = 121;
+            this.bunifuCustomLabel2.Text = "Đã chọn: ";
+            // 
+            // lblCountAcc
+            // 
+            this.lblCountAcc.AutoSize = true;
+            this.lblCountAcc.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblCountAcc.ForeColor = System.Drawing.Color.Blue;
+            this.lblCountAcc.Location = new System.Drawing.Point(1076, 633);
+            this.lblCountAcc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCountAcc.Name = "lblCountAcc";
+            this.lblCountAcc.Size = new System.Drawing.Size(21, 21);
+            this.lblCountAcc.TabIndex = 76;
+            this.lblCountAcc.Text = "0";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label7.Location = new System.Drawing.Point(1020, 633);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(59, 21);
+            this.label7.TabIndex = 77;
+            this.label7.Text = "Tổng:";
+            // 
+            // ctmsAcc
+            // 
+            this.ctmsAcc.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ctmsAcc.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.ctmsAcc.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.chọnTấtCảToolStripMenuItem,
+            this.bỏChọnTấtCảToolStripMenuItem,
+            this.ctmsChonTrangThai,
+            this.xóaToolStripMenuItem});
+            this.ctmsAcc.Name = "ctmsAcc";
+            this.ctmsAcc.Size = new System.Drawing.Size(177, 92);
+            this.ctmsAcc.Opening += new System.ComponentModel.CancelEventHandler(this.ctmsAcc_Opening);
+            // 
+            // chọnTấtCảToolStripMenuItem
+            // 
+            this.chọnTấtCảToolStripMenuItem.Name = "chọnTấtCảToolStripMenuItem";
+            this.chọnTấtCảToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.chọnTấtCảToolStripMenuItem.Text = "Chọn tất cả";
+            this.chọnTấtCảToolStripMenuItem.Click += new System.EventHandler(this.chọnTấtCảToolStripMenuItem_Click_1);
+            // 
+            // bỏChọnTấtCảToolStripMenuItem
+            // 
+            this.bỏChọnTấtCảToolStripMenuItem.Name = "bỏChọnTấtCảToolStripMenuItem";
+            this.bỏChọnTấtCảToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.bỏChọnTấtCảToolStripMenuItem.Text = "Bỏ chọn tất cả";
+            this.bỏChọnTấtCảToolStripMenuItem.Click += new System.EventHandler(this.bỏChọnTấtCảToolStripMenuItem_Click_1);
+            // 
+            // ctmsChonTrangThai
+            // 
+            this.ctmsChonTrangThai.Name = "ctmsChonTrangThai";
+            this.ctmsChonTrangThai.Size = new System.Drawing.Size(176, 22);
+            this.ctmsChonTrangThai.Text = "Chọn trạng thái";
+            this.ctmsChonTrangThai.Click += new System.EventHandler(this.ctmsChonTrangThai_Click);
+            // 
+            // xóaToolStripMenuItem
+            // 
+            this.xóaToolStripMenuItem.Name = "xóaToolStripMenuItem";
+            this.xóaToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.xóaToolStripMenuItem.Text = "Xóa đã chọn";
+            this.xóaToolStripMenuItem.Click += new System.EventHandler(this.xóaToolStripMenuItem_Click_1);
+            // 
+            // dtgvAcc
+            // 
+            this.dtgvAcc.AllowUserToAddRows = false;
+            this.dtgvAcc.AllowUserToDeleteRows = false;
+            this.dtgvAcc.AllowUserToResizeRows = false;
+            this.dtgvAcc.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dtgvAcc.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgvAcc.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dtgvAcc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvAcc.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.cChose,
+            this.cStt,
+            this.cId,
+            this.cUid,
+            this.cCookies,
+            this.cName,
+            this.cBirthday,
+            this.cGender,
+            this.cPassword,
+            this.cFa2,
+            this.cUseragent,
+            this.cProxy,
+            this.cInfo,
+            this.cStatus});
+            this.dtgvAcc.ContextMenuStrip = this.ctmsAcc;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dtgvAcc.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dtgvAcc.Location = new System.Drawing.Point(7, 53);
+            this.dtgvAcc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgvAcc.Name = "dtgvAcc";
+            this.dtgvAcc.ReadOnly = true;
+            this.dtgvAcc.RowHeadersVisible = false;
+            this.dtgvAcc.RowHeadersWidth = 51;
+            this.dtgvAcc.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dtgvAcc.Size = new System.Drawing.Size(1301, 572);
+            this.dtgvAcc.TabIndex = 125;
+            this.dtgvAcc.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvAcc_CellClick);
+            this.dtgvAcc.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvAcc_CellDoubleClick);
+            this.dtgvAcc.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dtgvAcc_KeyDown);
+            // 
+            // cChose
+            // 
+            this.cChose.HeaderText = "Chọn";
+            this.cChose.MinimumWidth = 6;
+            this.cChose.Name = "cChose";
+            this.cChose.ReadOnly = true;
+            this.cChose.Width = 40;
+            // 
+            // cStt
+            // 
+            this.cStt.HeaderText = "STT";
+            this.cStt.MinimumWidth = 6;
+            this.cStt.Name = "cStt";
+            this.cStt.ReadOnly = true;
+            this.cStt.Width = 50;
+            // 
+            // cId
+            // 
+            this.cId.HeaderText = "Id";
+            this.cId.MinimumWidth = 6;
+            this.cId.Name = "cId";
+            this.cId.ReadOnly = true;
+            this.cId.Visible = false;
+            this.cId.Width = 90;
+            // 
+            // cUid
+            // 
+            this.cUid.HeaderText = "UID";
+            this.cUid.MinimumWidth = 6;
+            this.cUid.Name = "cUid";
+            this.cUid.ReadOnly = true;
+            this.cUid.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.cUid.Width = 70;
+            // 
+            // cCookies
+            // 
+            this.cCookies.HeaderText = "Cookie";
+            this.cCookies.MinimumWidth = 6;
+            this.cCookies.Name = "cCookies";
+            this.cCookies.ReadOnly = true;
+            this.cCookies.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.cCookies.Width = 60;
+            // 
+            // cName
+            // 
+            this.cName.HeaderText = "Name";
+            this.cName.MinimumWidth = 6;
+            this.cName.Name = "cName";
+            this.cName.ReadOnly = true;
+            this.cName.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.cName.Width = 75;
+            // 
+            // cBirthday
+            // 
+            this.cBirthday.HeaderText = "Birthday";
+            this.cBirthday.MinimumWidth = 6;
+            this.cBirthday.Name = "cBirthday";
+            this.cBirthday.ReadOnly = true;
+            this.cBirthday.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.cBirthday.Width = 70;
+            // 
+            // cGender
+            // 
+            this.cGender.HeaderText = "Giới Tính";
+            this.cGender.MinimumWidth = 6;
+            this.cGender.Name = "cGender";
+            this.cGender.ReadOnly = true;
+            this.cGender.Width = 80;
+            // 
+            // cPassword
+            // 
+            this.cPassword.HeaderText = "Mật khẩu";
+            this.cPassword.MinimumWidth = 6;
+            this.cPassword.Name = "cPassword";
+            this.cPassword.ReadOnly = true;
+            this.cPassword.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.cPassword.Width = 70;
+            // 
+            // cFa2
+            // 
+            this.cFa2.HeaderText = "2FA";
+            this.cFa2.MinimumWidth = 6;
+            this.cFa2.Name = "cFa2";
+            this.cFa2.ReadOnly = true;
+            this.cFa2.Width = 40;
+            // 
+            // cUseragent
+            // 
+            this.cUseragent.HeaderText = "Useragent";
+            this.cUseragent.MinimumWidth = 6;
+            this.cUseragent.Name = "cUseragent";
+            this.cUseragent.ReadOnly = true;
+            this.cUseragent.Width = 70;
+            // 
+            // cProxy
+            // 
+            this.cProxy.HeaderText = "Proxy";
+            this.cProxy.MinimumWidth = 6;
+            this.cProxy.Name = "cProxy";
+            this.cProxy.ReadOnly = true;
+            this.cProxy.Width = 50;
+            // 
+            // cInfo
+            // 
+            this.cInfo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.cInfo.HeaderText = "Tình Trạng";
+            this.cInfo.MinimumWidth = 6;
+            this.cInfo.Name = "cInfo";
+            this.cInfo.ReadOnly = true;
+            this.cInfo.Width = 90;
+            // 
+            // cStatus
+            // 
+            this.cStatus.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.cStatus.HeaderText = "Trạng Thái";
+            this.cStatus.MinimumWidth = 6;
+            this.cStatus.Name = "cStatus";
+            this.cStatus.ReadOnly = true;
+            // 
+            // btnConfig
+            // 
+            this.btnConfig.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnConfig.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnConfig.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnConfig.Location = new System.Drawing.Point(313, 633);
+            this.btnConfig.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnConfig.Name = "btnConfig";
+            this.btnConfig.Size = new System.Drawing.Size(145, 49);
+            this.btnConfig.TabIndex = 71;
+            this.btnConfig.Text = "Cấu hình";
+            this.btnConfig.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnConfig.UseVisualStyleBackColor = false;
+            this.btnConfig.Click += new System.EventHandler(this.btnConfig_Click_1);
+            // 
+            // btnPause
+            // 
+            this.btnPause.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPause.Enabled = false;
+            this.btnPause.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnPause.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnPause.Location = new System.Drawing.Point(160, 633);
+            this.btnPause.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPause.Name = "btnPause";
+            this.btnPause.Size = new System.Drawing.Size(145, 49);
+            this.btnPause.TabIndex = 70;
+            this.btnPause.Text = "Tạm dừng";
+            this.btnPause.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPause.UseVisualStyleBackColor = false;
+            this.btnPause.Click += new System.EventHandler(this.btnPause_Click_1);
+            // 
+            // btnStart
+            // 
+            this.btnStart.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnStart.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnStart.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnStart.Location = new System.Drawing.Point(7, 633);
+            this.btnStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.Size = new System.Drawing.Size(145, 49);
+            this.btnStart.TabIndex = 69;
+            this.btnStart.Text = "Bắt đầu";
+            this.btnStart.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnStart.UseVisualStyleBackColor = false;
+            this.btnStart.Click += new System.EventHandler(this.btnShare_Click_1);
+            // 
+            // button3
+            // 
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.Location = new System.Drawing.Point(467, 633);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(168, 49);
+            this.button3.TabIndex = 71;
+            this.button3.Text = "Tài khoản Lỗi";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // fchange
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1315, 719);
+            this.Controls.Add(this.lblChoosed);
+            this.Controls.Add(this.dtgvAcc);
+            this.Controls.Add(this.bunifuCustomLabel2);
+            this.Controls.Add(this.lblCountAcc);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnConfig);
+            this.Controls.Add(this.btnPause);
+            this.Controls.Add(this.btnStart);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.bunifuCards1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "fchange";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "MAX CARE - CHỨC NĂNG POST";
+            this.pnlHeader.ResumeLayout(false);
+            this.pnlHeader.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.bunifuCards1.ResumeLayout(false);
+            this.ctmsAcc.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvAcc)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
-			button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-			button3.Location = new System.Drawing.Point(350, 514);
-			button3.Name = "button3";
-			button3.Size = new System.Drawing.Size(126, 40);
-			button3.TabIndex = 71;
-			button3.Text = "Ta\u0300i khoa\u0309n Lô\u0303i";
-			button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			button3.UseVisualStyleBackColor = false;
-			button3.Click += new System.EventHandler(button3_Click);
-			cChose.HeaderText = "Chọn";
-			cChose.Name = "cChose";
-			cChose.ReadOnly = true;
-			cChose.Width = 40;
-			cStt.HeaderText = "STT";
-			cStt.Name = "cStt";
-			cStt.ReadOnly = true;
-			cStt.Width = 50;
-			cId.HeaderText = "Id";
-			cId.Name = "cId";
-			cId.ReadOnly = true;
-			cId.Visible = false;
-			cId.Width = 90;
-			cUid.HeaderText = "UID";
-			cUid.Name = "cUid";
-			cUid.ReadOnly = true;
-			cUid.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-			cUid.Width = 70;
-			cCookies.HeaderText = "Cookie";
-			cCookies.Name = "cCookies";
-			cCookies.ReadOnly = true;
-			cCookies.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-			cCookies.Width = 60;
-			cName.HeaderText = "Name";
-			cName.Name = "cName";
-			cName.ReadOnly = true;
-			cName.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-			cName.Width = 75;
-			cBirthday.HeaderText = "Birthday";
-			cBirthday.Name = "cBirthday";
-			cBirthday.ReadOnly = true;
-			cBirthday.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-			cBirthday.Width = 70;
-			cGender.HeaderText = "Giới Tính";
-			cGender.Name = "cGender";
-			cGender.ReadOnly = true;
-			cGender.Width = 80;
-			cPassword.HeaderText = "Mật khẩu";
-			cPassword.Name = "cPassword";
-			cPassword.ReadOnly = true;
-			cPassword.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-			cPassword.Width = 70;
-			cFa2.HeaderText = "2FA";
-			cFa2.Name = "cFa2";
-			cFa2.ReadOnly = true;
-			cFa2.Width = 40;
-			cUseragent.HeaderText = "Useragent";
-			cUseragent.Name = "cUseragent";
-			cUseragent.ReadOnly = true;
-			cUseragent.Width = 70;
-			cProxy.HeaderText = "Proxy";
-			cProxy.Name = "cProxy";
-			cProxy.ReadOnly = true;
-			cProxy.Width = 50;
-			cInfo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-			cInfo.HeaderText = "Tình Trạng";
-			cInfo.Name = "cInfo";
-			cInfo.ReadOnly = true;
-			cInfo.Width = 90;
-			cStatus.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-			cStatus.HeaderText = "Trạng Thái";
-			cStatus.Name = "cStatus";
-			cStatus.ReadOnly = true;
-			base.AutoScaleDimensions = new System.Drawing.SizeF(6f, 13f);
-			base.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			BackColor = System.Drawing.Color.White;
-			base.ClientSize = new System.Drawing.Size(986, 584);
-			base.Controls.Add(lblChoosed);
-			base.Controls.Add(dtgvAcc);
-			base.Controls.Add(bunifuCustomLabel2);
-			base.Controls.Add(lblCountAcc);
-			base.Controls.Add(label7);
-			base.Controls.Add(button3);
-			base.Controls.Add(btnConfig);
-			base.Controls.Add(btnPause);
-			base.Controls.Add(btnStart);
-			base.Controls.Add(panel3);
-			base.Controls.Add(bunifuCards1);
-			base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-			base.Name = "fChange";
-			base.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			Text = "MAX CARE - CHỨC NĂNG POST";
-			pnlHeader.ResumeLayout(false);
-			pnlHeader.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-			bunifuCards1.ResumeLayout(false);
-			ctmsAcc.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)dtgvAcc).EndInit();
-			ResumeLayout(false);
-			PerformLayout();
 		}
 	}
 

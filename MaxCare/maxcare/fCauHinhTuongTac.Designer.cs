@@ -98,11 +98,12 @@
             this.bunifuCards1.color = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(119)))), ((int)(((byte)(242)))));
             this.bunifuCards1.Controls.Add(this.pnlHeader);
             this.bunifuCards1.LeftSahddow = false;
-            this.bunifuCards1.Location = new System.Drawing.Point(2, 1);
+            this.bunifuCards1.Location = new System.Drawing.Point(3, 1);
+            this.bunifuCards1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuCards1.Name = "bunifuCards1";
             this.bunifuCards1.RightSahddow = true;
             this.bunifuCards1.ShadowDepth = 20;
-            this.bunifuCards1.Size = new System.Drawing.Size(440, 38);
+            this.bunifuCards1.Size = new System.Drawing.Size(587, 47);
             this.bunifuCards1.TabIndex = 0;
             // 
             // pnlHeader
@@ -112,17 +113,19 @@
             this.pnlHeader.Controls.Add(this.pictureBox1);
             this.pnlHeader.Controls.Add(this.btnMinimize);
             this.pnlHeader.Controls.Add(this.bunifuCustomLabel1);
-            this.pnlHeader.Location = new System.Drawing.Point(0, 5);
+            this.pnlHeader.Location = new System.Drawing.Point(0, 6);
+            this.pnlHeader.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.Size = new System.Drawing.Size(440, 32);
+            this.pnlHeader.Size = new System.Drawing.Size(587, 39);
             this.pnlHeader.TabIndex = 9;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(4, 1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(34, 27);
+            this.pictureBox1.Size = new System.Drawing.Size(45, 33);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 78;
             this.pictureBox1.TabStop = false;
@@ -136,9 +139,11 @@
             this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinimize.ForeColor = System.Drawing.Color.White;
-            this.btnMinimize.Location = new System.Drawing.Point(406, -2);
+            this.btnMinimize.Image = global::MaxCare.Properties.Resources.close_window_25px;
+            this.btnMinimize.Location = new System.Drawing.Point(541, -2);
+            this.btnMinimize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(32, 32);
+            this.btnMinimize.Size = new System.Drawing.Size(43, 39);
             this.btnMinimize.TabIndex = 9;
             this.btnMinimize.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnMinimize.UseVisualStyleBackColor = true;
@@ -152,8 +157,9 @@
             this.bunifuCustomLabel1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.Black;
             this.bunifuCustomLabel1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuCustomLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(440, 32);
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(587, 39);
             this.bunifuCustomLabel1.TabIndex = 1;
             this.bunifuCustomLabel1.Text = "Cấu hình Tương tác";
             this.bunifuCustomLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -168,9 +174,10 @@
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(226, 443);
+            this.btnCancel.Location = new System.Drawing.Point(301, 545);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(92, 29);
+            this.btnCancel.Size = new System.Drawing.Size(123, 36);
             this.btnCancel.TabIndex = 4;
             this.btnCancel.Text = "Đóng";
             this.btnCancel.UseVisualStyleBackColor = false;
@@ -185,9 +192,10 @@
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdd.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.Color.White;
-            this.btnAdd.Location = new System.Drawing.Point(122, 443);
+            this.btnAdd.Location = new System.Drawing.Point(163, 545);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(92, 29);
+            this.btnAdd.Size = new System.Drawing.Size(123, 36);
             this.btnAdd.TabIndex = 3;
             this.btnAdd.Text = "Lưu";
             this.btnAdd.UseVisualStyleBackColor = false;
@@ -208,9 +216,11 @@
             this.groupBox2.Controls.Add(this.btnCauHinhTuongTacNhanh);
             this.groupBox2.Controls.Add(this.plTuongTacKichBan);
             this.groupBox2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(11, 287);
+            this.groupBox2.Location = new System.Drawing.Point(15, 354);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(420, 139);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(560, 171);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Tùy chọn kiểu tương tác";
@@ -220,10 +230,10 @@
             this.rbTuongTacNhanh.AutoSize = true;
             this.rbTuongTacNhanh.Checked = true;
             this.rbTuongTacNhanh.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbTuongTacNhanh.Location = new System.Drawing.Point(17, 23);
-            this.rbTuongTacNhanh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.rbTuongTacNhanh.Location = new System.Drawing.Point(23, 28);
+            this.rbTuongTacNhanh.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rbTuongTacNhanh.Name = "rbTuongTacNhanh";
-            this.rbTuongTacNhanh.Size = new System.Drawing.Size(122, 20);
+            this.rbTuongTacNhanh.Size = new System.Drawing.Size(156, 25);
             this.rbTuongTacNhanh.TabIndex = 0;
             this.rbTuongTacNhanh.TabStop = true;
             this.rbTuongTacNhanh.Text = "Tương tác nhanh";
@@ -234,10 +244,10 @@
             // 
             this.rbTuongTacKichBan.AutoSize = true;
             this.rbTuongTacKichBan.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbTuongTacKichBan.Location = new System.Drawing.Point(17, 46);
-            this.rbTuongTacKichBan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.rbTuongTacKichBan.Location = new System.Drawing.Point(23, 57);
+            this.rbTuongTacKichBan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rbTuongTacKichBan.Name = "rbTuongTacKichBan";
-            this.rbTuongTacKichBan.Size = new System.Drawing.Size(301, 20);
+            this.rbTuongTacKichBan.Size = new System.Drawing.Size(390, 25);
             this.rbTuongTacKichBan.TabIndex = 0;
             this.rbTuongTacKichBan.TabStop = true;
             this.rbTuongTacKichBan.Text = "Tương tác theo kịch bản (Khuyến khích sử dụng)";
@@ -247,8 +257,10 @@
             // btnCauHinhTuongTacNhanh
             // 
             this.btnCauHinhTuongTacNhanh.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCauHinhTuongTacNhanh.Location = new System.Drawing.Point(141, 22);
+            this.btnCauHinhTuongTacNhanh.Location = new System.Drawing.Point(188, 27);
+            this.btnCauHinhTuongTacNhanh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCauHinhTuongTacNhanh.Name = "btnCauHinhTuongTacNhanh";
+            this.btnCauHinhTuongTacNhanh.Size = new System.Drawing.Size(100, 28);
             this.btnCauHinhTuongTacNhanh.TabIndex = 1;
             this.btnCauHinhTuongTacNhanh.Text = "Cấu hình";
             this.btnCauHinhTuongTacNhanh.UseSelectable = true;
@@ -261,18 +273,20 @@
             this.plTuongTacKichBan.Controls.Add(this.cbbKichBan);
             this.plTuongTacKichBan.Controls.Add(this.btnQuanLyKichBan);
             this.plTuongTacKichBan.Controls.Add(this.label1);
-            this.plTuongTacKichBan.Location = new System.Drawing.Point(37, 70);
+            this.plTuongTacKichBan.Location = new System.Drawing.Point(49, 86);
+            this.plTuongTacKichBan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.plTuongTacKichBan.Name = "plTuongTacKichBan";
-            this.plTuongTacKichBan.Size = new System.Drawing.Size(376, 63);
+            this.plTuongTacKichBan.Size = new System.Drawing.Size(501, 77);
             this.plTuongTacKichBan.TabIndex = 2;
             // 
             // ckbRandomHanhDong
             // 
             this.ckbRandomHanhDong.AutoSize = true;
             this.ckbRandomHanhDong.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ckbRandomHanhDong.Location = new System.Drawing.Point(7, 35);
+            this.ckbRandomHanhDong.Location = new System.Drawing.Point(9, 43);
+            this.ckbRandomHanhDong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbRandomHanhDong.Name = "ckbRandomHanhDong";
-            this.ckbRandomHanhDong.Size = new System.Drawing.Size(199, 20);
+            this.ckbRandomHanhDong.Size = new System.Drawing.Size(257, 25);
             this.ckbRandomHanhDong.TabIndex = 2;
             this.ckbRandomHanhDong.Text = "Random thứ tự các hành động";
             this.ckbRandomHanhDong.UseVisualStyleBackColor = true;
@@ -283,17 +297,19 @@
             this.cbbKichBan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbbKichBan.DropDownWidth = 200;
             this.cbbKichBan.FormattingEnabled = true;
-            this.cbbKichBan.Location = new System.Drawing.Point(103, 5);
+            this.cbbKichBan.Location = new System.Drawing.Point(137, 6);
+            this.cbbKichBan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbbKichBan.Name = "cbbKichBan";
-            this.cbbKichBan.Size = new System.Drawing.Size(161, 24);
+            this.cbbKichBan.Size = new System.Drawing.Size(213, 27);
             this.cbbKichBan.TabIndex = 1;
             // 
             // btnQuanLyKichBan
             // 
             this.btnQuanLyKichBan.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnQuanLyKichBan.Location = new System.Drawing.Point(270, 5);
+            this.btnQuanLyKichBan.Location = new System.Drawing.Point(360, 6);
+            this.btnQuanLyKichBan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnQuanLyKichBan.Name = "btnQuanLyKichBan";
-            this.btnQuanLyKichBan.Size = new System.Drawing.Size(100, 25);
+            this.btnQuanLyKichBan.Size = new System.Drawing.Size(133, 31);
             this.btnQuanLyKichBan.TabIndex = 1;
             this.btnQuanLyKichBan.Text = "Quản lý kịch bản";
             this.btnQuanLyKichBan.UseSelectable = true;
@@ -302,9 +318,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(4, 8);
+            this.label1.Location = new System.Drawing.Point(5, 10);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 16);
+            this.label1.Size = new System.Drawing.Size(119, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "Chọn kịch bản:";
             // 
@@ -312,18 +329,20 @@
             // 
             this.panel3.Controls.Add(this.rbLoginWWW);
             this.panel3.Controls.Add(this.rbLoginMFB);
-            this.panel3.Location = new System.Drawing.Point(134, 55);
+            this.panel3.Location = new System.Drawing.Point(179, 68);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(273, 26);
+            this.panel3.Size = new System.Drawing.Size(364, 32);
             this.panel3.TabIndex = 5;
             // 
             // rbLoginWWW
             // 
             this.rbLoginWWW.AutoSize = true;
             this.rbLoginWWW.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbLoginWWW.Location = new System.Drawing.Point(129, 3);
+            this.rbLoginWWW.Location = new System.Drawing.Point(172, 4);
+            this.rbLoginWWW.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbLoginWWW.Name = "rbLoginWWW";
-            this.rbLoginWWW.Size = new System.Drawing.Size(98, 20);
+            this.rbLoginWWW.Size = new System.Drawing.Size(125, 25);
             this.rbLoginWWW.TabIndex = 4;
             this.rbLoginWWW.Text = "www.fb.com";
             this.rbLoginWWW.UseVisualStyleBackColor = true;
@@ -333,9 +352,10 @@
             this.rbLoginMFB.AutoSize = true;
             this.rbLoginMFB.Checked = true;
             this.rbLoginMFB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbLoginMFB.Location = new System.Drawing.Point(3, 3);
+            this.rbLoginMFB.Location = new System.Drawing.Point(4, 4);
+            this.rbLoginMFB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbLoginMFB.Name = "rbLoginMFB";
-            this.rbLoginMFB.Size = new System.Drawing.Size(119, 20);
+            this.rbLoginMFB.Size = new System.Drawing.Size(152, 25);
             this.rbLoginMFB.TabIndex = 4;
             this.rbLoginMFB.TabStop = true;
             this.rbLoginMFB.Text = "m.facebook.com";
@@ -344,18 +364,20 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 58);
+            this.label3.Location = new System.Drawing.Point(17, 71);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(110, 16);
+            this.label3.Size = new System.Drawing.Size(142, 21);
             this.label3.TabIndex = 3;
             this.label3.Text = "Trang đăng nhập:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 34);
+            this.label2.Location = new System.Drawing.Point(17, 42);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 16);
+            this.label2.Size = new System.Drawing.Size(131, 21);
             this.label2.TabIndex = 3;
             this.label2.Text = "Kiểu đăng nhập:";
             // 
@@ -363,9 +385,10 @@
             // 
             this.ckbCreateProfile.AutoSize = true;
             this.ckbCreateProfile.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ckbCreateProfile.Location = new System.Drawing.Point(16, 31);
+            this.ckbCreateProfile.Location = new System.Drawing.Point(21, 38);
+            this.ckbCreateProfile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbCreateProfile.Name = "ckbCreateProfile";
-            this.ckbCreateProfile.Size = new System.Drawing.Size(186, 20);
+            this.ckbCreateProfile.Size = new System.Drawing.Size(239, 25);
             this.ckbCreateProfile.TabIndex = 2;
             this.ckbCreateProfile.Text = "Tự động tạo Profile khi chạy";
             this.ckbCreateProfile.UseVisualStyleBackColor = true;
@@ -374,9 +397,10 @@
             // 
             this.ckbGetCookie.AutoSize = true;
             this.ckbGetCookie.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ckbGetCookie.Location = new System.Drawing.Point(222, 31);
+            this.ckbGetCookie.Location = new System.Drawing.Point(296, 38);
+            this.ckbGetCookie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbGetCookie.Name = "ckbGetCookie";
-            this.ckbGetCookie.Size = new System.Drawing.Size(186, 20);
+            this.ckbGetCookie.Size = new System.Drawing.Size(239, 25);
             this.ckbGetCookie.TabIndex = 2;
             this.ckbGetCookie.Text = "Tự động lấy Cookie khi chạy";
             this.ckbGetCookie.UseVisualStyleBackColor = true;
@@ -385,9 +409,10 @@
             // 
             this.ckbCreateShortcut.AutoSize = true;
             this.ckbCreateShortcut.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ckbCreateShortcut.Location = new System.Drawing.Point(16, 108);
+            this.ckbCreateShortcut.Location = new System.Drawing.Point(21, 133);
+            this.ckbCreateShortcut.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbCreateShortcut.Name = "ckbCreateShortcut";
-            this.ckbCreateShortcut.Size = new System.Drawing.Size(197, 20);
+            this.ckbCreateShortcut.Size = new System.Drawing.Size(252, 25);
             this.ckbCreateShortcut.TabIndex = 2;
             this.ckbCreateShortcut.Text = "Tự động tạo Shortcut Chrome";
             this.ckbCreateShortcut.UseVisualStyleBackColor = true;
@@ -397,9 +422,10 @@
             // 
             this.ckbRepeatAll.AutoSize = true;
             this.ckbRepeatAll.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ckbRepeatAll.Location = new System.Drawing.Point(16, 109);
+            this.ckbRepeatAll.Location = new System.Drawing.Point(21, 134);
+            this.ckbRepeatAll.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbRepeatAll.Name = "ckbRepeatAll";
-            this.ckbRepeatAll.Size = new System.Drawing.Size(344, 20);
+            this.ckbRepeatAll.Size = new System.Drawing.Size(445, 25);
             this.ckbRepeatAll.TabIndex = 2;
             this.ckbRepeatAll.Text = "Chạy tương tác lại toàn bộ tài khoản sau khi hoàn thành";
             this.ckbRepeatAll.UseVisualStyleBackColor = true;
@@ -409,9 +435,10 @@
             // 
             this.ckbAllowFollow.AutoSize = true;
             this.ckbAllowFollow.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ckbAllowFollow.Location = new System.Drawing.Point(227, 108);
+            this.ckbAllowFollow.Location = new System.Drawing.Point(303, 133);
+            this.ckbAllowFollow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbAllowFollow.Name = "ckbAllowFollow";
-            this.ckbAllowFollow.Size = new System.Drawing.Size(187, 20);
+            this.ckbAllowFollow.Size = new System.Drawing.Size(239, 25);
             this.ckbAllowFollow.TabIndex = 2;
             this.ckbAllowFollow.Text = "Cho phép người khác Follow";
             this.ckbAllowFollow.UseVisualStyleBackColor = true;
@@ -420,9 +447,10 @@
             // 
             this.ckbAutoLinkInstagram.AutoSize = true;
             this.ckbAutoLinkInstagram.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ckbAutoLinkInstagram.Location = new System.Drawing.Point(227, 163);
+            this.ckbAutoLinkInstagram.Location = new System.Drawing.Point(303, 201);
+            this.ckbAutoLinkInstagram.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbAutoLinkInstagram.Name = "ckbAutoLinkInstagram";
-            this.ckbAutoLinkInstagram.Size = new System.Drawing.Size(181, 20);
+            this.ckbAutoLinkInstagram.Size = new System.Drawing.Size(234, 25);
             this.ckbAutoLinkInstagram.TabIndex = 2;
             this.ckbAutoLinkInstagram.Text = "Tự động liên kết Instagram";
             this.ckbAutoLinkInstagram.UseVisualStyleBackColor = true;
@@ -433,9 +461,10 @@
             // 
             this.ckbLogOutOldDevice.AutoSize = true;
             this.ckbLogOutOldDevice.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ckbLogOutOldDevice.Location = new System.Drawing.Point(227, 84);
+            this.ckbLogOutOldDevice.Location = new System.Drawing.Point(303, 103);
+            this.ckbLogOutOldDevice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbLogOutOldDevice.Name = "ckbLogOutOldDevice";
-            this.ckbLogOutOldDevice.Size = new System.Drawing.Size(166, 20);
+            this.ckbLogOutOldDevice.Size = new System.Drawing.Size(216, 25);
             this.ckbLogOutOldDevice.TabIndex = 2;
             this.ckbLogOutOldDevice.Text = "Đăng xuất hết thiết bị cũ";
             this.ckbLogOutOldDevice.UseVisualStyleBackColor = true;
@@ -444,9 +473,10 @@
             // 
             this.ckbLogOut.AutoSize = true;
             this.ckbLogOut.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ckbLogOut.Location = new System.Drawing.Point(222, 57);
+            this.ckbLogOut.Location = new System.Drawing.Point(296, 70);
+            this.ckbLogOut.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbLogOut.Name = "ckbLogOut";
-            this.ckbLogOut.Size = new System.Drawing.Size(186, 20);
+            this.ckbLogOut.Size = new System.Drawing.Size(241, 25);
             this.ckbLogOut.TabIndex = 2;
             this.ckbLogOut.Text = "Đăng xuất sau khi tương tác";
             this.ckbLogOut.UseVisualStyleBackColor = true;
@@ -455,9 +485,10 @@
             // 
             this.ckbCapNhatThongTin.AutoSize = true;
             this.ckbCapNhatThongTin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ckbCapNhatThongTin.Location = new System.Drawing.Point(16, 57);
+            this.ckbCapNhatThongTin.Location = new System.Drawing.Point(21, 70);
+            this.ckbCapNhatThongTin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbCapNhatThongTin.Name = "ckbCapNhatThongTin";
-            this.ckbCapNhatThongTin.Size = new System.Drawing.Size(181, 20);
+            this.ckbCapNhatThongTin.Size = new System.Drawing.Size(234, 25);
             this.ckbCapNhatThongTin.TabIndex = 2;
             this.ckbCapNhatThongTin.Text = "Tự động cập nhật thông tin";
             this.ckbCapNhatThongTin.UseVisualStyleBackColor = true;
@@ -467,9 +498,10 @@
             // 
             this.ckbGetToken.AutoSize = true;
             this.ckbGetToken.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ckbGetToken.Location = new System.Drawing.Point(16, 84);
+            this.ckbGetToken.Location = new System.Drawing.Point(21, 103);
+            this.ckbGetToken.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbGetToken.Name = "ckbGetToken";
-            this.ckbGetToken.Size = new System.Drawing.Size(183, 20);
+            this.ckbGetToken.Size = new System.Drawing.Size(235, 25);
             this.ckbGetToken.TabIndex = 2;
             this.ckbGetToken.Text = "Tự động lấy Token khi chạy";
             this.ckbGetToken.UseVisualStyleBackColor = true;
@@ -484,8 +516,9 @@
             this.panel1.Controls.Add(this.groupBox2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(442, 485);
+            this.panel1.Size = new System.Drawing.Size(589, 597);
             this.panel1.TabIndex = 8;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -506,20 +539,22 @@
             this.plShowNangCao.Controls.Add(this.ckbCreateShortcut);
             this.plShowNangCao.Controls.Add(this.label3);
             this.plShowNangCao.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.plShowNangCao.Location = new System.Drawing.Point(11, 253);
-            this.plShowNangCao.MaximumSize = new System.Drawing.Size(420, 162);
-            this.plShowNangCao.MinimumSize = new System.Drawing.Size(420, 27);
+            this.plShowNangCao.Location = new System.Drawing.Point(15, 311);
+            this.plShowNangCao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plShowNangCao.MaximumSize = new System.Drawing.Size(559, 199);
+            this.plShowNangCao.MinimumSize = new System.Drawing.Size(559, 33);
             this.plShowNangCao.Name = "plShowNangCao";
-            this.plShowNangCao.Size = new System.Drawing.Size(420, 28);
+            this.plShowNangCao.Size = new System.Drawing.Size(559, 34);
             this.plShowNangCao.TabIndex = 3;
             // 
             // ckbBatThongBaoDangNhap
             // 
             this.ckbBatThongBaoDangNhap.AutoSize = true;
             this.ckbBatThongBaoDangNhap.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ckbBatThongBaoDangNhap.Location = new System.Drawing.Point(227, 134);
+            this.ckbBatThongBaoDangNhap.Location = new System.Drawing.Point(303, 165);
+            this.ckbBatThongBaoDangNhap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbBatThongBaoDangNhap.Name = "ckbBatThongBaoDangNhap";
-            this.ckbBatThongBaoDangNhap.Size = new System.Drawing.Size(169, 20);
+            this.ckbBatThongBaoDangNhap.Size = new System.Drawing.Size(219, 25);
             this.ckbBatThongBaoDangNhap.TabIndex = 7;
             this.ckbBatThongBaoDangNhap.Text = "Bật thông báo đăng nhập";
             this.ckbBatThongBaoDangNhap.UseVisualStyleBackColor = true;
@@ -529,18 +564,20 @@
             this.panel2.Controls.Add(this.rbLoginEmailPass);
             this.panel2.Controls.Add(this.rbLoginUidPass);
             this.panel2.Controls.Add(this.rbLoginCookie);
-            this.panel2.Location = new System.Drawing.Point(134, 31);
+            this.panel2.Location = new System.Drawing.Point(179, 38);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(273, 26);
+            this.panel2.Size = new System.Drawing.Size(364, 32);
             this.panel2.TabIndex = 6;
             // 
             // rbLoginEmailPass
             // 
             this.rbLoginEmailPass.AutoSize = true;
             this.rbLoginEmailPass.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbLoginEmailPass.Location = new System.Drawing.Point(93, 3);
+            this.rbLoginEmailPass.Location = new System.Drawing.Point(124, 4);
+            this.rbLoginEmailPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbLoginEmailPass.Name = "rbLoginEmailPass";
-            this.rbLoginEmailPass.Size = new System.Drawing.Size(88, 20);
+            this.rbLoginEmailPass.Size = new System.Drawing.Size(113, 25);
             this.rbLoginEmailPass.TabIndex = 4;
             this.rbLoginEmailPass.Text = "Email|Pass";
             this.rbLoginEmailPass.UseVisualStyleBackColor = true;
@@ -550,9 +587,10 @@
             this.rbLoginUidPass.AutoSize = true;
             this.rbLoginUidPass.Checked = true;
             this.rbLoginUidPass.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbLoginUidPass.Location = new System.Drawing.Point(3, 3);
+            this.rbLoginUidPass.Location = new System.Drawing.Point(4, 4);
+            this.rbLoginUidPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbLoginUidPass.Name = "rbLoginUidPass";
-            this.rbLoginUidPass.Size = new System.Drawing.Size(75, 20);
+            this.rbLoginUidPass.Size = new System.Drawing.Size(96, 25);
             this.rbLoginUidPass.TabIndex = 4;
             this.rbLoginUidPass.TabStop = true;
             this.rbLoginUidPass.Text = "Uid|Pass";
@@ -562,9 +600,10 @@
             // 
             this.rbLoginCookie.AutoSize = true;
             this.rbLoginCookie.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbLoginCookie.Location = new System.Drawing.Point(196, 3);
+            this.rbLoginCookie.Location = new System.Drawing.Point(261, 4);
+            this.rbLoginCookie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbLoginCookie.Name = "rbLoginCookie";
-            this.rbLoginCookie.Size = new System.Drawing.Size(63, 20);
+            this.rbLoginCookie.Size = new System.Drawing.Size(80, 25);
             this.rbLoginCookie.TabIndex = 4;
             this.rbLoginCookie.Text = "Cookie";
             this.rbLoginCookie.UseVisualStyleBackColor = true;
@@ -579,8 +618,9 @@
             this.btnShowNangCao.ForeColor = System.Drawing.Color.Black;
             this.btnShowNangCao.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnShowNangCao.Location = new System.Drawing.Point(0, 0);
+            this.btnShowNangCao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnShowNangCao.Name = "btnShowNangCao";
-            this.btnShowNangCao.Size = new System.Drawing.Size(418, 26);
+            this.btnShowNangCao.Size = new System.Drawing.Size(557, 32);
             this.btnShowNangCao.TabIndex = 2;
             this.btnShowNangCao.Text = "Cấu hình nâng cao";
             this.btnShowNangCao.UseVisualStyleBackColor = false;
@@ -590,9 +630,10 @@
             // 
             this.ckbReviewTag.AutoSize = true;
             this.ckbReviewTag.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ckbReviewTag.Location = new System.Drawing.Point(16, 134);
+            this.ckbReviewTag.Location = new System.Drawing.Point(21, 165);
+            this.ckbReviewTag.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbReviewTag.Name = "ckbReviewTag";
-            this.ckbReviewTag.Size = new System.Drawing.Size(188, 20);
+            this.ckbReviewTag.Size = new System.Drawing.Size(245, 25);
             this.ckbReviewTag.TabIndex = 2;
             this.ckbReviewTag.Text = "Bật duyệt bài viết trên tường";
             this.ckbReviewTag.UseVisualStyleBackColor = true;
@@ -610,11 +651,12 @@
             this.plShowCoBan.Controls.Add(this.ckbRepeatAll);
             this.plShowCoBan.Controls.Add(this.ckbLogOut);
             this.plShowCoBan.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.plShowCoBan.Location = new System.Drawing.Point(11, 44);
-            this.plShowCoBan.MaximumSize = new System.Drawing.Size(420, 203);
-            this.plShowCoBan.MinimumSize = new System.Drawing.Size(420, 27);
+            this.plShowCoBan.Location = new System.Drawing.Point(15, 54);
+            this.plShowCoBan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plShowCoBan.MaximumSize = new System.Drawing.Size(559, 249);
+            this.plShowCoBan.MinimumSize = new System.Drawing.Size(559, 33);
             this.plShowCoBan.Name = "plShowCoBan";
-            this.plShowCoBan.Size = new System.Drawing.Size(420, 203);
+            this.plShowCoBan.Size = new System.Drawing.Size(559, 249);
             this.plShowCoBan.TabIndex = 3;
             // 
             // plRepeatAll
@@ -628,41 +670,46 @@
             this.plRepeatAll.Controls.Add(this.label11);
             this.plRepeatAll.Controls.Add(this.nudSoLuotChay);
             this.plRepeatAll.Controls.Add(this.label10);
-            this.plRepeatAll.Location = new System.Drawing.Point(36, 131);
+            this.plRepeatAll.Location = new System.Drawing.Point(48, 161);
+            this.plRepeatAll.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.plRepeatAll.Name = "plRepeatAll";
-            this.plRepeatAll.Size = new System.Drawing.Size(376, 64);
+            this.plRepeatAll.Size = new System.Drawing.Size(501, 78);
             this.plRepeatAll.TabIndex = 13;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(3, 6);
+            this.label6.Location = new System.Drawing.Point(4, 7);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(83, 16);
+            this.label6.Size = new System.Drawing.Size(107, 21);
             this.label6.TabIndex = 5;
             this.label6.Text = "Số lượt chạy:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 34);
+            this.label4.Location = new System.Drawing.Point(4, 42);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(144, 16);
+            this.label4.Size = new System.Drawing.Size(188, 21);
             this.label4.TabIndex = 6;
             this.label4.Text = "Chờ chạy lượt tiếp theo:";
             // 
             // nudDelayTurnFrom
             // 
-            this.nudDelayTurnFrom.Location = new System.Drawing.Point(154, 32);
+            this.nudDelayTurnFrom.Location = new System.Drawing.Point(205, 39);
+            this.nudDelayTurnFrom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nudDelayTurnFrom.Name = "nudDelayTurnFrom";
-            this.nudDelayTurnFrom.Size = new System.Drawing.Size(65, 23);
+            this.nudDelayTurnFrom.Size = new System.Drawing.Size(87, 27);
             this.nudDelayTurnFrom.TabIndex = 9;
             // 
             // label5
             // 
-            this.label5.Location = new System.Drawing.Point(222, 7);
+            this.label5.Location = new System.Drawing.Point(296, 9);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(30, 16);
+            this.label5.Size = new System.Drawing.Size(40, 20);
             this.label5.TabIndex = 10;
             this.label5.Text = "lượt";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -670,32 +717,36 @@
             // 
             // nudDelayTurnTo
             // 
-            this.nudDelayTurnTo.Location = new System.Drawing.Point(252, 32);
+            this.nudDelayTurnTo.Location = new System.Drawing.Point(336, 39);
+            this.nudDelayTurnTo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nudDelayTurnTo.Name = "nudDelayTurnTo";
-            this.nudDelayTurnTo.Size = new System.Drawing.Size(65, 23);
+            this.nudDelayTurnTo.Size = new System.Drawing.Size(87, 27);
             this.nudDelayTurnTo.TabIndex = 8;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(320, 35);
+            this.label11.Location = new System.Drawing.Point(427, 43);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(32, 16);
+            this.label11.Size = new System.Drawing.Size(43, 21);
             this.label11.TabIndex = 11;
             this.label11.Text = "phút";
             // 
             // nudSoLuotChay
             // 
-            this.nudSoLuotChay.Location = new System.Drawing.Point(154, 4);
+            this.nudSoLuotChay.Location = new System.Drawing.Point(205, 5);
+            this.nudSoLuotChay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nudSoLuotChay.Name = "nudSoLuotChay";
-            this.nudSoLuotChay.Size = new System.Drawing.Size(65, 23);
+            this.nudSoLuotChay.Size = new System.Drawing.Size(87, 27);
             this.nudSoLuotChay.TabIndex = 7;
             // 
             // label10
             // 
-            this.label10.Location = new System.Drawing.Point(222, 35);
+            this.label10.Location = new System.Drawing.Point(296, 43);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(29, 16);
+            this.label10.Size = new System.Drawing.Size(39, 20);
             this.label10.TabIndex = 12;
             this.label10.Text = "đến";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -711,8 +762,9 @@
             this.btnShowCoBan.ForeColor = System.Drawing.Color.Black;
             this.btnShowCoBan.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnShowCoBan.Location = new System.Drawing.Point(0, 0);
+            this.btnShowCoBan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnShowCoBan.Name = "btnShowCoBan";
-            this.btnShowCoBan.Size = new System.Drawing.Size(418, 25);
+            this.btnShowCoBan.Size = new System.Drawing.Size(557, 31);
             this.btnShowCoBan.TabIndex = 2;
             this.btnShowCoBan.Text = "Cấu hình cơ bản";
             this.btnShowCoBan.UseVisualStyleBackColor = false;
@@ -722,9 +774,10 @@
             // 
             this.ckbDontSaveBrowser.AutoSize = true;
             this.ckbDontSaveBrowser.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ckbDontSaveBrowser.Location = new System.Drawing.Point(222, 83);
+            this.ckbDontSaveBrowser.Location = new System.Drawing.Point(296, 102);
+            this.ckbDontSaveBrowser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbDontSaveBrowser.Name = "ckbDontSaveBrowser";
-            this.ckbDontSaveBrowser.Size = new System.Drawing.Size(199, 20);
+            this.ckbDontSaveBrowser.Size = new System.Drawing.Size(257, 25);
             this.ckbDontSaveBrowser.TabIndex = 2;
             this.ckbDontSaveBrowser.Text = "Không lưu trình duyệt khi login";
             this.ckbDontSaveBrowser.UseVisualStyleBackColor = true;
@@ -733,9 +786,10 @@
             // 
             this.ckbCheckLiveUid.AutoSize = true;
             this.ckbCheckLiveUid.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ckbCheckLiveUid.Location = new System.Drawing.Point(16, 83);
+            this.ckbCheckLiveUid.Location = new System.Drawing.Point(21, 102);
+            this.ckbCheckLiveUid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbCheckLiveUid.Name = "ckbCheckLiveUid";
-            this.ckbCheckLiveUid.Size = new System.Drawing.Size(192, 20);
+            this.ckbCheckLiveUid.Size = new System.Drawing.Size(248, 25);
             this.ckbCheckLiveUid.TabIndex = 2;
             this.ckbCheckLiveUid.Text = "Check Live Uid trước khi chạy";
             this.ckbCheckLiveUid.UseVisualStyleBackColor = true;
@@ -752,14 +806,15 @@
             // 
             // fCauHinhTuongTac
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(442, 485);
+            this.ClientSize = new System.Drawing.Size(589, 597);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.bunifuCards1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "fCauHinhTuongTac";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "fAddFile";

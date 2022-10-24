@@ -118,6 +118,7 @@
             this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinimize.ForeColor = System.Drawing.Color.White;
+            this.btnMinimize.Image = global::MaxCare.Properties.Resources.close_window_25px;
             this.btnMinimize.Location = new System.Drawing.Point(921, 1);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(30, 30);
@@ -182,7 +183,7 @@
             this.lblSuccess.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(120)))), ((int)(((byte)(229)))));
             this.lblSuccess.Location = new System.Drawing.Point(106, 51);
             this.lblSuccess.Name = "lblSuccess";
-            this.lblSuccess.Size = new System.Drawing.Size(19, 19);
+            this.lblSuccess.Size = new System.Drawing.Size(23, 24);
             this.lblSuccess.TabIndex = 23;
             this.lblSuccess.Text = "0";
             // 
@@ -194,7 +195,7 @@
             this.lblError.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.lblError.Location = new System.Drawing.Point(218, 51);
             this.lblError.Name = "lblError";
-            this.lblError.Size = new System.Drawing.Size(19, 19);
+            this.lblError.Size = new System.Drawing.Size(23, 24);
             this.lblError.TabIndex = 24;
             this.lblError.Text = "0";
             // 
@@ -206,7 +207,7 @@
             this.lblWallDie.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblWallDie.Location = new System.Drawing.Point(498, 51);
             this.lblWallDie.Name = "lblWallDie";
-            this.lblWallDie.Size = new System.Drawing.Size(19, 19);
+            this.lblWallDie.Size = new System.Drawing.Size(23, 24);
             this.lblWallDie.TabIndex = 25;
             this.lblWallDie.Text = "0";
             // 
@@ -218,7 +219,7 @@
             this.lblTotal.ForeColor = System.Drawing.Color.Teal;
             this.lblTotal.Location = new System.Drawing.Point(842, 51);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(19, 19);
+            this.lblTotal.Size = new System.Drawing.Size(23, 24);
             this.lblTotal.TabIndex = 26;
             this.lblTotal.Text = "0";
             // 
@@ -230,7 +231,7 @@
             this.lblWallLive.ForeColor = System.Drawing.Color.Green;
             this.lblWallLive.Location = new System.Drawing.Point(361, 51);
             this.lblWallLive.Name = "lblWallLive";
-            this.lblWallLive.Size = new System.Drawing.Size(19, 19);
+            this.lblWallLive.Size = new System.Drawing.Size(23, 24);
             this.lblWallLive.TabIndex = 29;
             this.lblWallLive.Text = "0";
             // 
@@ -303,7 +304,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(14, 397);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(97, 14);
+            this.label8.Size = new System.Drawing.Size(115, 18);
             this.label8.TabIndex = 39;
             this.label8.Text = "Định dạng nhập:";
             // 
@@ -322,7 +323,7 @@
             "Other..."});
             this.cbbDinhDangNhap.Location = new System.Drawing.Point(117, 394);
             this.cbbDinhDangNhap.Name = "cbbDinhDangNhap";
-            this.cbbDinhDangNhap.Size = new System.Drawing.Size(269, 22);
+            this.cbbDinhDangNhap.Size = new System.Drawing.Size(269, 26);
             this.cbbDinhDangNhap.TabIndex = 40;
             this.cbbDinhDangNhap.SelectedIndexChanged += new System.EventHandler(this.cbbDinhDangNhap_SelectedIndexChanged);
             // 
@@ -344,7 +345,7 @@
             "Birthday"});
             this.cbbDinhDang1.Location = new System.Drawing.Point(3, 3);
             this.cbbDinhDang1.Name = "cbbDinhDang1";
-            this.cbbDinhDang1.Size = new System.Drawing.Size(78, 22);
+            this.cbbDinhDang1.Size = new System.Drawing.Size(78, 26);
             this.cbbDinhDang1.TabIndex = 40;
             this.cbbDinhDang1.SelectedIndexChanged += new System.EventHandler(this.cbbDinhDang1_SelectedIndexChanged);
             // 
@@ -354,7 +355,7 @@
             this.label9.Font = new System.Drawing.Font("Tahoma", 12F);
             this.label9.Location = new System.Drawing.Point(81, 3);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(15, 19);
+            this.label9.Size = new System.Drawing.Size(18, 24);
             this.label9.TabIndex = 41;
             this.label9.Text = "|";
             // 
@@ -376,7 +377,7 @@
             "Birthday"});
             this.cbbDinhDang2.Location = new System.Drawing.Point(96, 3);
             this.cbbDinhDang2.Name = "cbbDinhDang2";
-            this.cbbDinhDang2.Size = new System.Drawing.Size(78, 22);
+            this.cbbDinhDang2.Size = new System.Drawing.Size(78, 26);
             this.cbbDinhDang2.TabIndex = 40;
             this.cbbDinhDang2.SelectedIndexChanged += new System.EventHandler(this.cbbDinhDang1_SelectedIndexChanged);
             // 
@@ -386,7 +387,7 @@
             this.label10.Font = new System.Drawing.Font("Tahoma", 12F);
             this.label10.Location = new System.Drawing.Point(174, 3);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(15, 19);
+            this.label10.Size = new System.Drawing.Size(18, 24);
             this.label10.TabIndex = 41;
             this.label10.Text = "|";
             // 
@@ -408,7 +409,7 @@
             "Birthday"});
             this.cbbDinhDang3.Location = new System.Drawing.Point(189, 3);
             this.cbbDinhDang3.Name = "cbbDinhDang3";
-            this.cbbDinhDang3.Size = new System.Drawing.Size(78, 22);
+            this.cbbDinhDang3.Size = new System.Drawing.Size(78, 26);
             this.cbbDinhDang3.TabIndex = 40;
             this.cbbDinhDang3.SelectedIndexChanged += new System.EventHandler(this.cbbDinhDang1_SelectedIndexChanged);
             // 
@@ -418,7 +419,7 @@
             this.label11.Font = new System.Drawing.Font("Tahoma", 12F);
             this.label11.Location = new System.Drawing.Point(267, 3);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(15, 19);
+            this.label11.Size = new System.Drawing.Size(18, 24);
             this.label11.TabIndex = 41;
             this.label11.Text = "|";
             // 
@@ -440,7 +441,7 @@
             "Birthday"});
             this.cbbDinhDang4.Location = new System.Drawing.Point(282, 3);
             this.cbbDinhDang4.Name = "cbbDinhDang4";
-            this.cbbDinhDang4.Size = new System.Drawing.Size(78, 22);
+            this.cbbDinhDang4.Size = new System.Drawing.Size(78, 26);
             this.cbbDinhDang4.TabIndex = 40;
             this.cbbDinhDang4.SelectedIndexChanged += new System.EventHandler(this.cbbDinhDang1_SelectedIndexChanged);
             // 
@@ -450,7 +451,7 @@
             this.label12.Font = new System.Drawing.Font("Tahoma", 12F);
             this.label12.Location = new System.Drawing.Point(360, 3);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(15, 19);
+            this.label12.Size = new System.Drawing.Size(18, 24);
             this.label12.TabIndex = 41;
             this.label12.Text = "|";
             // 
@@ -472,7 +473,7 @@
             "Birthday"});
             this.cbbDinhDang5.Location = new System.Drawing.Point(375, 3);
             this.cbbDinhDang5.Name = "cbbDinhDang5";
-            this.cbbDinhDang5.Size = new System.Drawing.Size(78, 22);
+            this.cbbDinhDang5.Size = new System.Drawing.Size(78, 26);
             this.cbbDinhDang5.TabIndex = 40;
             this.cbbDinhDang5.SelectedIndexChanged += new System.EventHandler(this.cbbDinhDang1_SelectedIndexChanged);
             // 
@@ -482,7 +483,7 @@
             this.label13.Font = new System.Drawing.Font("Tahoma", 12F);
             this.label13.Location = new System.Drawing.Point(453, 3);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(15, 19);
+            this.label13.Size = new System.Drawing.Size(18, 24);
             this.label13.TabIndex = 41;
             this.label13.Text = "|";
             // 
@@ -504,7 +505,7 @@
             "Birthday"});
             this.cbbDinhDang6.Location = new System.Drawing.Point(468, 3);
             this.cbbDinhDang6.Name = "cbbDinhDang6";
-            this.cbbDinhDang6.Size = new System.Drawing.Size(78, 22);
+            this.cbbDinhDang6.Size = new System.Drawing.Size(78, 26);
             this.cbbDinhDang6.TabIndex = 40;
             this.cbbDinhDang6.SelectedIndexChanged += new System.EventHandler(this.cbbDinhDang1_SelectedIndexChanged);
             // 
@@ -514,7 +515,7 @@
             this.label14.Font = new System.Drawing.Font("Tahoma", 12F);
             this.label14.Location = new System.Drawing.Point(546, 3);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(15, 19);
+            this.label14.Size = new System.Drawing.Size(18, 24);
             this.label14.TabIndex = 41;
             this.label14.Text = "|";
             // 
@@ -536,7 +537,7 @@
             "Birthday"});
             this.cbbDinhDang7.Location = new System.Drawing.Point(561, 3);
             this.cbbDinhDang7.Name = "cbbDinhDang7";
-            this.cbbDinhDang7.Size = new System.Drawing.Size(78, 22);
+            this.cbbDinhDang7.Size = new System.Drawing.Size(78, 26);
             this.cbbDinhDang7.TabIndex = 40;
             this.cbbDinhDang7.SelectedIndexChanged += new System.EventHandler(this.cbbDinhDang1_SelectedIndexChanged);
             // 
@@ -545,7 +546,7 @@
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(14, 457);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(63, 14);
+            this.label15.Size = new System.Drawing.Size(75, 18);
             this.label15.TabIndex = 39;
             this.label15.Text = "Tùy chọn:";
             // 
@@ -555,7 +556,7 @@
             this.ckbCheckThongTin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ckbCheckThongTin.Location = new System.Drawing.Point(117, 456);
             this.ckbCheckThongTin.Name = "ckbCheckThongTin";
-            this.ckbCheckThongTin.Size = new System.Drawing.Size(355, 18);
+            this.ckbCheckThongTin.Size = new System.Drawing.Size(419, 22);
             this.ckbCheckThongTin.TabIndex = 43;
             this.ckbCheckThongTin.Text = "Check thông tin (Check Wall, Tên, Giới tính, Bạn bè, Nhóm)";
             this.ckbCheckThongTin.UseVisualStyleBackColor = true;
@@ -604,7 +605,7 @@
             this.label18.Font = new System.Drawing.Font("Tahoma", 12F);
             this.label18.Location = new System.Drawing.Point(732, 3);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(15, 19);
+            this.label18.Size = new System.Drawing.Size(18, 24);
             this.label18.TabIndex = 41;
             this.label18.Text = "|";
             // 
@@ -614,7 +615,7 @@
             this.label17.Font = new System.Drawing.Font("Tahoma", 12F);
             this.label17.Location = new System.Drawing.Point(639, 3);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(15, 19);
+            this.label17.Size = new System.Drawing.Size(18, 24);
             this.label17.TabIndex = 41;
             this.label17.Text = "|";
             // 
@@ -636,7 +637,7 @@
             "Birthday"});
             this.cbbDinhDang8.Location = new System.Drawing.Point(654, 3);
             this.cbbDinhDang8.Name = "cbbDinhDang8";
-            this.cbbDinhDang8.Size = new System.Drawing.Size(78, 22);
+            this.cbbDinhDang8.Size = new System.Drawing.Size(78, 26);
             this.cbbDinhDang8.TabIndex = 40;
             this.cbbDinhDang8.SelectedIndexChanged += new System.EventHandler(this.cbbDinhDang1_SelectedIndexChanged);
             // 
@@ -658,7 +659,7 @@
             "Birthday"});
             this.cbbDinhDang9.Location = new System.Drawing.Point(747, 3);
             this.cbbDinhDang9.Name = "cbbDinhDang9";
-            this.cbbDinhDang9.Size = new System.Drawing.Size(78, 22);
+            this.cbbDinhDang9.Size = new System.Drawing.Size(78, 26);
             this.cbbDinhDang9.TabIndex = 40;
             this.cbbDinhDang9.SelectedIndexChanged += new System.EventHandler(this.cbbDinhDang1_SelectedIndexChanged);
             // 
@@ -667,7 +668,7 @@
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(14, 368);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(90, 14);
+            this.label16.Size = new System.Drawing.Size(106, 18);
             this.label16.TabIndex = 39;
             this.label16.Text = "Chọn thư mục:";
             // 
@@ -679,7 +680,7 @@
             this.cbbThuMuc.FormattingEnabled = true;
             this.cbbThuMuc.Location = new System.Drawing.Point(117, 365);
             this.cbbThuMuc.Name = "cbbThuMuc";
-            this.cbbThuMuc.Size = new System.Drawing.Size(201, 22);
+            this.cbbThuMuc.Size = new System.Drawing.Size(201, 26);
             this.cbbThuMuc.TabIndex = 40;
             this.cbbThuMuc.SelectedIndexChanged += new System.EventHandler(this.cbbThuMuc_SelectedIndexChanged);
             // 
@@ -713,7 +714,7 @@
             this.lblKhongCheckDuoc.ForeColor = System.Drawing.Color.Maroon;
             this.lblKhongCheckDuoc.Location = new System.Drawing.Point(705, 51);
             this.lblKhongCheckDuoc.Name = "lblKhongCheckDuoc";
-            this.lblKhongCheckDuoc.Size = new System.Drawing.Size(19, 19);
+            this.lblKhongCheckDuoc.Size = new System.Drawing.Size(23, 24);
             this.lblKhongCheckDuoc.TabIndex = 25;
             this.lblKhongCheckDuoc.Text = "0";
             // 
@@ -730,7 +731,7 @@
             // 
             // fImportAccount
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(953, 535);
             this.Controls.Add(this.txbAccount);

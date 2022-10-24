@@ -137,7 +137,7 @@
             // 
             this.txtNhapTuFile.Location = new System.Drawing.Point(110, 22);
             this.txtNhapTuFile.Name = "txtNhapTuFile";
-            this.txtNhapTuFile.Size = new System.Drawing.Size(171, 23);
+            this.txtNhapTuFile.Size = new System.Drawing.Size(171, 27);
             this.txtNhapTuFile.TabIndex = 1;
             // 
             // rbTuNhap
@@ -146,7 +146,7 @@
             this.rbTuNhap.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbTuNhap.Location = new System.Drawing.Point(9, 49);
             this.rbTuNhap.Name = "rbTuNhap";
-            this.rbTuNhap.Size = new System.Drawing.Size(94, 20);
+            this.rbTuNhap.Size = new System.Drawing.Size(120, 25);
             this.rbTuNhap.TabIndex = 0;
             this.rbTuNhap.Text = "Tự nhập (0)";
             this.rbTuNhap.UseVisualStyleBackColor = true;
@@ -159,7 +159,7 @@
             this.rbNhapTuFile.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbNhapTuFile.Location = new System.Drawing.Point(9, 23);
             this.rbNhapTuFile.Name = "rbNhapTuFile";
-            this.rbNhapTuFile.Size = new System.Drawing.Size(94, 20);
+            this.rbNhapTuFile.Size = new System.Drawing.Size(121, 25);
             this.rbNhapTuFile.TabIndex = 0;
             this.rbNhapTuFile.TabStop = true;
             this.rbNhapTuFile.Text = "Nhập từ File";
@@ -220,6 +220,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Image = global::MaxCare.Properties.Resources.close_window_25px;
             this.button2.Location = new System.Drawing.Point(805, 1);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(30, 30);
@@ -282,7 +283,7 @@
             // 
             // fTienIchLocTrung
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(838, 270);
             this.Controls.Add(this.panel1);

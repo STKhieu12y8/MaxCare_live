@@ -101,6 +101,7 @@
             this.dgv.Name = "dgv";
             this.dgv.ReadOnly = true;
             this.dgv.RowHeadersVisible = false;
+            this.dgv.RowHeadersWidth = 51;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
@@ -114,6 +115,7 @@
             // cSTT
             // 
             this.cSTT.HeaderText = "STT";
+            this.cSTT.MinimumWidth = 6;
             this.cSTT.Name = "cSTT";
             this.cSTT.ReadOnly = true;
             this.cSTT.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
@@ -122,6 +124,7 @@
             // cTuKhoa
             // 
             this.cTuKhoa.HeaderText = "Từ khóa";
+            this.cTuKhoa.MinimumWidth = 6;
             this.cTuKhoa.Name = "cTuKhoa";
             this.cTuKhoa.ReadOnly = true;
             this.cTuKhoa.Width = 80;
@@ -130,6 +133,7 @@
             // 
             this.cNoiDung.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.cNoiDung.HeaderText = "Nội dung random";
+            this.cNoiDung.MinimumWidth = 6;
             this.cNoiDung.Name = "cNoiDung";
             this.cNoiDung.ReadOnly = true;
             this.cNoiDung.Resizable = System.Windows.Forms.DataGridViewTriState.True;
@@ -173,6 +177,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Image = global::MaxCare.Properties.Resources.close_window_25px;
             this.button2.Location = new System.Drawing.Point(539, 1);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(30, 30);
@@ -222,29 +227,30 @@
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.thêmMớiToolStripMenuItem,
             this.sửaToolStripMenuItem,
             this.xóaToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(153, 70);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(177, 76);
             // 
             // thêmMớiToolStripMenuItem
             // 
             this.thêmMớiToolStripMenuItem.Name = "thêmMớiToolStripMenuItem";
-            this.thêmMớiToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.thêmMớiToolStripMenuItem.Size = new System.Drawing.Size(176, 24);
             this.thêmMớiToolStripMenuItem.Text = "Thêm chủ đề";
             // 
             // sửaToolStripMenuItem
             // 
             this.sửaToolStripMenuItem.Name = "sửaToolStripMenuItem";
-            this.sửaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.sửaToolStripMenuItem.Size = new System.Drawing.Size(176, 24);
             this.sửaToolStripMenuItem.Text = "Sửa tên chủ đề";
             // 
             // xóaToolStripMenuItem
             // 
             this.xóaToolStripMenuItem.Name = "xóaToolStripMenuItem";
-            this.xóaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.xóaToolStripMenuItem.Size = new System.Drawing.Size(176, 24);
             this.xóaToolStripMenuItem.Text = "Xóa chủ đề";
             // 
             // bunifuDragControl1
@@ -263,7 +269,7 @@
             // 
             // fHuongDanRandom
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(572, 503);
             this.Controls.Add(this.panel1);

@@ -141,7 +141,7 @@
             this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.Black;
             this.bunifuCustomLabel1.Location = new System.Drawing.Point(0, 0);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(1468, 31);
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(1480, 31);
             this.bunifuCustomLabel1.TabIndex = 12;
             this.bunifuCustomLabel1.Text = "Danh sách hành động";
             this.bunifuCustomLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -164,7 +164,7 @@
             this.pnlHeader.Cursor = System.Windows.Forms.Cursors.SizeAll;
             this.pnlHeader.Location = new System.Drawing.Point(0, 3);
             this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.Size = new System.Drawing.Size(1468, 31);
+            this.pnlHeader.Size = new System.Drawing.Size(1480, 31);
             this.pnlHeader.TabIndex = 9;
             // 
             // button1
@@ -175,7 +175,8 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(1436, 1);
+            this.button1.Image = global::MaxCare.Properties.Resources.close_window_25px;
+            this.button1.Location = new System.Drawing.Point(1448, 1);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(30, 30);
             this.button1.TabIndex = 77;
@@ -208,7 +209,7 @@
             this.bunifuCards1.Name = "bunifuCards1";
             this.bunifuCards1.RightSahddow = true;
             this.bunifuCards1.ShadowDepth = 20;
-            this.bunifuCards1.Size = new System.Drawing.Size(1468, 37);
+            this.bunifuCards1.Size = new System.Drawing.Size(1480, 37);
             this.bunifuCards1.TabIndex = 12;
             // 
             // groupBox2
@@ -223,7 +224,7 @@
             this.groupBox2.Controls.Add(this.metroButton3);
             this.groupBox2.Controls.Add(this.metroButton2);
             this.groupBox2.Controls.Add(this.btnDocThongBao);
-            this.groupBox2.Location = new System.Drawing.Point(9, 43);
+            this.groupBox2.Location = new System.Drawing.Point(15, 43);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(178, 454);
             this.groupBox2.TabIndex = 0;
@@ -350,7 +351,7 @@
             this.groupBox1.Controls.Add(this.metroButton48);
             this.groupBox1.Controls.Add(this.metroButton29);
             this.groupBox1.Controls.Add(this.metroButton34);
-            this.groupBox1.Location = new System.Drawing.Point(192, 42);
+            this.groupBox1.Location = new System.Drawing.Point(198, 42);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(178, 454);
             this.groupBox1.TabIndex = 1;
@@ -478,7 +479,7 @@
             this.groupBox4.Controls.Add(this.metroButton17);
             this.groupBox4.Controls.Add(this.metroButton13);
             this.groupBox4.Controls.Add(this.metroButton14);
-            this.groupBox4.Location = new System.Drawing.Point(376, 42);
+            this.groupBox4.Location = new System.Drawing.Point(382, 42);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(178, 454);
             this.groupBox4.TabIndex = 3;
@@ -602,7 +603,7 @@
             this.groupBox5.Controls.Add(this.metroButton22);
             this.groupBox5.Controls.Add(this.metroButton21);
             this.groupBox5.Controls.Add(this.metroButton23);
-            this.groupBox5.Location = new System.Drawing.Point(560, 42);
+            this.groupBox5.Location = new System.Drawing.Point(566, 42);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(178, 454);
             this.groupBox5.TabIndex = 4;
@@ -720,7 +721,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1471, 508);
+            this.panel1.Size = new System.Drawing.Size(1483, 508);
             this.panel1.TabIndex = 25;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -742,7 +743,7 @@
             this.groupBox7.Controls.Add(this.metroButton51);
             this.groupBox7.Controls.Add(this.metroButton1);
             this.groupBox7.Controls.Add(this.metroButton42);
-            this.groupBox7.Location = new System.Drawing.Point(1113, 42);
+            this.groupBox7.Location = new System.Drawing.Point(1119, 42);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(345, 454);
             this.groupBox7.TabIndex = 4;
@@ -896,7 +897,7 @@
             this.groupBox6.Controls.Add(this.metroButton35);
             this.groupBox6.Controls.Add(this.metroButton33);
             this.groupBox6.Controls.Add(this.metroButton32);
-            this.groupBox6.Location = new System.Drawing.Point(928, 42);
+            this.groupBox6.Location = new System.Drawing.Point(934, 42);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(179, 454);
             this.groupBox6.TabIndex = 4;
@@ -1047,7 +1048,7 @@
             this.groupBox3.Controls.Add(this.metroButton31);
             this.groupBox3.Controls.Add(this.metroButton25);
             this.groupBox3.Controls.Add(this.metroButton26);
-            this.groupBox3.Location = new System.Drawing.Point(744, 42);
+            this.groupBox3.Location = new System.Drawing.Point(750, 42);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(178, 454);
             this.groupBox3.TabIndex = 4;
@@ -1149,9 +1150,9 @@
             // 
             // fThemHanhDong
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1471, 508);
+            this.ClientSize = new System.Drawing.Size(1483, 508);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

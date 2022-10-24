@@ -20,6 +20,7 @@ namespace License
 		 */
 		
 		public string result = "";
+        public DateTime created_date;
         private string ServerURL = "https://softway.vn/index.php";
 
 

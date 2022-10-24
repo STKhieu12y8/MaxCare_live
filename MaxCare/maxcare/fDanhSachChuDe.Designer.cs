@@ -118,6 +118,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Image = global::MaxCare.Properties.Resources.close_window_25px;
             this.button2.Location = new System.Drawing.Point(296, 1);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(30, 30);
@@ -188,7 +189,7 @@
             this.lblCountChuDe.ForeColor = System.Drawing.Color.Blue;
             this.lblCountChuDe.Location = new System.Drawing.Point(273, 248);
             this.lblCountChuDe.Name = "lblCountChuDe";
-            this.lblCountChuDe.Size = new System.Drawing.Size(15, 16);
+            this.lblCountChuDe.Size = new System.Drawing.Size(21, 21);
             this.lblCountChuDe.TabIndex = 78;
             this.lblCountChuDe.Text = "0";
             this.lblCountChuDe.Click += new System.EventHandler(this.lblCountChuDe_Click);
@@ -199,7 +200,7 @@
             this.label7.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label7.Location = new System.Drawing.Point(231, 248);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(43, 16);
+            this.label7.Size = new System.Drawing.Size(59, 21);
             this.label7.TabIndex = 79;
             this.label7.Text = "Tổng:";
             this.label7.Click += new System.EventHandler(this.label7_Click);
@@ -229,6 +230,7 @@
             this.dgvChuDe.MultiSelect = false;
             this.dgvChuDe.Name = "dgvChuDe";
             this.dgvChuDe.RowHeadersVisible = false;
+            this.dgvChuDe.RowHeadersWidth = 51;
             this.dgvChuDe.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvChuDe.Size = new System.Drawing.Size(293, 221);
             this.dgvChuDe.TabIndex = 76;
@@ -238,6 +240,7 @@
             // dataGridViewTextBoxColumn1
             // 
             this.dataGridViewTextBoxColumn1.HeaderText = "STT";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             this.dataGridViewTextBoxColumn1.Width = 35;
             // 
@@ -245,43 +248,45 @@
             // 
             this.dataGridViewTextBoxColumn4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.dataGridViewTextBoxColumn4.HeaderText = "Tên chủ đề";
+            this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.thêmMớiToolStripMenuItem,
             this.sửaToolStripMenuItem,
             this.xóaToolStripMenuItem,
             this.tảiLạiToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(179, 92);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(207, 100);
             // 
             // thêmMớiToolStripMenuItem
             // 
             this.thêmMớiToolStripMenuItem.Name = "thêmMớiToolStripMenuItem";
-            this.thêmMớiToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.thêmMớiToolStripMenuItem.Size = new System.Drawing.Size(206, 24);
             this.thêmMớiToolStripMenuItem.Text = "Thêm chủ đề";
             this.thêmMớiToolStripMenuItem.Click += new System.EventHandler(this.thêmMớiToolStripMenuItem_Click);
             // 
             // sửaToolStripMenuItem
             // 
             this.sửaToolStripMenuItem.Name = "sửaToolStripMenuItem";
-            this.sửaToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.sửaToolStripMenuItem.Size = new System.Drawing.Size(206, 24);
             this.sửaToolStripMenuItem.Text = "Sửa tên chủ đề";
             this.sửaToolStripMenuItem.Click += new System.EventHandler(this.sửaToolStripMenuItem_Click);
             // 
             // xóaToolStripMenuItem
             // 
             this.xóaToolStripMenuItem.Name = "xóaToolStripMenuItem";
-            this.xóaToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.xóaToolStripMenuItem.Size = new System.Drawing.Size(206, 24);
             this.xóaToolStripMenuItem.Text = "Xóa chủ đề";
             this.xóaToolStripMenuItem.Click += new System.EventHandler(this.xóaToolStripMenuItem_Click);
             // 
             // tảiLạiToolStripMenuItem
             // 
             this.tảiLạiToolStripMenuItem.Name = "tảiLạiToolStripMenuItem";
-            this.tảiLạiToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.tảiLạiToolStripMenuItem.Size = new System.Drawing.Size(206, 24);
             this.tảiLạiToolStripMenuItem.Text = "Làm mới danh sách";
             this.tảiLạiToolStripMenuItem.Click += new System.EventHandler(this.tảiLạiToolStripMenuItem_Click);
             // 
@@ -302,7 +307,7 @@
             // 
             // fDanhSachChuDe
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(329, 317);
             this.Controls.Add(this.panel1);

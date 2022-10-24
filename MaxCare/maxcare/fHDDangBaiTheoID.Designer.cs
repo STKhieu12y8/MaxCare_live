@@ -135,6 +135,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = global::MaxCare.Properties.Resources.close_window_25px;
             this.button1.Location = new System.Drawing.Point(342, 5);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(30, 30);
@@ -177,7 +178,7 @@
             this.ckbDelete.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ckbDelete.Location = new System.Drawing.Point(13, 567);
             this.ckbDelete.Name = "ckbDelete";
-            this.ckbDelete.Size = new System.Drawing.Size(140, 20);
+            this.ckbDelete.Size = new System.Drawing.Size(180, 25);
             this.ckbDelete.TabIndex = 65;
             this.ckbDelete.Text = "Tự động xóa id post";
             this.ckbDelete.UseVisualStyleBackColor = true;
@@ -187,7 +188,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(11, 387);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(115, 16);
+            this.label2.Size = new System.Drawing.Size(154, 21);
             this.label2.TabIndex = 64;
             this.label2.Text = "Danh sách ID post:";
             // 
@@ -232,7 +233,7 @@
             this.label21.AutoSize = true;
             this.label21.Location = new System.Drawing.Point(3, 3);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(95, 16);
+            this.label21.Size = new System.Drawing.Size(121, 21);
             this.label21.TabIndex = 49;
             this.label21.Text = "Số lượng page:";
             // 
@@ -241,7 +242,7 @@
             this.label22.AutoSize = true;
             this.label22.Location = new System.Drawing.Point(261, 3);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(35, 16);
+            this.label22.Size = new System.Drawing.Size(46, 21);
             this.label22.TabIndex = 50;
             this.label22.Text = "page";
             // 
@@ -249,7 +250,7 @@
             // 
             this.nudCountPageTo.Location = new System.Drawing.Point(205, 1);
             this.nudCountPageTo.Name = "nudCountPageTo";
-            this.nudCountPageTo.Size = new System.Drawing.Size(56, 23);
+            this.nudCountPageTo.Size = new System.Drawing.Size(56, 27);
             this.nudCountPageTo.TabIndex = 48;
             // 
             // label23
@@ -265,7 +266,7 @@
             // 
             this.nudCountPageFrom.Location = new System.Drawing.Point(108, 1);
             this.nudCountPageFrom.Name = "nudCountPageFrom";
-            this.nudCountPageFrom.Size = new System.Drawing.Size(56, 23);
+            this.nudCountPageFrom.Size = new System.Drawing.Size(56, 27);
             this.nudCountPageFrom.TabIndex = 47;
             // 
             // plDangBaiLenNhom
@@ -311,7 +312,7 @@
             this.rbNhomTuNhap.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbNhomTuNhap.Location = new System.Drawing.Point(4, 25);
             this.rbNhomTuNhap.Name = "rbNhomTuNhap";
-            this.rbNhomTuNhap.Size = new System.Drawing.Size(176, 20);
+            this.rbNhomTuNhap.Size = new System.Drawing.Size(225, 25);
             this.rbNhomTuNhap.TabIndex = 0;
             this.rbNhomTuNhap.Text = "Nhóm do người dùng nhập";
             this.rbNhomTuNhap.UseVisualStyleBackColor = true;
@@ -324,7 +325,7 @@
             this.rbNgauNhienNhomThamGia.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbNgauNhienNhomThamGia.Location = new System.Drawing.Point(4, 3);
             this.rbNgauNhienNhomThamGia.Name = "rbNgauNhienNhomThamGia";
-            this.rbNgauNhienNhomThamGia.Size = new System.Drawing.Size(197, 20);
+            this.rbNgauNhienNhomThamGia.Size = new System.Drawing.Size(254, 25);
             this.rbNgauNhienNhomThamGia.TabIndex = 0;
             this.rbNgauNhienNhomThamGia.TabStop = true;
             this.rbNgauNhienNhomThamGia.Text = "Ngẫu nhiên nhóm đã tham gia";
@@ -335,7 +336,7 @@
             this.label27.AutoSize = true;
             this.label27.Location = new System.Drawing.Point(4, 35);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(154, 16);
+            this.label27.Size = new System.Drawing.Size(199, 21);
             this.label27.TabIndex = 58;
             this.label27.Text = "Tùy chọn nhóm để share:";
             // 
@@ -345,7 +346,7 @@
             this.ckbOnlyDangNhomKhongKiemDuyet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ckbOnlyDangNhomKhongKiemDuyet.Location = new System.Drawing.Point(7, 110);
             this.ckbOnlyDangNhomKhongKiemDuyet.Name = "ckbOnlyDangNhomKhongKiemDuyet";
-            this.ckbOnlyDangNhomKhongKiemDuyet.Size = new System.Drawing.Size(216, 20);
+            this.ckbOnlyDangNhomKhongKiemDuyet.Size = new System.Drawing.Size(278, 25);
             this.ckbOnlyDangNhomKhongKiemDuyet.TabIndex = 2;
             this.ckbOnlyDangNhomKhongKiemDuyet.Text = "Chỉ đăng nhóm không kiểm duyệt";
             this.ckbOnlyDangNhomKhongKiemDuyet.UseVisualStyleBackColor = true;
@@ -354,14 +355,14 @@
             // 
             this.nudCountGroupTo.Location = new System.Drawing.Point(205, 5);
             this.nudCountGroupTo.Name = "nudCountGroupTo";
-            this.nudCountGroupTo.Size = new System.Drawing.Size(56, 23);
+            this.nudCountGroupTo.Size = new System.Drawing.Size(56, 27);
             this.nudCountGroupTo.TabIndex = 53;
             // 
             // nudCountGroupFrom
             // 
             this.nudCountGroupFrom.Location = new System.Drawing.Point(108, 5);
             this.nudCountGroupFrom.Name = "nudCountGroupFrom";
-            this.nudCountGroupFrom.Size = new System.Drawing.Size(56, 23);
+            this.nudCountGroupFrom.Size = new System.Drawing.Size(56, 27);
             this.nudCountGroupFrom.TabIndex = 52;
             // 
             // label24
@@ -378,7 +379,7 @@
             this.label25.AutoSize = true;
             this.label25.Location = new System.Drawing.Point(261, 7);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(39, 16);
+            this.label25.Size = new System.Drawing.Size(51, 21);
             this.label25.TabIndex = 55;
             this.label25.Text = "nhóm";
             // 
@@ -387,7 +388,7 @@
             this.label26.AutoSize = true;
             this.label26.Location = new System.Drawing.Point(3, 7);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(99, 16);
+            this.label26.Size = new System.Drawing.Size(126, 21);
             this.label26.TabIndex = 54;
             this.label26.Text = "Số lượng nhóm:";
             // 
@@ -397,7 +398,7 @@
             this.ckbDangBaiLenPage.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ckbDangBaiLenPage.Location = new System.Drawing.Point(11, 217);
             this.ckbDangBaiLenPage.Name = "ckbDangBaiLenPage";
-            this.ckbDangBaiLenPage.Size = new System.Drawing.Size(130, 20);
+            this.ckbDangBaiLenPage.Size = new System.Drawing.Size(166, 25);
             this.ckbDangBaiLenPage.TabIndex = 0;
             this.ckbDangBaiLenPage.Text = "Đăng bài lên page";
             this.ckbDangBaiLenPage.UseVisualStyleBackColor = true;
@@ -409,7 +410,7 @@
             this.ckbDangBaiLenNhom.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ckbDangBaiLenNhom.Location = new System.Drawing.Point(11, 54);
             this.ckbDangBaiLenNhom.Name = "ckbDangBaiLenNhom";
-            this.ckbDangBaiLenNhom.Size = new System.Drawing.Size(134, 20);
+            this.ckbDangBaiLenNhom.Size = new System.Drawing.Size(171, 25);
             this.ckbDangBaiLenNhom.TabIndex = 0;
             this.ckbDangBaiLenNhom.Text = "Đăng bài lên nhóm";
             this.ckbDangBaiLenNhom.UseVisualStyleBackColor = true;
@@ -421,7 +422,7 @@
             this.ckbDangBaiLenTuong.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ckbDangBaiLenTuong.Location = new System.Drawing.Point(11, 23);
             this.ckbDangBaiLenTuong.Name = "ckbDangBaiLenTuong";
-            this.ckbDangBaiLenTuong.Size = new System.Drawing.Size(135, 20);
+            this.ckbDangBaiLenTuong.Size = new System.Drawing.Size(173, 25);
             this.ckbDangBaiLenTuong.TabIndex = 0;
             this.ckbDangBaiLenTuong.Text = "Đăng bài lên tường";
             this.ckbDangBaiLenTuong.UseVisualStyleBackColor = true;
@@ -430,14 +431,14 @@
             // 
             this.nudDelayTo.Location = new System.Drawing.Point(222, 79);
             this.nudDelayTo.Name = "nudDelayTo";
-            this.nudDelayTo.Size = new System.Drawing.Size(58, 23);
+            this.nudDelayTo.Size = new System.Drawing.Size(58, 27);
             this.nudDelayTo.TabIndex = 58;
             // 
             // nudDelayFrom
             // 
             this.nudDelayFrom.Location = new System.Drawing.Point(125, 79);
             this.nudDelayFrom.Name = "nudDelayFrom";
-            this.nudDelayFrom.Size = new System.Drawing.Size(58, 23);
+            this.nudDelayFrom.Size = new System.Drawing.Size(58, 27);
             this.nudDelayFrom.TabIndex = 57;
             // 
             // label20
@@ -455,7 +456,7 @@
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(286, 81);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(30, 16);
+            this.label19.Size = new System.Drawing.Size(40, 21);
             this.label19.TabIndex = 60;
             this.label19.Text = "giây";
             // 
@@ -464,7 +465,7 @@
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(11, 81);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(116, 16);
+            this.label15.Size = new System.Drawing.Size(152, 21);
             this.label15.TabIndex = 59;
             this.label15.Text = "Khoảng cách đăng:";
             // 
@@ -489,7 +490,7 @@
             // 
             this.txtTenHanhDong.Location = new System.Drawing.Point(125, 49);
             this.txtTenHanhDong.Name = "txtTenHanhDong";
-            this.txtTenHanhDong.Size = new System.Drawing.Size(195, 23);
+            this.txtTenHanhDong.Size = new System.Drawing.Size(195, 27);
             this.txtTenHanhDong.TabIndex = 0;
             // 
             // label1
@@ -497,7 +498,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(11, 52);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 16);
+            this.label1.Size = new System.Drawing.Size(127, 21);
             this.label1.TabIndex = 31;
             this.label1.Text = "Tên hành động:";
             // 
@@ -538,7 +539,7 @@
             // 
             // fHDDangBaiTheoID
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(377, 642);
             this.Controls.Add(this.panel1);

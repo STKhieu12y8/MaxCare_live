@@ -95,41 +95,18 @@ namespace maxcare
 
             }
             ResponseTrailLicense responseTrailLicense = Comon.checkDate(serial_number);
+			
+			int check = DateTime.Now.Subtract((DateTime.Parse(responseTrailLicense.created_date.ToString()))).Days;
 
-			MessageBox.Show(responseTrailLicense.getResult());
-			//return;
-            DataTable result = new DataTable();
-			string query = "SELECT * FROM config limit 1";
-			result = Connector.Instance.ExecuteQuery(query);
-			if(result.Rows.Count==0)
-            {
-				try
-				{
-					//interacts(uid, timeInteract,hanhDong,cauHinh) VALUES (
-					query = "CREATE TABLE IF NOT EXISTS Config(id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, data TEXT NOT NULL)";
-					Connector2.Instance.ExecuteNonQuery(query);
-					//interacts(uid, timeInteract,hanhDong,cauHinh) VALUES (
-					query = "INSERT INTO `Config`(data)  VALUES('222222')";
-					Connector2.Instance.ExecuteNonQuery(query);
-				}
-				catch(Exception error)
-				{
-					throw new ArgumentNullException("{0} Exception caught.", error);
-				}
-
-
-				
-			}
-			LicenseInfo licenseInfo = Comon.CheckKeyAndLoginPro("", "", "1234");
-			if (licenseInfo == null)
-			{
-				MessageBox.Show("Thông tin không đúng, xin vui lòng liên hệ với softway.vn");
-			}
-			else
+			if (check < 3)
 			{
 				Hide();
 				MCommon.Common.ShowForm(new fIntro());
 			}
-		}
+			else
+			{
+				MessageBox.Show("Đã qua ba ngày sử dụng miễn phí, Quí khách vui lòng đăng ký tài khoản để tiếp tục sử dụng");
+			}
+        }
     }
 }

@@ -59,7 +59,7 @@ namespace maxcare
 				})[0]);
 				this.nudHeight.Value = Convert.ToInt32(statusDataGridView.Split(new char[]
 				{
-					'x'
+					'y'
 				})[1]);
 			}
 			catch
@@ -174,8 +174,8 @@ namespace maxcare
 				this.grChiTiet.Enabled = true;
 				this.txtTen.Clear();
 				this.txtTen.Focus();
-				this.nudWidth.Value = 0m;
-				this.nudHeight.Value = 0m;
+				this.nudWidth.Value = 30m;
+				this.nudHeight.Value = 20m;
 				break;
 			case 2:
 				this.grDanhSach.Enabled = true;
@@ -266,7 +266,7 @@ namespace maxcare
 							this.nudWidth.Value.ToString(),
 							"x",
 							this.nudHeight.Value.ToString(),
-							"x",
+							"y",
 							this.txtPixelRatio.Text.Trim()
 						}));
 						JSON_Settings json_Settings2 = new JSON_Settings("configChrome", false);
@@ -312,5 +312,15 @@ namespace maxcare
         {
 
         }
-    }
+
+		private void nudWidth_ValueChanged(object sender, EventArgs e)
+		{
+			this.nudWidth.Value.ToString();
+		}
+
+		private void nudHeight_ValueChanged(object sender, EventArgs e)
+		{
+			this.nudHeight.Value.ToString();
+		}
+	}
 }

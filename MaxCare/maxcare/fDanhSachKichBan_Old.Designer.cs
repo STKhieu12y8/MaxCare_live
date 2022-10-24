@@ -123,6 +123,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = global::MaxCare.Properties.Resources.close_window_25px;
             this.button1.Location = new System.Drawing.Point(742, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(30, 30);
@@ -176,12 +177,13 @@
             this.dtgvKichBan.ContextMenuStrip = this.contextMenuStrip1;
             this.dtgvKichBan.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgvKichBan.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dtgvKichBan.Location = new System.Drawing.Point(3, 20);
+            this.dtgvKichBan.Location = new System.Drawing.Point(3, 24);
             this.dtgvKichBan.MultiSelect = false;
             this.dtgvKichBan.Name = "dtgvKichBan";
             this.dtgvKichBan.RowHeadersVisible = false;
+            this.dtgvKichBan.RowHeadersWidth = 51;
             this.dtgvKichBan.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtgvKichBan.Size = new System.Drawing.Size(302, 535);
+            this.dtgvKichBan.Size = new System.Drawing.Size(302, 531);
             this.dtgvKichBan.TabIndex = 76;
             this.dtgvKichBan.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvKichBan_CellClick);
             this.dtgvKichBan.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dtgvKichBan_KeyDown);
@@ -190,57 +192,62 @@
             // cStt
             // 
             this.cStt.HeaderText = "STT";
+            this.cStt.MinimumWidth = 6;
             this.cStt.Name = "cStt";
             this.cStt.Width = 35;
             // 
             // cId_KichBan
             // 
             this.cId_KichBan.HeaderText = "Column1";
+            this.cId_KichBan.MinimumWidth = 6;
             this.cId_KichBan.Name = "cId_KichBan";
             this.cId_KichBan.Visible = false;
+            this.cId_KichBan.Width = 125;
             // 
             // cTenKichBan
             // 
             this.cTenKichBan.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.cTenKichBan.HeaderText = "Tên kịch bản";
+            this.cTenKichBan.MinimumWidth = 6;
             this.cTenKichBan.Name = "cTenKichBan";
             this.cTenKichBan.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.thêmMớiToolStripMenuItem,
             this.sửaToolStripMenuItem,
             this.xóaToolStripMenuItem,
             this.nhânBảnToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(162, 92);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(188, 100);
             // 
             // thêmMớiToolStripMenuItem
             // 
             this.thêmMớiToolStripMenuItem.Name = "thêmMớiToolStripMenuItem";
-            this.thêmMớiToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.thêmMớiToolStripMenuItem.Size = new System.Drawing.Size(187, 24);
             this.thêmMớiToolStripMenuItem.Text = "Thêm kịch bản";
             this.thêmMớiToolStripMenuItem.Click += new System.EventHandler(this.thêmMớiToolStripMenuItem_Click);
             // 
             // sửaToolStripMenuItem
             // 
             this.sửaToolStripMenuItem.Name = "sửaToolStripMenuItem";
-            this.sửaToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.sửaToolStripMenuItem.Size = new System.Drawing.Size(187, 24);
             this.sửaToolStripMenuItem.Text = "Sửa tên kịch bản";
             this.sửaToolStripMenuItem.Click += new System.EventHandler(this.sửaToolStripMenuItem_Click);
             // 
             // xóaToolStripMenuItem
             // 
             this.xóaToolStripMenuItem.Name = "xóaToolStripMenuItem";
-            this.xóaToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.xóaToolStripMenuItem.Size = new System.Drawing.Size(187, 24);
             this.xóaToolStripMenuItem.Text = "Xóa kịch bản";
             this.xóaToolStripMenuItem.Click += new System.EventHandler(this.xóaToolStripMenuItem_Click);
             // 
             // nhânBảnToolStripMenuItem
             // 
             this.nhânBảnToolStripMenuItem.Name = "nhânBảnToolStripMenuItem";
-            this.nhânBảnToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.nhânBảnToolStripMenuItem.Size = new System.Drawing.Size(187, 24);
             this.nhânBảnToolStripMenuItem.Text = "Nhân bản";
             this.nhânBảnToolStripMenuItem.Click += new System.EventHandler(this.nhânBảnToolStripMenuItem_Click);
             // 
@@ -324,6 +331,7 @@
             this.dtgvHanhDong.MultiSelect = false;
             this.dtgvHanhDong.Name = "dtgvHanhDong";
             this.dtgvHanhDong.RowHeadersVisible = false;
+            this.dtgvHanhDong.RowHeadersWidth = 51;
             this.dtgvHanhDong.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dtgvHanhDong.Size = new System.Drawing.Size(373, 535);
             this.dtgvHanhDong.TabIndex = 77;
@@ -332,63 +340,69 @@
             // dataGridViewTextBoxColumn1
             // 
             this.dataGridViewTextBoxColumn1.HeaderText = "STT";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             this.dataGridViewTextBoxColumn1.Width = 35;
             // 
             // cId_HanhDong
             // 
             this.cId_HanhDong.HeaderText = "Column1";
+            this.cId_HanhDong.MinimumWidth = 6;
             this.cId_HanhDong.Name = "cId_HanhDong";
             this.cId_HanhDong.Visible = false;
+            this.cId_HanhDong.Width = 125;
             // 
             // cTenHanhDong
             // 
             this.cTenHanhDong.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.cTenHanhDong.HeaderText = "Tên hành động";
+            this.cTenHanhDong.MinimumWidth = 6;
             this.cTenHanhDong.Name = "cTenHanhDong";
             this.cTenHanhDong.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // cTheLoai
             // 
             this.cTheLoai.HeaderText = "Loại tương tác";
+            this.cTheLoai.MinimumWidth = 6;
             this.cTheLoai.Name = "cTheLoai";
             this.cTheLoai.Width = 175;
             // 
             // contextMenuStrip2
             // 
+            this.contextMenuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
             this.toolStripMenuItem3,
             this.toolStripMenuItem4,
             this.toolStripMenuItem2});
             this.contextMenuStrip2.Name = "contextMenuStrip1";
-            this.contextMenuStrip2.Size = new System.Drawing.Size(166, 92);
+            this.contextMenuStrip2.Size = new System.Drawing.Size(191, 100);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(190, 24);
             this.toolStripMenuItem1.Text = "Thêm hành động";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(190, 24);
             this.toolStripMenuItem3.Text = "Sửa hành động";
             this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(190, 24);
             this.toolStripMenuItem4.Text = "Xóa hành động";
             this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(190, 24);
             this.toolStripMenuItem2.Text = "Nhân bản";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
@@ -406,7 +420,7 @@
             // 
             // fDanhSachKichBan_Old
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(777, 607);
             this.Controls.Add(this.groupBox2);

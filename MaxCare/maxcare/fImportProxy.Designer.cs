@@ -53,10 +53,11 @@
             this.bunifuCards1.Dock = System.Windows.Forms.DockStyle.Top;
             this.bunifuCards1.LeftSahddow = false;
             this.bunifuCards1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuCards1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuCards1.Name = "bunifuCards1";
             this.bunifuCards1.RightSahddow = true;
             this.bunifuCards1.ShadowDepth = 20;
-            this.bunifuCards1.Size = new System.Drawing.Size(477, 38);
+            this.bunifuCards1.Size = new System.Drawing.Size(636, 47);
             this.bunifuCards1.TabIndex = 0;
             // 
             // pnlHeader
@@ -66,17 +67,19 @@
             this.pnlHeader.Controls.Add(this.pictureBox1);
             this.pnlHeader.Controls.Add(this.btnMinimize);
             this.pnlHeader.Controls.Add(this.bunifuCustomLabel1);
-            this.pnlHeader.Location = new System.Drawing.Point(0, 5);
+            this.pnlHeader.Location = new System.Drawing.Point(0, 6);
+            this.pnlHeader.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.Size = new System.Drawing.Size(477, 32);
+            this.pnlHeader.Size = new System.Drawing.Size(636, 39);
             this.pnlHeader.TabIndex = 9;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureBox1.Location = new System.Drawing.Point(4, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(5, 1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(34, 27);
+            this.pictureBox1.Size = new System.Drawing.Size(45, 33);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 77;
             this.pictureBox1.TabStop = false;
@@ -89,9 +92,11 @@
             this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinimize.ForeColor = System.Drawing.Color.White;
-            this.btnMinimize.Location = new System.Drawing.Point(445, 0);
+            this.btnMinimize.Image = global::MaxCare.Properties.Resources.close_window_25px;
+            this.btnMinimize.Location = new System.Drawing.Point(593, 0);
+            this.btnMinimize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(32, 32);
+            this.btnMinimize.Size = new System.Drawing.Size(43, 39);
             this.btnMinimize.TabIndex = 9;
             this.btnMinimize.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnMinimize.UseVisualStyleBackColor = true;
@@ -105,8 +110,9 @@
             this.bunifuCustomLabel1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.Black;
             this.bunifuCustomLabel1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuCustomLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(477, 32);
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(636, 39);
             this.bunifuCustomLabel1.TabIndex = 1;
             this.bunifuCustomLabel1.Text = "Nhập Proxy";
             this.bunifuCustomLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -119,9 +125,10 @@
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(244, 386);
+            this.btnCancel.Location = new System.Drawing.Point(325, 475);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(92, 29);
+            this.btnCancel.Size = new System.Drawing.Size(123, 36);
             this.btnCancel.TabIndex = 4;
             this.btnCancel.Text = "Đóng";
             this.btnCancel.UseVisualStyleBackColor = false;
@@ -135,9 +142,10 @@
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdd.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.Color.White;
-            this.btnAdd.Location = new System.Drawing.Point(135, 386);
+            this.btnAdd.Location = new System.Drawing.Point(180, 475);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(92, 29);
+            this.btnAdd.Size = new System.Drawing.Size(123, 36);
             this.btnAdd.TabIndex = 3;
             this.btnAdd.Text = "Xác nhận";
             this.btnAdd.UseVisualStyleBackColor = false;
@@ -154,9 +162,10 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(331, 252);
+            this.label8.Location = new System.Drawing.Point(441, 310);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(115, 16);
+            this.label8.Size = new System.Drawing.Size(150, 21);
             this.label8.TabIndex = 5;
             this.label8.Text = "(Mỗi proxy 1 dòng)";
             // 
@@ -164,9 +173,10 @@
             // 
             this.lblStatus.AutoSize = true;
             this.lblStatus.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStatus.Location = new System.Drawing.Point(30, 47);
+            this.lblStatus.Location = new System.Drawing.Point(40, 58);
+            this.lblStatus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(127, 16);
+            this.lblStatus.Size = new System.Drawing.Size(167, 21);
             this.lblStatus.TabIndex = 6;
             this.lblStatus.Text = "Danh sách Proxy (0):";
             // 
@@ -174,9 +184,10 @@
             // 
             this.txtProxy.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtProxy.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtProxy.Location = new System.Drawing.Point(34, 66);
+            this.txtProxy.Location = new System.Drawing.Point(45, 81);
+            this.txtProxy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtProxy.Name = "txtProxy";
-            this.txtProxy.Size = new System.Drawing.Size(409, 181);
+            this.txtProxy.Size = new System.Drawing.Size(544, 222);
             this.txtProxy.TabIndex = 118;
             this.txtProxy.Text = "";
             this.txtProxy.WordWrap = false;
@@ -186,18 +197,20 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(31, 298);
+            this.label1.Location = new System.Drawing.Point(41, 367);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 16);
+            this.label1.Size = new System.Drawing.Size(154, 21);
             this.label1.TabIndex = 119;
             this.label1.Text = "Số tài khoản/proxy:";
             // 
             // nudTaiKhoanPerUa
             // 
             this.nudTaiKhoanPerUa.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudTaiKhoanPerUa.Location = new System.Drawing.Point(157, 296);
+            this.nudTaiKhoanPerUa.Location = new System.Drawing.Point(209, 364);
+            this.nudTaiKhoanPerUa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nudTaiKhoanPerUa.Name = "nudTaiKhoanPerUa";
-            this.nudTaiKhoanPerUa.Size = new System.Drawing.Size(69, 23);
+            this.nudTaiKhoanPerUa.Size = new System.Drawing.Size(92, 27);
             this.nudTaiKhoanPerUa.TabIndex = 120;
             // 
             // ckbKhongNhapTaiKhoanDaCo
@@ -205,9 +218,10 @@
             this.ckbKhongNhapTaiKhoanDaCo.AutoSize = true;
             this.ckbKhongNhapTaiKhoanDaCo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ckbKhongNhapTaiKhoanDaCo.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckbKhongNhapTaiKhoanDaCo.Location = new System.Drawing.Point(33, 349);
+            this.ckbKhongNhapTaiKhoanDaCo.Location = new System.Drawing.Point(44, 430);
+            this.ckbKhongNhapTaiKhoanDaCo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ckbKhongNhapTaiKhoanDaCo.Name = "ckbKhongNhapTaiKhoanDaCo";
-            this.ckbKhongNhapTaiKhoanDaCo.Size = new System.Drawing.Size(283, 20);
+            this.ckbKhongNhapTaiKhoanDaCo.Size = new System.Drawing.Size(365, 25);
             this.ckbKhongNhapTaiKhoanDaCo.TabIndex = 121;
             this.ckbKhongNhapTaiKhoanDaCo.Text = "Không nhập vào những tài khoản đã có Proxy";
             this.ckbKhongNhapTaiKhoanDaCo.UseVisualStyleBackColor = true;
@@ -216,9 +230,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(30, 325);
+            this.label2.Location = new System.Drawing.Point(40, 400);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(131, 16);
+            this.label2.Size = new System.Drawing.Size(169, 21);
             this.label2.TabIndex = 119;
             this.label2.Text = "Tùy chọn nhập Proxy:";
             // 
@@ -227,9 +242,10 @@
             this.rbNgauNhien.AutoSize = true;
             this.rbNgauNhien.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbNgauNhien.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbNgauNhien.Location = new System.Drawing.Point(246, 323);
+            this.rbNgauNhien.Location = new System.Drawing.Point(328, 398);
+            this.rbNgauNhien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbNgauNhien.Name = "rbNgauNhien";
-            this.rbNgauNhien.Size = new System.Drawing.Size(89, 20);
+            this.rbNgauNhien.Size = new System.Drawing.Size(114, 25);
             this.rbNgauNhien.TabIndex = 122;
             this.rbNgauNhien.Text = "Ngẫu nhiên";
             this.rbNgauNhien.UseVisualStyleBackColor = true;
@@ -240,9 +256,10 @@
             this.rbLanLuot.Checked = true;
             this.rbLanLuot.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbLanLuot.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbLanLuot.Location = new System.Drawing.Point(157, 323);
+            this.rbLanLuot.Location = new System.Drawing.Point(209, 398);
+            this.rbLanLuot.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbLanLuot.Name = "rbLanLuot";
-            this.rbLanLuot.Size = new System.Drawing.Size(71, 20);
+            this.rbLanLuot.Size = new System.Drawing.Size(91, 25);
             this.rbLanLuot.TabIndex = 122;
             this.rbLanLuot.TabStop = true;
             this.rbLanLuot.Text = "Lần lượt";
@@ -252,9 +269,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(31, 267);
+            this.label3.Location = new System.Drawing.Point(41, 329);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 16);
+            this.label3.Size = new System.Drawing.Size(91, 21);
             this.label3.TabIndex = 119;
             this.label3.Text = "Loại Proxy:";
             // 
@@ -267,16 +285,17 @@
             this.cbbTypeProxy.Items.AddRange(new object[] {
             "HTTP",
             "Sock5"});
-            this.cbbTypeProxy.Location = new System.Drawing.Point(157, 264);
+            this.cbbTypeProxy.Location = new System.Drawing.Point(209, 325);
+            this.cbbTypeProxy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbbTypeProxy.Name = "cbbTypeProxy";
-            this.cbbTypeProxy.Size = new System.Drawing.Size(140, 24);
+            this.cbbTypeProxy.Size = new System.Drawing.Size(185, 27);
             this.cbbTypeProxy.TabIndex = 123;
             // 
             // fImportProxy
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(477, 432);
+            this.ClientSize = new System.Drawing.Size(636, 532);
             this.Controls.Add(this.cbbTypeProxy);
             this.Controls.Add(this.rbLanLuot);
             this.Controls.Add(this.rbNgauNhien);
@@ -292,6 +311,7 @@
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.bunifuCards1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "fImportProxy";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "fAddFile";

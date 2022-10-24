@@ -486,5 +486,10 @@ namespace maxcare
 
 		// Token: 0x040002C9 RID: 713
 		private List<string> lstAccountError = new List<string>();
+
+		private void pictureBox2_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

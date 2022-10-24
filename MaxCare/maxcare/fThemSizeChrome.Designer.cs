@@ -18,8 +18,8 @@
 		private void InitializeComponent()
 		{
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.bunifuCards1 = new Bunifu.Framework.UI.BunifuCards();
             this.panel1 = new System.Windows.Forms.Panel();
             this.grDanhSach = new System.Windows.Forms.GroupBox();
@@ -112,14 +112,14 @@
             this.dtgvDanhSach.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dtgvDanhSach.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgvDanhSach.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgvDanhSach.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dtgvDanhSach.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvDanhSach.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.cSTT,
@@ -132,6 +132,7 @@
             this.dtgvDanhSach.Location = new System.Drawing.Point(6, 22);
             this.dtgvDanhSach.Name = "dtgvDanhSach";
             this.dtgvDanhSach.RowHeadersVisible = false;
+            this.dtgvDanhSach.RowHeadersWidth = 51;
             this.dtgvDanhSach.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dtgvDanhSach.Size = new System.Drawing.Size(461, 277);
             this.dtgvDanhSach.TabIndex = 76;
@@ -141,9 +142,10 @@
             // 
             // cSTT
             // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.cSTT.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.cSTT.DefaultCellStyle = dataGridViewCellStyle6;
             this.cSTT.HeaderText = "STT";
+            this.cSTT.MinimumWidth = 6;
             this.cSTT.Name = "cSTT";
             this.cSTT.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.cSTT.Width = 40;
@@ -151,12 +153,15 @@
             // cName
             // 
             this.cName.HeaderText = "Tên";
+            this.cName.MinimumWidth = 6;
             this.cName.Name = "cName";
             this.cName.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.cName.Width = 125;
             // 
             // cSize
             // 
             this.cSize.HeaderText = "Kích thước";
+            this.cSize.MinimumWidth = 6;
             this.cSize.Name = "cSize";
             this.cSize.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.cSize.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
@@ -165,12 +170,14 @@
             // cPixelRatio
             // 
             this.cPixelRatio.HeaderText = "Pixel Ratio";
+            this.cPixelRatio.MinimumWidth = 6;
             this.cPixelRatio.Name = "cPixelRatio";
             this.cPixelRatio.Width = 90;
             // 
             // cSua
             // 
             this.cSua.HeaderText = "Sửa";
+            this.cSua.MinimumWidth = 6;
             this.cSua.Name = "cSua";
             this.cSua.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.cSua.Width = 71;
@@ -179,6 +186,7 @@
             // 
             this.cXoa.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.cXoa.HeaderText = "Xóa";
+            this.cXoa.MinimumWidth = 6;
             this.cXoa.Name = "cXoa";
             this.cXoa.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
@@ -224,23 +232,25 @@
             // 
             this.nudHeight.Location = new System.Drawing.Point(181, 64);
             this.nudHeight.Name = "nudHeight";
-            this.nudHeight.Size = new System.Drawing.Size(59, 23);
+            this.nudHeight.Size = new System.Drawing.Size(59, 27);
             this.nudHeight.TabIndex = 49;
+            this.nudHeight.ValueChanged += new System.EventHandler(this.nudHeight_ValueChanged);
             // 
             // nudWidth
             // 
             this.nudWidth.Location = new System.Drawing.Point(95, 64);
             this.nudWidth.Name = "nudWidth";
-            this.nudWidth.Size = new System.Drawing.Size(59, 23);
+            this.nudWidth.Size = new System.Drawing.Size(59, 27);
             this.nudWidth.TabIndex = 49;
+            this.nudWidth.ValueChanged += new System.EventHandler(this.nudWidth_ValueChanged);
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(156, 64);
+            this.label11.Location = new System.Drawing.Point(153, 64);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(23, 23);
+            this.label11.Size = new System.Drawing.Size(29, 29);
             this.label11.TabIndex = 48;
             this.label11.Text = "X";
             // 
@@ -248,7 +258,7 @@
             // 
             this.txtPixelRatio.Location = new System.Drawing.Point(95, 96);
             this.txtPixelRatio.Name = "txtPixelRatio";
-            this.txtPixelRatio.Size = new System.Drawing.Size(59, 23);
+            this.txtPixelRatio.Size = new System.Drawing.Size(59, 27);
             this.txtPixelRatio.TabIndex = 47;
             this.txtPixelRatio.Text = "3";
             // 
@@ -256,7 +266,7 @@
             // 
             this.txtTen.Location = new System.Drawing.Point(95, 29);
             this.txtTen.Name = "txtTen";
-            this.txtTen.Size = new System.Drawing.Size(145, 23);
+            this.txtTen.Size = new System.Drawing.Size(145, 27);
             this.txtTen.TabIndex = 47;
             // 
             // label3
@@ -264,7 +274,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(17, 99);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 16);
+            this.label3.Size = new System.Drawing.Size(94, 21);
             this.label3.TabIndex = 46;
             this.label3.Text = "Pixel Ratio:";
             // 
@@ -273,7 +283,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(17, 66);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 16);
+            this.label2.Size = new System.Drawing.Size(94, 21);
             this.label2.TabIndex = 46;
             this.label2.Text = "Kích thước:";
             // 
@@ -282,7 +292,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(17, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 16);
+            this.label1.Size = new System.Drawing.Size(44, 21);
             this.label1.TabIndex = 46;
             this.label1.Text = "Tên:";
             // 
@@ -358,6 +368,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Image = global::MaxCare.Properties.Resources.close_window_25px;
             this.button2.Location = new System.Drawing.Point(711, 1);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(30, 30);
@@ -421,7 +432,7 @@
             // 
             // fThemSizeChrome
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(744, 388);
             this.Controls.Add(this.panel1);
